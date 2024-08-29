@@ -1,4 +1,6 @@
-const playerInfo = [{
+const stats = [
+
+{
     personalDetails: {
       name: "Sammy Sosa",
       birthPlace: "San Pedro de Macoris",
@@ -44,14 +46,7 @@ const playerInfo = [{
 },
 
 
-{
-    personalDetails: {
-        name: "Adrian Beltre"
-    }
-
-
-
-
-}
 
     ]
+
+    export default stats;

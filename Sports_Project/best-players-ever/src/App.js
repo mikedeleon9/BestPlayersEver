@@ -1,15 +1,23 @@
 import React from "react";
-import logo from './logo.svg';
+
 import './App.css';
+import stats from "./Assets/stats";
 import PersonalDetails from  "./Components/Personal-Info";
 
 function App() {
-  return (
-    <div className="App">
-     
-      <PersonalDetails />
-    </div>
-  );
-}
+  
+
+    return (
+      <div className="App">
+        <PersonalDetails 
+          name={stats[0].personalDetails.name}
+          birthPlace={stats[0].personalDetails.birthPlace}
+          img={stats[0].image}
+        />
+      </div>
+    );
+  }
+
+  
 
 export default App;

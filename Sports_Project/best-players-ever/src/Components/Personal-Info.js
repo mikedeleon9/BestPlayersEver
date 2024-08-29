@@ -1,11 +1,13 @@
 import React from "react";
 
-export default function PersonalDetails(){
+export default function PersonalDetails(props){
 
     return(
         <div>
-            <p>This is where the personal details will appear</p>
-        </div>
+        <p>{props.name}</p>
+        <p>{props.birthPlace}</p>
+        <img src={props.img} />
+      </div>
     )
 
 }
