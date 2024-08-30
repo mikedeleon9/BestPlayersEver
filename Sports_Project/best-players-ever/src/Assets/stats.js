@@ -1,3 +1,5 @@
+import SosaImage from "./Images/sosa.png"
+
 const stats = [
 
 {
@@ -6,7 +8,7 @@ const stats = [
       birthPlace: "San Pedro de Macoris",
       teams: ["Rangers", "White Sox", "Cubs", "Orioles"]
     },
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRp2rTzpjdLPAmO3KhLc6KX_lScDBENbK4jWw&s",
+    image: SosaImage, 
     position: "Outfielder",
     stats:{
       homeruns : 609,

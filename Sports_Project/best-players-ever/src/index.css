@@ -12,3 +12,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+img {
+  width: 100%;      /* Make the image take up the full width of its parent */
+  height: 100%;     /* Make the image take up the full height of its parent */
+  object-fit: cover; /* Ensures the image covers the entire div */
+  border-radius: inherit; /* Inherits the border-radius of the parent div */
+}
