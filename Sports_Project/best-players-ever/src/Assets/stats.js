@@ -13,7 +13,7 @@ const stats = [
     },
     image: SosaImage, 
     position: "Outfielder",
-    stats:{
+    CareerStats:{
       homeruns : 609,
       avg : .273,
       obp : .344,
@@ -39,7 +39,7 @@ const stats = [
     },
     image: PujolsImage,
     position: "First Base",
-    stats: {
+    CareerStats: {
         homeruns: 703,
         avg: .296,
         obp: .374,

@@ -7,6 +7,7 @@ import CareerStats from "./Components/Career-Stats";
 
 function App() {
   
+ 
 
     return (
       <div className="App">
@@ -19,7 +20,9 @@ function App() {
           mainTeam = {stats[0].personalDetails.mainTeam}
         />
 
-        <CareerStats />
+        <CareerStats 
+          avg = {stats[0].CareerStats.avg}
+        />
       </div>
     );
   }
