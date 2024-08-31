@@ -6,7 +6,8 @@ const stats = [
     personalDetails: {
       name: "Sammy Sosa",
       birthPlace: "San Pedro de Macoris",
-      teams: ["Rangers", "White Sox", "Cubs", "Orioles"]
+      teams: ["Rangers", "White Sox", "Cubs", "Orioles"],
+      number: 21
     },
     image: SosaImage, 
     position: "Outfielder",
