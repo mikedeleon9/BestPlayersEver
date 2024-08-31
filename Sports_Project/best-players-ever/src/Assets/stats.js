@@ -1,10 +1,12 @@
 import SosaImage from "./Images/sosa.png"
+import PujolsImage from "./Images/pujols.png"
 
 const stats = [
 
 {
     personalDetails: {
       name: "Sammy Sosa",
+      mainTeam: "Cubs",
       birthPlace: "San Pedro de Macoris",
       teams: ["Rangers", "White Sox", "Cubs", "Orioles"],
       number: 21
@@ -30,9 +32,12 @@ const stats = [
 {
     personalDetails: {
         name: "Albert Pujols",
+        mainTeam: "Cardinals",
         birthPlace: "Santo Domingo",
-        teams: ["Cardinals", "Angels", "Dodgers"]
+        teams: ["Cardinals", "Angels", "Dodgers"],
+        number: 5
     },
+    image: PujolsImage,
     position: "First Base",
     stats: {
         homeruns: 703,

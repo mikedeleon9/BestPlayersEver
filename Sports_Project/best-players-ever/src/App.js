@@ -16,6 +16,7 @@ function App() {
           birthPlace={stats[0].personalDetails.birthPlace}
           img={stats[0].image}
           teams={stats[0].personalDetails.teams}
+          mainTeam = {stats[0].personalDetails.mainTeam}
         />
 
         <CareerStats />
