@@ -10,20 +10,19 @@ function App() {
  
 
     return (
-      <div className="App">
-        <PersonalDetails 
-          number = {stats[0].personalDetails.number}
-          name={stats[0].personalDetails.name}
-          birthPlace={stats[0].personalDetails.birthPlace}
-          img={stats[0].image}
-          teams={stats[0].personalDetails.teams}
-          mainTeam = {stats[0].personalDetails.mainTeam}
-        />
-
-        <CareerStats 
-          avg = {stats[0].CareerStats.avg}
-        />
-      </div>
+     
+        <div className="App">
+          <PersonalDetails 
+            details = {stats[0].personalDetails}
+          
+          
+        
+          />
+          <CareerStats 
+         statistics = {stats[0].CareerStats}
+          />
+        </div>
+      
     );
   }
 

@@ -9,9 +9,10 @@ const stats = [
       mainTeam: "Cubs",
       birthPlace: "San Pedro de Macoris",
       teams: ["Rangers", "White Sox", "Cubs", "Orioles"],
-      number: 21
+      number: 21,
+      image: SosaImage, 
     },
-    image: SosaImage, 
+    
     position: "Outfielder",
     CareerStats:{
       homeruns : 609,
@@ -35,9 +36,10 @@ const stats = [
         mainTeam: "Cardinals",
         birthPlace: "Santo Domingo",
         teams: ["Cardinals", "Angels", "Dodgers"],
-        number: 5
+        number: 5,
+        image: PujolsImage,
     },
-    image: PujolsImage,
+    
     position: "First Base",
     CareerStats: {
         homeruns: 703,
