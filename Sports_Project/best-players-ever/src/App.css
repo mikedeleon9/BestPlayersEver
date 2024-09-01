@@ -8,7 +8,13 @@
 }
 
 
-
+.button{
+  padding: 0.7rem 2rem;
+  border-radius: 0.2rem;
+  color: #eee;
+  background-color: rgb(69, 69, 196);
+  border: none;
+}
 
 
 @media (prefers-reduced-motion: no-preference) {
