@@ -20,7 +20,11 @@ const stats = [
       obp : .344,
       slg : .534,
       ops : .878,
-      opsPlus : 128
+      opsPlus : 128,
+      hr: 609,
+      rbi: 1667,
+      r: 1475,
+      sb: 234
     },
     accomplishments : [
       "1998 NL MVP", "7X All-Star", "6X Silver Slugger", "HR Derby Champ"

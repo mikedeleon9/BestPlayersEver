@@ -35,7 +35,7 @@ export default function PersonalDetails({details}){
   const backgroundColor = teamBackgroundColors[mainTeam] || "bg-gray-800";
 
     return(
-      <div className={`w-1/2 h-48 flex items-center relative ${backgroundColor} rounded-3xl`}>
+      <div className={`w-full h-48 flex items-center relative ${backgroundColor} rounded-3xl`}>
           <h1 className="absolute top-2 left-2 text-4xl text-white">#{number}</h1>
           
           <div className="rounded-2xl h-40 ml-12">
