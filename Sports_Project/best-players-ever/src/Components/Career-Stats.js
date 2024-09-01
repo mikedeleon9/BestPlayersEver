@@ -9,12 +9,12 @@ export default function CareerStats({statistics, mainTeam}){
     const backgroundColor = teamBackgroundColors[mainTeam];
 
     return(
-        <div className={`w-1/2 grid grid-cols-5 ${backgroundColor} rounded-3xl border-2 border-white`}>
-           <p>AVG: {avg}</p>
-            <p>OBP: {obp}</p>
-            <p>SLG: {slg}</p>
-            <p>OPS: {ops}</p>
-            <p>OPS+: {opsPlus}</p>
+        <div className={`w-1/2 p-5 grid grid-cols-5 ${backgroundColor} rounded-3xl border-2 border-white text-white`}>
+           <p className="text-lg font-bold">AVG: <span className="text-base font-normal">{avg}</span></p>
+            <p>OBP: <span>{obp}</span></p>
+            <p>SLG: <span>{slg}</span></p>
+            <p>OPS: <span>{ops}</span></p>
+            <p>OPS+: <span>{opsPlus}</span></p>
         
         </div>
     )
