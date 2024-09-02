@@ -152,9 +152,9 @@ His dedication and prowess on the field solidify his legacy as one of the game's
   CareerStats:{
     w : 219,
     l : 100,
-    ip : 2827,
+    ip : "2,827",
     era : 2.93,
-    k: 3154,
+    k: "3,154",
     whip : 1.054,
     eraPlus: 154,
     bb: 760,
@@ -162,15 +162,17 @@ His dedication and prowess on the field solidify his legacy as one of the game's
    
   },
   accomplishments : [
-    "4X All-Star", "5X Gold Glove, 2X Platinum Glove, Hall of Fame",
+    "8X All-Star", "3X Cy Young, 5X ERA Title, Pitching Triple Crown, Hall of Fame",
   ],
   trivia: "All time leader in Stolen Bases by a Dominican born player",
-  youtubeUrl: "https://www.youtube.com/embed/32rIvfl2nBI?si=8Hath0Udzm5ui5HV" ,
+  youtubeUrl: "https://www.youtube.com/embed/-yWa0e7hAvk?si=SYOojYoAmKkh_jGd" ,
   Excerpt: `
-Adrián Beltré, a renowned Dominican third baseman, captivated baseball fans with his exceptional defensive skills and powerful bat. 
-Over a 21-year career, he amassed over 3,000 hits and earned five Gold Glove Awards, showcasing his stellar fielding. 
-Beltré's consistency and leadership made him a beloved figure in the MLB, particularly noted during his time with the Texas Rangers and Seattle Mariners. 
-His dedication and prowess on the field solidify his legacy as one of the game's greats.`
+
+Pedro Martínez, a Hall of Fame pitcher, is one of the most dominant players in MLB history. 
+Born in the Dominican Republic, he had a career spanning 18 seasons, primarily with the Montreal Expos and Boston Red Sox. 
+Martínez won three Cy Young Awards and was an eight-time All-Star. 
+Known for his pinpoint control, devastating changeup, and fiery competitiveness, 
+he played a key role in breaking Boston's 86-year World Series drought in 2004, cementing his legacy as one of baseball's all-time greats.`
 },
 
     ]
