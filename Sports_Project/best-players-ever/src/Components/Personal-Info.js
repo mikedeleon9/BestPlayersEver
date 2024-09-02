@@ -14,8 +14,8 @@ export default function PersonalDetails({details}){
       <div className={`w-full h-48 flex items-center relative ${backgroundColor} rounded-3xl`}>
           <h1 className="absolute top-2 left-2 text-4xl text-white font-protest">#{number}</h1>
           
-          <div className="rounded-2xl h-40 ml-12">
-            <img className="w-full h-full object-cover" src={image}  alt={name} />
+          <div className=" rounded-2xl h-40 ml-12">
+            <img className="mt-3 w-full h-full object-cover" src={image}  alt={name} />
           </div>
 
           <div className="w-1/2  flex-column ml-8">

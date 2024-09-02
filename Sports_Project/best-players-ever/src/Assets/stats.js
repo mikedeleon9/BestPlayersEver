@@ -62,7 +62,7 @@ const stats = [
   personalDetails: {
     name: "Cesar Cedeno",
     mainTeam: "Astros",
-    birthPlace: "Santo Domingo, DR",
+    birthPlace: "Santo Domingo",
     teams: ["Astros", "Reds", "Cardinals", "Dodgers"],
     number: 28,
     image: cedenoImage, 

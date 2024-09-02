@@ -9,7 +9,8 @@ module.exports = {
         cubsBlue: '#1d4289',
       },
       fontFamily:{
-        protest: ["Protest Guerrilla", "sans-serif"]
+        protest: ["Protest Guerrilla", "sans-serif"],
+        raleway: ["RaleWay", "sans-serif"]
       }
     },
   },

@@ -4,7 +4,7 @@ import './App.css';
 import stats from "./Assets/stats";
 import PersonalDetails from  "./Components/Personal-Info";
 import CareerStats from "./Components/Career-Stats";
-
+import Excerpt from "./Components/Excerpt";
 
 function App() {
 
@@ -19,10 +19,15 @@ function App() {
           <PersonalDetails 
             details = {stats[currentIndex].personalDetails}
           />
+          <div className="flex w-full gap-4">
           <CareerStats 
          statistics = {stats[currentIndex].CareerStats}
          mainTeam = {stats[currentIndex].personalDetails.mainTeam}
           />
+          <Excerpt 
+           mainTeam = {stats[currentIndex].personalDetails.mainTeam}
+          />
+          </div>
           <button onClick = {nextPlayer} className="button">Next</button>
         </div>
       
