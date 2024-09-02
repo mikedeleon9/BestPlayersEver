@@ -3,9 +3,10 @@ import "./components.css"
 import { teamBackgroundColors } from "../Assets/teamDetails";
 
 
-export default function CareerStats({statistics: { avg, obp, slg, ops, opsPlus, hr, rbi, r, sb }, mainTeam}){
+export default function CareerStats({statistics: { avg, obp, slg, ops, opsPlus, hr, rbi, r, sb, w, l, ip, era, k, whip, eraPlus, bb, sho}, mainTeam, position}){
     
-    const statsArray = { AVG: avg.toString().slice(1),
+    const HittingStatsArray = { 
+                         AVG: avg.toString().slice(1),
                          OBP: obp.toString().slice(1), 
                          SLG: slg.toString().slice(1), 
                          OPS: ops.toString().slice(1), 
@@ -15,7 +16,22 @@ export default function CareerStats({statistics: { avg, obp, slg, ops, opsPlus, 
                          Runs : r,
                          SB: sb 
                         };
+
+    const PitchingStatsArray = {
+                        Wins: w,
+                        Losses : l,
+                        Innings: ip,
+                        ERA: era,
+                        Strikeouts: k,
+                        WHIP: whip,
+                        "ERA+": eraPlus,
+                        Walks: bb,
+                        Shutouts: sho
+    }
+
     const backgroundColor = teamBackgroundColors[mainTeam];
+
+    const statsArray = position === "Pitcher" ? PitchingStatsArray : HittingStatsArray;
 
     return(
         <div className={`w-full px-7 py-5 grid grid-cols-3 ${backgroundColor} rounded-3xl text-white self-start gap-3`}>
