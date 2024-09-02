@@ -5,7 +5,15 @@ export const teamTextColors = {
     Orioles : "text-orange-500",
     Cardinals: "text-red-500",
     Angels: "text-red-500",
-    Dodgers: "text-blue-800"
+    Dodgers: "text-blue-800",
+    Astros: "text-orange-600"
+  }
+
+  export const teamAlternateColor = {
+    Cubs: "bg-red-500",
+    Astros: "bg-blue-900",
+    Cardinals: "bg-white",
+
   }
 
  export const teamBackgroundColors = {
@@ -15,7 +23,8 @@ export const teamTextColors = {
     Orioles : "bg-orange-500",
     Cardinals: "bg-red-500",
     Angels: "bg-red-500",
-    Dodgers: "bg-blue-800"
+    Dodgers: "bg-blue-800",
+    Astros: "bg-orange-600"
   }
 
  export const teamPages = {
