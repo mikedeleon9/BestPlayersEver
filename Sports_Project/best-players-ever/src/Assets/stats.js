@@ -3,6 +3,7 @@ import PujolsImage from "./Images/pujols.png"
 import cedenoImage from "./Images/cedeno.png"
 
 
+
 const stats = [
 
 {
@@ -93,7 +94,12 @@ const stats = [
   accomplishments : [
     "4X All-Star", "5X Gold Glove",
   ],
-  trivia: "All time leader in Stolen Bases by a Dominican born player"
+  trivia: "All time leader in Stolen Bases by a Dominican born player",
+  Excerpt: `
+César Cedeño is a former Major League Baseball (MLB) outfielder known for his dynamic play with the Houston Astros during the 1970s and 1980s. 
+Born in the Dominican Republic, Cedeño debuted in 1970 and quickly became one of the league's most exciting players, combining speed, power, and defense. 
+He was a four-time All-Star and won five Gold Glove Awards for his exceptional play in center field. 
+Cedeño was also a consistent base-stealer, finishing his career with 550 stolen bases.`
 },
 
 

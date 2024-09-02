@@ -5,6 +5,7 @@ import stats from "./Assets/stats";
 import PersonalDetails from  "./Components/Personal-Info";
 import CareerStats from "./Components/Career-Stats";
 import Excerpt from "./Components/Excerpt";
+import YoutubeVideo from "./Components/Youtube-Video";
 
 function App() {
 
@@ -19,7 +20,7 @@ function App() {
           <PersonalDetails 
             details = {stats[currentIndex].personalDetails}
           />
-          <div className="flex w-full gap-4">
+          <div className="grid grid-cols-2 gap-x-2 gap-y-1">
           <CareerStats 
          statistics = {stats[currentIndex].CareerStats}
          mainTeam = {stats[currentIndex].personalDetails.mainTeam}
@@ -28,7 +29,9 @@ function App() {
            mainTeam = {stats[currentIndex].personalDetails.mainTeam}
            Excerpt= {stats[currentIndex].Excerpt}
           />
+          <YoutubeVideo />
           </div>
+          
           <button onClick = {nextPlayer} className="button">Next</button>
         </div>
       
