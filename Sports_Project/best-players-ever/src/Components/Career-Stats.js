@@ -18,7 +18,7 @@ export default function CareerStats({statistics: { avg, obp, slg, ops, opsPlus, 
     const backgroundColor = teamBackgroundColors[mainTeam];
 
     return(
-        <div className={`w-1/2 px-7 py-5 grid grid-cols-3 ${backgroundColor} rounded-3xl border-2 border-white text-white self-start gap-3`}>
+        <div className={`w-1/2 px-7 py-5 grid grid-cols-3 ${backgroundColor} rounded-3xl text-white self-start gap-3`}>
             <p className="col-span-3 text-center font-bold text-lg">Career Stats:</p>
            {Object.entries(statsArray).map(([key, value]) => (
             

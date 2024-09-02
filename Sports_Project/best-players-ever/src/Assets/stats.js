@@ -2,6 +2,7 @@ import SosaImage from "./Images/sosa.png"
 import PujolsImage from "./Images/pujols.png"
 import cedenoImage from "./Images/cedeno.png"
 
+
 const stats = [
 
 {
@@ -29,7 +30,11 @@ const stats = [
     accomplishments : [
       "1998 NL MVP", "7X All-Star", "6X Silver Slugger", "HR Derby Champ"
     ],
-    trivia: "Only Player in MLB History with three 60 HR seasons"
+    trivia: "Only Player in MLB History with three 60 HR seasons",
+
+    Excerpt: `Sammy Sosa is a former Major League Baseball (MLB) right fielder, best known for his time with the Chicago Cubs. Born in the Dominican Republic, Sosa made his MLB debut in 1989 with the Texas Rangers but gained fame after joining the Cubs in 1992. 
+    He became one of baseball's most prolific home run hitters, particularly during the 1998 season when he and Mark McGwire famously raced to break the single-season home run record. 
+    Sosa finished his career with 609 home runs, earning seven All-Star selections and the 1998 National League MVP award.`
   },
 
 
@@ -55,7 +60,12 @@ const stats = [
     accomplishments : [
         "3X MVP (05, 08, 09", "11X All-Star", "6X Silver Slugger", "Rookie of The Year", "2X World Series"
     ],
-    trivia: "Grounded into the most double plays in MLB History"
+    trivia: "Grounded into the most double plays in MLB History",
+
+    Excerpt: `Albert Pujols is a retired Major League Baseball (MLB) first baseman, celebrated for his impressive career with the St. Louis Cardinals and Los Angeles Angels. 
+    Born in the Dominican Republic, Pujols made his MLB debut in 2001 with the Cardinals, where he quickly became known for his exceptional hitting prowess. 
+    Over his career, he amassed 703 home runs, earning him a place among the all-time greats. 
+    Pujols won three MVP awards, two World Series titles with the Cardinals, and was a 10-time All-Star`
 },
 
 {

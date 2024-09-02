@@ -26,6 +26,7 @@ function App() {
           />
           <Excerpt 
            mainTeam = {stats[currentIndex].personalDetails.mainTeam}
+           Excerpt= {stats[currentIndex].Excerpt}
           />
           </div>
           <button onClick = {nextPlayer} className="button">Next</button>
