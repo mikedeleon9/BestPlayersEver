@@ -14,28 +14,27 @@ function App() {
   function nextPlayer() {
     setCurrentIndex((prevIndex) => (prevIndex + 1) % stats.length); // Loop back to 0 if you reach the end
   }
-    return (
-     
-        <div className="App">
-          <PersonalDetails 
-            details = {stats[currentIndex].personalDetails}
+  return (
+    <div className="App">
+      <PersonalDetails details={stats[currentIndex].personalDetails} />
+      <div className="grid grid-cols-2 gap-2">
+        <div className="grid gap-y-2">
+          <CareerStats
+            statistics={stats[currentIndex].CareerStats}
+            mainTeam={stats[currentIndex].personalDetails.mainTeam}
           />
-          <div className="grid grid-cols-2 gap-x-2 gap-y-1">
-          <CareerStats 
-         statistics = {stats[currentIndex].CareerStats}
-         mainTeam = {stats[currentIndex].personalDetails.mainTeam}
-          />
-          <Excerpt 
-           mainTeam = {stats[currentIndex].personalDetails.mainTeam}
-           Excerpt= {stats[currentIndex].Excerpt}
-          />
-          <YoutubeVideo />
-          </div>
-          
-          <button onClick = {nextPlayer} className="button">Next</button>
+          <YoutubeVideo youtubeUrl={stats[currentIndex].youtubeUrl}/>
         </div>
-      
-    );
+        <Excerpt
+          mainTeam={stats[currentIndex].personalDetails.mainTeam}
+          Excerpt={stats[currentIndex].Excerpt}
+          className="row-span-2"
+        />
+      </div>
+
+      <button onClick={nextPlayer} className="button">Next</button>
+    </div>
+  );
   }
 
   

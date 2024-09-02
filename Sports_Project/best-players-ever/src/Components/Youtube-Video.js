@@ -1,17 +1,17 @@
 import React from 'react';
 import "./components.css";
 
-export default function YoutubeVideo(){
+export default function YoutubeVideo({youtubeUrl}){
 
     return(
 
         <div >
-           <iframe  src="https://www.youtube.com/embed/aJnpe4Ow_Qg?si=-EbUEjmO1zesZCnM" 
+           <iframe  src={youtubeUrl} 
            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
            referrerpolicy="strict-origin-when-cross-origin" 
            allowfullscreen
            height ="300px"
-           className="w-full"
+           className="w-full rounded-3xl"
            >
             </iframe>
         </div>
