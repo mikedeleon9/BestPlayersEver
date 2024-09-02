@@ -3,7 +3,7 @@ import "./components.css"
 
 export default function PersonalDetails({details}){
 
-  const {name, birthPlace, mainTeam, teams, number, image} = details;
+  const {name, birthPlace, mainTeam, number, image} = details;
 
   const teamTextColors = {
     Rangers : "text-blue-500",
@@ -18,21 +18,17 @@ export default function PersonalDetails({details}){
   const teamBackgroundColors = {
     Rangers : "bg-blue-500",
     "White Sox" : "bg-black",
-    Cubs : "bg-blue-500",
+    Cubs : "bg-cubsBlue",
     Orioles : "bg-orange-500",
     Cardinals: "bg-red-500",
     Angels: "bg-red-500",
     Dodgers: "bg-blue-800"
   }
 
-  const teamPages = {
-    Rangers: "https://www.mlb.com/rangers",
-    Cubs: "https://www.mlb.com/cubs",
-    Orioles: "https://www.mlb.com/orioles",
-    "White Sox": "https://www.mlb.com/whitesox"
-  }
+  
 
   const backgroundColor = teamBackgroundColors[mainTeam] || "bg-gray-800";
+  const textColor = teamTextColors[mainTeam] || "bg-gray-800";
 
     return(
       <div className={`w-full h-48 flex items-center relative ${backgroundColor} rounded-3xl`}>
@@ -46,12 +42,7 @@ export default function PersonalDetails({details}){
             <p className="text-white text-5xl font-bold">{name} </p>
             <div className="">
                 <p className="text-white font-medium mt-4">Born: {birthPlace}, DR</p>
-                <p className="text-white flex gap-4"> Career Teams: </p>
-              <div className="flex items-center gap-4">
-                {teams.map((team, index) =>(
-                  <span key={index} className={teamTextColors[team] || "text-white" } ><a href={teamPages[team]}>{team}</a></span>
-                ))}
-              </div>
+              <button className="bg-red-700 font-bold py-1 px-2 rounded-lg mt-2"><span className={`${textColor}`}>{mainTeam}</span></button>
             </div>
           </div>
       </div>

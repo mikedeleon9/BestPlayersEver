@@ -1,7 +1,7 @@
 export const teamTextColors = {
     Rangers : "text-blue-500",
     "White Sox" : "text-black",
-    Cubs : "text-blue-700",
+    Cubs : "cubsBlue",
     Orioles : "text-orange-500",
     Cardinals: "text-red-500",
     Angels: "text-red-500",
@@ -11,7 +11,7 @@ export const teamTextColors = {
  export const teamBackgroundColors = {
     Rangers : "bg-blue-500",
     "White Sox" : "bg-black",
-    Cubs : "bg-blue-500",
+    Cubs : "bg-cubsBlue",
     Orioles : "bg-orange-500",
     Cardinals: "bg-red-500",
     Angels: "bg-red-500",
