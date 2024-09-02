@@ -1,7 +1,4 @@
-import SosaImage from "./Images/sosa.png"
-import PujolsImage from "./Images/pujols.png"
-import cedenoImage from "./Images/cedeno.png"
-import BeltreImage from "./Images/Beltre.png"
+import images from "./Images/imageMapping"
 
 
 const stats = [
@@ -106,7 +103,7 @@ He was a four-time All-Star and won five Gold Glove Awards for his exceptional p
 Cedeño was also a consistent base-stealer, finishing his career with 550 stolen bases.`
 },
 
-//
+//Beltre
 {
   personalDetails: {
     name: "Adrian Beltre",
@@ -114,6 +111,40 @@ Cedeño was also a consistent base-stealer, finishing his career with 550 stolen
     birthPlace: "Santo Domingo",
     teams: ["Dodgers", "Red Sox", "Mariners", "Rangers"],
     number: 29,
+    image: BeltreImage, 
+  },
+  
+  position: "Third Baseman",
+  CareerStats:{
+    avg : .286,
+    obp : .339,
+    slg : .480,
+    ops : .819,
+    opsPlus : 116,
+    hr: 477,
+    rbi: 1707,
+    r: 1524,
+    sb: 121
+  },
+  accomplishments : [
+    "4X All-Star", "5X Gold Glove, 2X Platinum Glove, Hall of Fame",
+  ],
+  trivia: "All time leader in Stolen Bases by a Dominican born player",
+  youtubeUrl: "https://www.youtube.com/embed/32rIvfl2nBI?si=8Hath0Udzm5ui5HV" ,
+  Excerpt: `
+Adrián Beltré, a renowned Dominican third baseman, captivated baseball fans with his exceptional defensive skills and powerful bat. 
+Over a 21-year career, he amassed over 3,000 hits and earned five Gold Glove Awards, showcasing his stellar fielding. 
+Beltré's consistency and leadership made him a beloved figure in the MLB, particularly noted during his time with the Texas Rangers and Seattle Mariners. 
+His dedication and prowess on the field solidify his legacy as one of the game's greats.`
+},
+
+{
+  personalDetails: {
+    name: "Pedro Martinez",
+    mainTeam: "Red Sox",
+    birthPlace: "Manoguayabo",
+    teams: ["Dodgers", "Expos", "Red Sox", "Mets", "Phillies"],
+    number: 45,
     image: BeltreImage, 
   },
   
