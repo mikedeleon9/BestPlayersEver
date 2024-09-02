@@ -6,10 +6,10 @@ import { teamBackgroundColors } from "../Assets/teamDetails";
 export default function CareerStats({statistics: { avg, obp, slg, ops, opsPlus, hr, rbi, r, sb, w, l, ip, era, k, whip, eraPlus, bb, sho}, mainTeam, position}){
     
     const HittingStatsArray = { 
-                         AVG: avg.toString().slice(1),
-                         OBP: obp.toString().slice(1), 
-                         SLG: slg.toString().slice(1), 
-                         OPS: ops.toString().slice(1), 
+                         AVG: avg,
+                         OBP: obp, 
+                         SLG: slg, 
+                         OPS: ops, 
                          "OPS+": opsPlus,
                          HR: hr,
                          RBI: rbi,
@@ -29,6 +29,14 @@ export default function CareerStats({statistics: { avg, obp, slg, ops, opsPlus, 
                         Shutouts: sho
     }
 
+    const formatValue = (value) => {
+        if (value === undefined) return "N/A";
+        if (typeof value === "number") {
+            return value.toString().startsWith("0.") ? value.toFixed(3).slice(1) : value.toString();
+        }
+        return value;
+    };
+
     const backgroundColor = teamBackgroundColors[mainTeam];
 
     const statsArray = position === "Pitcher" ? PitchingStatsArray : HittingStatsArray;
@@ -40,7 +48,7 @@ export default function CareerStats({statistics: { avg, obp, slg, ops, opsPlus, 
             
             <div key={key} className="flex flex-col items-center">
             <p className="font-bold">{key}</p>
-            <p className="font-normal">{value}</p>
+            <p className="font-normal">{formatValue(value)}</p>
             </div>
            ))}
         

@@ -1,4 +1,4 @@
-import images from "./Images/imageMapping"
+import images from './Images/imageMapping'
 
 
 const stats = [
@@ -10,7 +10,7 @@ const stats = [
       birthPlace: "San Pedro de Macoris",
 
       number: 21,
-      image: SosaImage, 
+      image: images["Sosa"], 
     },
     
     position: "Outfielder",
@@ -45,7 +45,7 @@ const stats = [
         birthPlace: "Santo Domingo",
         teams: ["Cardinals", "Angels", "Dodgers"],
         number: 5,
-        image: PujolsImage,
+        image: images["Pujols"],
     },
     
     position: "First Base",
@@ -76,7 +76,7 @@ const stats = [
     birthPlace: "Santo Domingo",
     teams: ["Astros", "Reds", "Cardinals", "Dodgers"],
     number: 28,
-    image: cedenoImage, 
+    image: images["Cedeno"], 
   },
   
   position: "Outfielder",
@@ -111,7 +111,7 @@ Cedeño was also a consistent base-stealer, finishing his career with 550 stolen
     birthPlace: "Santo Domingo",
     teams: ["Dodgers", "Red Sox", "Mariners", "Rangers"],
     number: 29,
-    image: BeltreImage, 
+    image: images["Beltre"], 
   },
   
   position: "Third Baseman",
@@ -145,20 +145,21 @@ His dedication and prowess on the field solidify his legacy as one of the game's
     birthPlace: "Manoguayabo",
     teams: ["Dodgers", "Expos", "Red Sox", "Mets", "Phillies"],
     number: 45,
-    image: BeltreImage, 
+    image: images["Pedro"], 
   },
   
-  position: "Third Baseman",
+  position: "Pitcher",
   CareerStats:{
-    avg : .286,
-    obp : .339,
-    slg : .480,
-    ops : .819,
-    opsPlus : 116,
-    hr: 477,
-    rbi: 1707,
-    r: 1524,
-    sb: 121
+    w : 219,
+    l : 100,
+    ip : 2827,
+    era : 2.93,
+    k: 3154,
+    whip : 1.054,
+    eraPlus: 154,
+    bb: 760,
+    sho: 17,
+   
   },
   accomplishments : [
     "4X All-Star", "5X Gold Glove, 2X Platinum Glove, Hall of Fame",
