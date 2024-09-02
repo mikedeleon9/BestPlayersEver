@@ -15,7 +15,7 @@ export default function PersonalDetails({details}){
           <h1 className="absolute top-2 left-2 text-4xl text-white font-protest">#{number}</h1>
           
           <div className=" rounded-2xl h-40 ml-12">
-            <img className="mt-3 w-full h-full object-cover" src={image}  alt={name} />
+            <img className="ml-4 mt-3 w-full h-full object-cover" src={image}  alt={name} />
           </div>
 
           <div className="w-1/2  flex-column ml-8">

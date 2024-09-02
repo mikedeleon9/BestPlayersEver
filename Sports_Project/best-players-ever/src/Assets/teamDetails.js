@@ -13,7 +13,7 @@ export const teamTextColors = {
     Cubs: "bg-red-500",
     Astros: "bg-blue-900",
     Cardinals: "bg-white",
-
+    Rangers: "bg-red-500"
   }
 
  export const teamBackgroundColors = {
