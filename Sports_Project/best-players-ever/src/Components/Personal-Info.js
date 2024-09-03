@@ -20,14 +20,21 @@ export default function PersonalDetails({details, position, hallOfFame}){
             <img className="ml-4 mt-3 w-full h-full object-cover" src={image}  alt={name} />
           </div>
 
-          <div className="w-1/2  flex-column ml-8">
+          <div className="w-1/2  flex-col ml-8">
             <p className="text-white text-5xl font-bold">{name} </p>
-            <div className="">
+            <div className="flex flex-col">
                 <p className="text-white ">
                   {position === "Pitcher" ? `Starting Pitcher` : position}</p>
-                  <p className="text-white">{hallOfFame ? "Hall Of Fame" : " "}</p>
+                  
                 <p className="text-white font-medium mt-4">Born: {birthPlace}, DR</p>
-              <button className={`${alternateColor} font-bold py-1 px-2 rounded-lg mt-2`}><span className={`${textColor}`}>{mainTeam}</span></button>
+                <div className="flex gap-2">
+              <button className={`${alternateColor} font-bold py-1 px-2 rounded-lg mt-2`}>
+                <span className={`${textColor}`}>{mainTeam}</span>
+              </button>
+              <button className={`bg-amber-400 font-bold py-1 px-2 rounded-lg ${hallOfFame === "Yes" ? 'visible' : 'invisible'}`}>
+              <span className={textColor}>{hallOfFame === "Yes" ? "Hall Of Fame" : "placeholder"}</span>
+            </button>
+              </div>
             </div>
           </div>
       </div>
