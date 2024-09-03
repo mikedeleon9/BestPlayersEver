@@ -16,9 +16,14 @@ function App() {
   }
   return (
     <div className="App">
-      <PersonalDetails details={stats[currentIndex].personalDetails} />
+      <PersonalDetails 
+      details={stats[currentIndex].personalDetails} 
+      position = {stats[currentIndex].position}
+      />
+     
       <div className="grid grid-cols-2 gap-2">
         <div className="grid gap-y-2">
+         
           <CareerStats
             statistics={stats[currentIndex].CareerStats}
             mainTeam={stats[currentIndex].personalDetails.mainTeam}

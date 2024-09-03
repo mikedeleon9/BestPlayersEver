@@ -2,10 +2,11 @@ import React from "react";
 import "./components.css";
 import { teamBackgroundColors, teamTextColors, teamAlternateColor } from "../Assets/teamDetails";
 
-export default function PersonalDetails({details}){
+export default function PersonalDetails({details, position}){
 
+  
   const {name, birthPlace, mainTeam, number, image} = details;
-
+  
   const backgroundColor = teamBackgroundColors[mainTeam] || "bg-gray-800";
   const textColor = teamTextColors[mainTeam] || "bg-gray-700";
   const alternateColor = teamAlternateColor[mainTeam]
@@ -21,6 +22,8 @@ export default function PersonalDetails({details}){
           <div className="w-1/2  flex-column ml-8">
             <p className="text-white text-5xl font-bold">{name} </p>
             <div className="">
+                <p className="text-black">
+                  {position === "Pitcher" ? `Starting Pitcher` : position}</p>
                 <p className="text-white font-medium mt-4">Born: {birthPlace}, DR</p>
               <button className={`${alternateColor} font-bold py-1 px-2 rounded-lg mt-2`}><span className={`${textColor}`}>{mainTeam}</span></button>
             </div>
