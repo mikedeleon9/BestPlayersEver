@@ -19,6 +19,7 @@ function App() {
       <PersonalDetails 
       details={stats[currentIndex].personalDetails} 
       position = {stats[currentIndex].position}
+      hallOfFame = {stats[currentIndex].hallOfFame}
       />
      
       <div className="grid grid-cols-2 gap-2">
