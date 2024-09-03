@@ -138,6 +138,8 @@ Beltré's consistency and leadership made him a beloved figure in the MLB, parti
 His dedication and prowess on the field solidify his legacy as one of the game's greats.`
 },
 
+
+//Pedro
 {
   personalDetails: {
     name: "Pedro Martinez",
@@ -174,6 +176,48 @@ Martínez won three Cy Young Awards and was an eight-time All-Star.
 Known for his pinpoint control, devastating changeup, and fiery competitiveness, 
 he played a key role in breaking Boston's 86-year World Series drought in 2004, cementing his legacy as one of baseball's all-time greats.`
 },
+
+
+//Marichal
+
+{
+  personalDetails: {
+    name: "Juan Marichal",
+    mainTeam: "Giants",
+    birthPlace: "Laguna Verde",
+    teams: ["Giants", "Red Sox", "Dodgers"],
+    number: 27,
+    image: images["Marichal"], 
+  },
+  
+  position: "Pitcher",
+  CareerStats:{
+    w : 243,
+    l : 142,
+    ip : "3,507",
+    era : 2.89,
+    k: "2,303",
+    whip : 1.101,
+    eraPlus: 123,
+    bb: 709,
+    sho: 52,
+   
+  },
+  accomplishments : [
+    "10X All-Star", "ERA Title, Hall of Fame",
+  ],
+  trivia: "All time leader in Stolen Bases by a Dominican born player",
+  youtubeUrl: "https://www.youtube.com/embed/-d-X_eDR-lM?si=ZJ_o18gJe-VO29si" ,
+  Excerpt: `
+
+Juan Marichal, born on October 20, 1937, in the Dominican Republic, is one of baseball's greatest pitchers. 
+Known for his high leg kick and pinpoint control, Marichal played most of his career with the San Francisco Giants from 1960 to 1973. 
+He was a 10-time All-Star and finished with 243 wins and a 2.89 ERA. 
+Marichal's fierce competitiveness and remarkable durability made him a Hall of Famer in 1983, solidifying his legacy as one of baseball's elite pitchers.`
+
+},
+
+
 
     ]
 

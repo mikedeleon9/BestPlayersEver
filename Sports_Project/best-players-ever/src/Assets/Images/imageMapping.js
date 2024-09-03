@@ -3,13 +3,15 @@ import PujolsImage from "../Images/pujols.png"
 import cedenoImage from "../Images/cedeno.png"
 import BeltreImage from "../Images/Beltre.png"
 import PedroImage from "../Images/Pedro.png"
+import MarichalImage from "../Images/Marichal.png"
 
 const images = {
    Sosa: SosaImage, 
    Pujols:  PujolsImage, 
    Cedeno : cedenoImage, 
    Beltre : BeltreImage,
-   Pedro  : PedroImage
+   Pedro  : PedroImage,
+   Marichal : MarichalImage
 }
 
 export default images;
