@@ -206,7 +206,7 @@ he played a key role in breaking Boston's 86-year World Series drought in 2004, 
   accomplishments : [
     "10X All-Star", "ERA Title, Hall of Fame",
   ],
-  trivia: "All time leader in Stolen Bases by a Dominican born player",
+  trivia: "First Dominican Born player to be elected to the Baseball Hall of Fame",
   youtubeUrl: "https://www.youtube.com/embed/-d-X_eDR-lM?si=ZJ_o18gJe-VO29si" ,
   Excerpt: `
 
