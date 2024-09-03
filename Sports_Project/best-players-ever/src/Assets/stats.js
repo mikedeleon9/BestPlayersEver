@@ -210,7 +210,7 @@ he played a key role in breaking Boston's 86-year World Series drought in 2004, 
   youtubeUrl: "https://www.youtube.com/embed/-d-X_eDR-lM?si=ZJ_o18gJe-VO29si" ,
   Excerpt: `
 
-Juan Marichal, born on October 20, 1937, in the Dominican Republic, is one of baseball's greatest pitchers. 
+Juan Marichal, the Dominican Dandy, born on October 20, 1937, in the Dominican Republic, is one of baseball's greatest pitchers. 
 Known for his high leg kick and pinpoint control, Marichal played most of his career with the San Francisco Giants from 1960 to 1973. 
 He was a 10-time All-Star and finished with 243 wins and a 2.89 ERA. 
 Marichal's fierce competitiveness and remarkable durability made him a Hall of Famer in 1983, solidifying his legacy as one of baseball's elite pitchers.`
