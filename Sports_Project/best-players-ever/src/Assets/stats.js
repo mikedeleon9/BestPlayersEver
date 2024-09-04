@@ -292,15 +292,15 @@ A nine-time All-Star and 2004 AL MVP, he retired with a .318 batting average, 44
       opsPlus: 124
   },
   accomplishments : [
-      "3X MVP (05, 08, 09", "11X All-Star", "6X Silver Slugger", "Rookie of The Year", "2X World Series"
+       "8X All-Star", "5X Silver Slugger", "2X Gold Glove", "World Series"
   ],
   trivia: "Grounded into the most double plays in MLB History",
   youtubeUrl: "https://www.youtube.com/embed/rQW9SBBSQmA?si=NQvT9gvCXcyzpC8e",
 
-  Excerpt: `Albert Pujols is a retired Major League Baseball (MLB) first baseman, celebrated for his impressive career with the St. Louis Cardinals and Los Angeles Angels. 
-  Born in the Dominican Republic, Pujols made his MLB debut in 2001 with the Cardinals, where he quickly became known for his exceptional hitting prowess. 
-  Over his career, he amassed 703 home runs, earning him a place among the all-time greats. 
-  Pujols won three MVP awards, two World Series titles with the Cardinals, and was a 10-time All-Star`
+  Excerpt: `Robinson Canó is a Dominican professional baseball player known for his smooth fielding and powerful bat. 
+  Primarily a second baseman, Canó began his MLB career with the New York Yankees in 2005, becoming an eight-time All-Star and five-time Silver Slugger. 
+  He was instrumental in the Yankees' 2009 World Series win. Canó later signed with the Seattle Mariners, and 
+  despite facing challenges, including suspensions for performance-enhancing drugs, he remains one of the most talented infielders of his generation.`
 },
 
     ]
