@@ -227,6 +227,7 @@ Marichal's fierce competitiveness and remarkable durability made him a Hall of F
 },
 
 
+//Vlad
 {
   personalDetails: {
     name: "Vladimir Guerrero",
@@ -267,6 +268,41 @@ Playing 16 seasons in Major League Baseball, primarily with the Montreal Expos a
 Guerrero was known for his aggressive batting style, often hitting pitches well outside the strike zone. 
 A nine-time All-Star and 2004 AL MVP, he retired with a .318 batting average, 449 home runs, and was inducted into the Baseball Hall of Fame in 2018.`
 },
+
+
+//Robinson Cano
+
+{
+  personalDetails: {
+      name: "Robinson Cano",
+      mainTeam: "Yankees",
+      birthPlace: "Santo Pedro de Macoris",
+      teams: ["Yankees", "Mariners", "Mets", "Padres", "Braves"],
+      number: 22,
+      image: images["Pujols"],
+  },
+  
+  position: "Second Base",
+  allStar: 8,
+  CareerStats: {
+      avg: .301,
+      obp: .351,
+      slg: .488,
+      ops: .839,
+      opsPlus: 124
+  },
+  accomplishments : [
+      "3X MVP (05, 08, 09", "11X All-Star", "6X Silver Slugger", "Rookie of The Year", "2X World Series"
+  ],
+  trivia: "Grounded into the most double plays in MLB History",
+  youtubeUrl: "https://www.youtube.com/embed/rQW9SBBSQmA?si=NQvT9gvCXcyzpC8e",
+
+  Excerpt: `Albert Pujols is a retired Major League Baseball (MLB) first baseman, celebrated for his impressive career with the St. Louis Cardinals and Los Angeles Angels. 
+  Born in the Dominican Republic, Pujols made his MLB debut in 2001 with the Cardinals, where he quickly became known for his exceptional hitting prowess. 
+  Over his career, he amassed 703 home runs, earning him a place among the all-time greats. 
+  Pujols won three MVP awards, two World Series titles with the Cardinals, and was a 10-time All-Star`
+},
+
     ]
 
     export default stats;
