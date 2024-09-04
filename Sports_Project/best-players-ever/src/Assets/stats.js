@@ -14,7 +14,7 @@ const stats = [
     },
     
     position: "Outfielder",
-    
+    allStar: 7,
     CareerStats:{
       avg : .273,
       obp : .344,
@@ -50,6 +50,7 @@ const stats = [
     },
     
     position: "First Base",
+    allStar: 11,
     CareerStats: {
         avg: .296,
         obp: .374,
@@ -81,6 +82,7 @@ const stats = [
   },
   
   position: "Outfielder",
+  allStar: 4,
   CareerStats:{
     avg : .285,
     obp : .347,
@@ -116,6 +118,7 @@ Cedeño was also a consistent base-stealer, finishing his career with 550 stolen
   },
   
   position: "Third Baseman",
+  allStar: 4,
   hallOfFame: "Yes",
   CareerStats:{
     avg : .286,
@@ -153,6 +156,7 @@ His dedication and prowess on the field solidify his legacy as one of the game's
   },
   
   position: "Pitcher",
+  allStar: 8,
   hallOfFame : "Yes",
   CareerStats:{
     w : 219,
@@ -194,6 +198,7 @@ he played a key role in breaking Boston's 86-year World Series drought in 2004, 
   },
   
   position: "Pitcher",
+  allStar: 10,
   hallOfFame : "Yes",
   CareerStats:{
     w : 243,
@@ -205,7 +210,7 @@ he played a key role in breaking Boston's 86-year World Series drought in 2004, 
     eraPlus: 123,
     bb: 709,
     sho: 52,
-   
+    
   },
   accomplishments : [
     "10X All-Star", "ERA Title, Hall of Fame",

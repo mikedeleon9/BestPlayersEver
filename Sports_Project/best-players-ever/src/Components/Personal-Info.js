@@ -3,7 +3,7 @@ import "./components.css";
 import { teamBackgroundColors, teamTextColors, teamAlternateColor } from "../Assets/teamDetails";
 
 
-export default function PersonalDetails({details, position, hallOfFame}){
+export default function PersonalDetails({details, position, hallOfFame, allStar}){
 
   
   const {name, birthPlace, mainTeam, number, image} = details;
@@ -12,6 +12,9 @@ export default function PersonalDetails({details, position, hallOfFame}){
   const backgroundColor = teamBackgroundColors[mainTeam] || "bg-gray-800";
   const textColor = teamTextColors[mainTeam] || "bg-gray-700";
   const alternateColor = teamAlternateColor[mainTeam]
+
+  const buttonStyling = "font-bold py-1 px-2 rounded-lg  text-center";
+
   
 
     return(
@@ -30,12 +33,19 @@ export default function PersonalDetails({details, position, hallOfFame}){
                   
                 <p className="text-white font-medium mt-4">Born: {birthPlace}, DR</p>
                 <div className="flex gap-2 mt-2">
-              <button className={`${alternateColor} font-bold py-1 px-2 rounded-lg  text-center`}>
-                <span className={`${textColor}`}>{mainTeam}</span>
+              <button className={`${alternateColor} ${buttonStyling}`}>
+                <span className={`${textColor} text-sm`}>{mainTeam}</span>
               </button>
-              <button className={`bg-amber-400 font-bold py-1 px-2 rounded-lg text-center  ${hallOfFame  ? 'visible' : 'invisible'}`}>
-              <span className="text-black">{hallOfFame ? "Hall Of Fame" : "placeholder"}</span>
-            </button>
+              {hallOfFame && (
+              <button className={`bg-amber-400 ${buttonStyling}`}>
+                <span className="text-black text-sm">Hall Of Fame</span>
+              </button>
+            )}
+            {allStar && (
+              <button className={`bg-blue-400 ${buttonStyling}`}>
+                <span className="text-white text-sm">All-Star</span>
+              </button>
+            )}
               </div>
             </div>
           </div>

@@ -20,6 +20,7 @@ function App() {
       details={stats[currentIndex].personalDetails} 
       position = {stats[currentIndex].position}
       hallOfFame = {stats[currentIndex].hallOfFame}
+      allStar = {stats[currentIndex].allStar}
       />
      
       <div className="grid grid-cols-2 gap-2">
