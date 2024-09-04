@@ -227,7 +227,46 @@ Marichal's fierce competitiveness and remarkable durability made him a Hall of F
 },
 
 
+{
+  personalDetails: {
+    name: "Vladimir Guerrero",
+    mainTeam: "Angels",
+    birthPlace: "Nizao",
+    teams: ["Expos", "Angels", "Rangers", "Orioles"],
+    number: 27,
+    image: images["Vlad"], 
+  },
+  
+  position: "Outfielder",
+  allStar: 9,
+  hallOfFame: "Yes",
+  CareerStats:{
+    avg : .318,
+    obp : .379,
+    slg : .553,
+    ops : .931,
+    opsPlus : 140,
+    hr: 449,
+    rbi: 1496,
+    r: 1328,
+    sb: 181
+  },
+  accomplishments : {
+    AllStar: 9,
+    hallOfFame: "Yes",
+    MVP: 1,
+    SilverSlugger: 8
 
+  },
+  trivia: "One homerun shy in 2002 of a 40/40 season",
+  youtubeUrl: "https://www.youtube.com/embed/jdzM02BgL-k?si=R61mNtj7zHWfqo-z" ,
+  Excerpt: `
+
+Vladimir Guerrero Sr., a Dominican baseball legend, is renowned for his exceptional hitting ability and powerful arm. 
+Playing 16 seasons in Major League Baseball, primarily with the Montreal Expos and Los Angeles Angels, 
+Guerrero was known for his aggressive batting style, often hitting pitches well outside the strike zone. 
+A nine-time All-Star and 2004 AL MVP, he retired with a .318 batting average, 449 home runs, and was inducted into the Baseball Hall of Fame in 2018.`
+},
     ]
 
     export default stats;

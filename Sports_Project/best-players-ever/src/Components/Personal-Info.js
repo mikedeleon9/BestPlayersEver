@@ -18,15 +18,15 @@ export default function PersonalDetails({details, position, hallOfFame, allStar}
   
 
     return(
-      <div className={`w-full h-48 flex items-center relative ${backgroundColor} rounded-3xl`}>
+      <div className={`w-full h-48 flex items-center justify-evenly relative ${backgroundColor} rounded-3xl border-2 border-white`}>
           <h1 className="absolute top-2 left-2 text-4xl text-white font-protest">#{number}</h1>
           
           <div className=" rounded-2xl h-40 ml-12">
-            <img className="ml-4 mt-3 w-full h-full object-cover" src={image}  alt={name} />
+            <img className="mt-3 w-full h-full object-cover " src={image}  alt={name} />
           </div>
 
-          <div className="w-1/2  flex-col ml-8">
-            <p className="text-white text-5xl font-bold">{name} </p>
+          <div className="flex-col  overflow-hidden ">
+            <p className="text-white text-5xl font-bold ">{name} </p>
             <div className="flex flex-col">
                 <p className="text-white ">
                   {position === "Pitcher" ? `Starting Pitcher` : position}</p>
@@ -43,7 +43,7 @@ export default function PersonalDetails({details, position, hallOfFame, allStar}
             )}
             {allStar && (
               <button className={`bg-blue-400 ${buttonStyling}`}>
-                <span className="text-white text-sm">All-Star</span>
+                <span className="text-white text-sm">{allStar}x All-Star</span>
               </button>
             )}
               </div>

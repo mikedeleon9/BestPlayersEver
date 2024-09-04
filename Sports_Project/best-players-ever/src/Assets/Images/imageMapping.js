@@ -4,6 +4,7 @@ import cedenoImage from "../Images/cedeno.png"
 import BeltreImage from "../Images/Beltre.png"
 import PedroImage from "../Images/Pedro.png"
 import MarichalImage from "../Images/Marichal.png"
+import VladImage from "../Images/Vlad.png"
 
 const images = {
    Sosa: SosaImage, 
@@ -11,7 +12,8 @@ const images = {
    Cedeno : cedenoImage, 
    Beltre : BeltreImage,
    Pedro  : PedroImage,
-   Marichal : MarichalImage
+   Marichal : MarichalImage,
+   Vlad : VladImage
 }
 
 export default images;
