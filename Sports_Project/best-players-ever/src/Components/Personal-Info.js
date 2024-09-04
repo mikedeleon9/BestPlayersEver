@@ -2,6 +2,7 @@ import React from "react";
 import "./components.css";
 import { teamBackgroundColors, teamTextColors, teamAlternateColor } from "../Assets/teamDetails";
 
+
 export default function PersonalDetails({details, position, hallOfFame}){
 
   
@@ -32,8 +33,8 @@ export default function PersonalDetails({details, position, hallOfFame}){
               <button className={`${alternateColor} font-bold py-1 px-2 rounded-lg  text-center`}>
                 <span className={`${textColor}`}>{mainTeam}</span>
               </button>
-              <button className={`bg-amber-400 font-bold py-1 px-2 rounded-lg text-center  ${hallOfFame === "Yes" ? 'visible' : 'invisible'}`}>
-              <span className="text-black">{hallOfFame === "Yes" ? "Hall Of Fame" : "placeholder"}</span>
+              <button className={`bg-amber-400 font-bold py-1 px-2 rounded-lg text-center  ${hallOfFame  ? 'visible' : 'invisible'}`}>
+              <span className="text-black">{hallOfFame ? "Hall Of Fame" : "placeholder"}</span>
             </button>
               </div>
             </div>
