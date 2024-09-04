@@ -10,7 +10,7 @@ export const teamTextColors = {
     "Red Sox": "text-red-400",
     Giants: "text-orange-700",
     Angels: "text-red-400",
-    Yankees: "text-blue-900"
+    Yankees: "text-blue-950"
   }
 
   export const teamAlternateColor = {
@@ -36,7 +36,7 @@ export const teamTextColors = {
     "Red Sox" : "bg-red-700",
     Giants: "bg-orange-700",
     Angels: "bg-red-500",
-    Yankees: "bg-blue-900"
+    Yankees: "bg-blue-950"
   }
 
  export const teamPages = {

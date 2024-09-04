@@ -279,7 +279,7 @@ A nine-time All-Star and 2004 AL MVP, he retired with a .318 batting average, 44
       birthPlace: "Santo Pedro de Macoris",
       teams: ["Yankees", "Mariners", "Mets", "Padres", "Braves"],
       number: 22,
-      image: images["Pujols"],
+      image: images["Cano"],
   },
   
   position: "Second Base",
