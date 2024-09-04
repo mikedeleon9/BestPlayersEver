@@ -22,7 +22,7 @@ export default function PersonalDetails({details, position, hallOfFame, allStar}
           <h1 className="absolute top-2 left-2 text-4xl text-white font-protest">#{number}</h1>
           
           <div className=" rounded-2xl w-50 h-40">
-            <img className="mt-3 w-full h-full object-cover " src={image}  alt={name} />
+            <img className="mt-3 w-full max-w-72 h-full object-cover" src={image}  alt={name} />
           </div>
 
           <div className="flex-col  overflow-hidden ml-4">
