@@ -11,6 +11,7 @@ export default function PersonalDetails({details, position, hallOfFame}){
   const backgroundColor = teamBackgroundColors[mainTeam] || "bg-gray-800";
   const textColor = teamTextColors[mainTeam] || "bg-gray-700";
   const alternateColor = teamAlternateColor[mainTeam]
+  
 
     return(
       <div className={`w-full h-48 flex items-center relative ${backgroundColor} rounded-3xl`}>
@@ -27,12 +28,12 @@ export default function PersonalDetails({details, position, hallOfFame}){
                   {position === "Pitcher" ? `Starting Pitcher` : position}</p>
                   
                 <p className="text-white font-medium mt-4">Born: {birthPlace}, DR</p>
-                <div className="flex gap-2">
-              <button className={`${alternateColor} font-bold py-1 px-2 rounded-lg mt-2`}>
+                <div className="flex gap-2 mt-2">
+              <button className={`${alternateColor} font-bold py-1 px-2 rounded-lg  text-center`}>
                 <span className={`${textColor}`}>{mainTeam}</span>
               </button>
-              <button className={`bg-amber-400 font-bold py-1 px-2 rounded-lg ${hallOfFame === "Yes" ? 'visible' : 'invisible'}`}>
-              <span className={textColor}>{hallOfFame === "Yes" ? "Hall Of Fame" : "placeholder"}</span>
+              <button className={`bg-amber-400 font-bold py-1 px-2 rounded-lg text-center  ${hallOfFame === "Yes" ? 'visible' : 'invisible'}`}>
+              <span className="text-black">{hallOfFame === "Yes" ? "Hall Of Fame" : "placeholder"}</span>
             </button>
               </div>
             </div>
