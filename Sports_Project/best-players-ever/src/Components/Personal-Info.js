@@ -18,14 +18,14 @@ export default function PersonalDetails({details, position, hallOfFame, allStar}
   
 
     return(
-      <div className={`w-full h-48 flex items-center justify-evenly relative ${backgroundColor} rounded-3xl border-2 border-white`}>
+      <div className={`w-full pl-4 h-48 flex items-center justify-evenly relative ${backgroundColor} rounded-3xl border-2 border-white`}>
           <h1 className="absolute top-2 left-2 text-4xl text-white font-protest">#{number}</h1>
           
-          <div className=" rounded-2xl h-40 ml-12">
+          <div className=" rounded-2xl w-50 h-40">
             <img className="mt-3 w-full h-full object-cover " src={image}  alt={name} />
           </div>
 
-          <div className="flex-col  overflow-hidden ">
+          <div className="flex-col  overflow-hidden ml-4">
             <p className="text-white text-5xl font-bold ">{name} </p>
             <div className="flex flex-col">
                 <p className="text-white ">
