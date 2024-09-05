@@ -65,7 +65,7 @@ const stats = [
     },
     accomplishments : {
       allStar: 11,
-      MVP: 1,
+      MVP: 3,
       SilverSlugger: 8
   
     },
@@ -90,7 +90,6 @@ const stats = [
   },
   
   position: "Outfielder",
-  allStar: 4,
   CareerStats:{
     avg : .285,
     obp : .347,
@@ -105,7 +104,6 @@ const stats = [
 
   accomplishments : {
     allStar: 4,
-    MVP: 1,
     SilverSlugger: 6,
     goldGlove: 5,
 
@@ -132,8 +130,8 @@ Cedeño was also a consistent base-stealer, finishing his career with 550 stolen
   },
   
   position: "Third Baseman",
-  allStar: 4,
-  hallOfFame: "Yes",
+  
+ 
   CareerStats:{
     avg : .286,
     obp : .339,

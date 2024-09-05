@@ -48,8 +48,8 @@ export default function PersonalDetails({details, position, accomplishments}){
               </button>
             )}
             {MVP && (
-              <button>
-                <span></span>
+              <button className={`bg-blue-400 ${buttonStyling}`}>
+                <span className="text-white text-sm">{`${MVP === 1? "MVP" : `${MVP}X MVP`}`}</span>
               </button>
             )
 
