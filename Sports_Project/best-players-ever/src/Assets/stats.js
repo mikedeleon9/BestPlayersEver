@@ -66,8 +66,8 @@ const stats = [
     accomplishments : {
       allStar: 11,
       MVP: 3,
-      SilverSlugger: 8
-  
+      SilverSlugger: 6,
+      goldGlove: 2
     },
     trivia: "Grounded into the most double plays in MLB History",
     youtubeUrl: "https://www.youtube.com/embed/6DGih2DUYOs?si=efq4dWCljYwOViYA",
@@ -104,7 +104,6 @@ const stats = [
 
   accomplishments : {
     allStar: 4,
-    SilverSlugger: 6,
     goldGlove: 5,
 
   },
@@ -303,7 +302,7 @@ A nine-time All-Star and 2004 AL MVP, he retired with a .318 batting average, 44
   personalDetails: {
       name: "Robinson Cano",
       mainTeam: "Yankees",
-      birthPlace: "Santo Pedro de Macoris",
+      birthPlace: "San Pedro de Macoris",
       teams: ["Yankees", "Mariners", "Mets", "Padres", "Braves"],
       number: 22,
       image: images["Cano"],
@@ -327,6 +326,44 @@ A nine-time All-Star and 2004 AL MVP, he retired with a .318 batting average, 44
   },
 
   trivia: "Grounded into the most double plays in MLB History",
+  youtubeUrl: "https://www.youtube.com/embed/rQW9SBBSQmA?si=NQvT9gvCXcyzpC8e",
+
+  Excerpt: `Robinson Canó is a Dominican professional baseball player known for his smooth fielding and powerful bat. 
+  Primarily a second baseman, Canó began his MLB career with the New York Yankees in 2005, becoming an eight-time All-Star and five-time Silver Slugger. 
+  He was instrumental in the Yankees' 2009 World Series win. Canó later signed with the Seattle Mariners, and 
+  despite facing challenges, including suspensions for performance-enhancing drugs, he remains one of the most talented infielders of his generation.`
+},
+
+//Manny Ramirez
+
+{
+  personalDetails: {
+      name: "Manny Ramirez",
+      mainTeam: "Red Sox",
+      birthPlace: "Santo Domingo",
+      teams: ["Indians", "Red Sox", "Dodgers", "White Sox", "Rays"],
+      number: 24,
+      image: images["Cano"],
+  },
+  
+  position: "Outfielder",
+  allStar: 12,
+  CareerStats: {
+      avg: .312,
+      obp: .411,
+      slg: .585,
+      ops: .996,
+      opsPlus: 154
+  },
+
+  accomplishments : {
+    allStar: 12,
+    SilverSlugger: 9,
+    battingTitle: 1,
+
+  },
+
+  trivia: "One of 27 players in MLB history with a .300/.400/.500 career slash line",
   youtubeUrl: "https://www.youtube.com/embed/rQW9SBBSQmA?si=NQvT9gvCXcyzpC8e",
 
   Excerpt: `Robinson Canó is a Dominican professional baseball player known for his smooth fielding and powerful bat. 
