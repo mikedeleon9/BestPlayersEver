@@ -1,11 +1,14 @@
 import React from 'react';
 import "./components.css";
+import { teamBorderColors } from '../Assets/teamDetails';
 
-export default function YoutubeVideo({youtubeUrl}){
+export default function YoutubeVideo({youtubeUrl, mainTeam}){
+
+    const bordercolor = teamBorderColors[mainTeam]
 
     return(
 
-        <div >
+        <div className= {`border-2 rounded-3xl ${bordercolor}`} >
            <iframe  src={youtubeUrl} 
            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
            referrerpolicy="strict-origin-when-cross-origin" 

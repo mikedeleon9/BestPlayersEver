@@ -30,7 +30,9 @@ function App() {
             mainTeam={stats[currentIndex].personalDetails.mainTeam}
             position = {stats[currentIndex].position}
           />
-          <YoutubeVideo youtubeUrl={stats[currentIndex].youtubeUrl}/>
+          <YoutubeVideo 
+          mainTeam={stats[currentIndex].personalDetails.mainTeam}
+          youtubeUrl={stats[currentIndex].youtubeUrl}/>
         </div>
         <Excerpt
           mainTeam={stats[currentIndex].personalDetails.mainTeam}
