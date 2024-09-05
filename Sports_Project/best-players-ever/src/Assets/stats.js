@@ -342,7 +342,7 @@ A nine-time All-Star and 2004 AL MVP, he retired with a .318 batting average, 44
       birthPlace: "Santo Domingo",
       teams: ["Indians", "Red Sox", "Dodgers", "White Sox", "Rays"],
       number: 24,
-      image: images["Cano"],
+      image: images["Manny"],
   },
   
   position: "Outfielder",
@@ -385,7 +385,7 @@ A nine-time All-Star and 2004 AL MVP, he retired with a .318 batting average, 44
       birthPlace: "Bani",
       teams: ["Athletics", "Orioles", "Astros", "Padres", "Giants", "Royals"],
       number: 10,
-      image: images["Cano"],
+      image: images["Tejada"],
   },
   
   position: "Shortstop",
@@ -405,8 +405,8 @@ A nine-time All-Star and 2004 AL MVP, he retired with a .318 batting average, 44
 
   },
 
-  trivia: "One of 27 players in MLB history with a .300/.400/.500 career slash",
-  youtubeUrl: "https://www.youtube.com/embed/rQW9SBBSQmA?si=NQvT9gvCXcyzpC8e",
+  trivia: "One of four Dominican players to win MVP",
+  youtubeUrl: "https://www.youtube.com/embed/k8Ds8KtpHVY?si=vud6K2lNWXjxsc-1",
 
   Excerpt: `Robinson Canó is a Dominican professional baseball player known for his smooth fielding and powerful bat. 
   Primarily a second baseman, Canó began his MLB career with the New York Yankees in 2005, becoming an eight-time All-Star and five-time Silver Slugger. 

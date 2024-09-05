@@ -1,6 +1,6 @@
 import React from "react";
 import "./components.css";
-import { teamBackgroundColors, teamTextColors, teamAlternateColor } from "../Assets/teamDetails";
+import { teamBackgroundColors, teamTextColors, teamAlternateColor, teamBorderColors } from "../Assets/teamDetails";
 
 
 export default function PersonalDetails({details, position, accomplishments}){
@@ -11,15 +11,14 @@ export default function PersonalDetails({details, position, accomplishments}){
   
   
   const backgroundColor = teamBackgroundColors[mainTeam] || "bg-gray-800";
-  const textColor = teamTextColors[mainTeam] || "bg-gray-700";
-  const alternateColor = teamAlternateColor[mainTeam]
+  const bordercolors = teamBorderColors[mainTeam] || "bg-gray-800"
 
   const buttonStyling = "font-bold py-1 px-2 rounded-lg  text-center";
 
   
 
     return(
-      <div className={`w-full pl-4 h-48 flex items-center justify-evenly relative ${backgroundColor} rounded-3xl border-2 border-white`}>
+      <div className={`w-full pl-4 h-48  flex items-center justify-evenly relative ${backgroundColor} border-2 ${bordercolors} rounded-3xl`}>
           <h1 className="absolute top-2 left-2 text-4xl text-white font-protest">#{number}</h1>
           
           <div className=" rounded-2xl w-50 h-40">
