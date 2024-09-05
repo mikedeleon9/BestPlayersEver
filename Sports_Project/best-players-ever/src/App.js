@@ -10,6 +10,10 @@ import YoutubeVideo from "./Components/Youtube-Video";
 function App() {
 
   const [currentIndex, setCurrentIndex] = useState(0);
+
+  function prevPlayer(){
+    setCurrentIndex((prevIndex) => (prevIndex === 0 ? stats.length -1 : prevIndex -1));
+  }
  
   function nextPlayer() {
     setCurrentIndex((prevIndex) => (prevIndex + 1) % stats.length); // Loop back to 0 if you reach the end
@@ -40,7 +44,7 @@ function App() {
           className="row-span-2"
         />
       </div>
-
+      <button onClick={prevPlayer} className="button">Previous</button>
       <button onClick={nextPlayer} className="button">Next</button>
     </div>
   );
