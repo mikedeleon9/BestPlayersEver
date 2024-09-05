@@ -3,10 +3,11 @@ import "./components.css";
 import { teamBackgroundColors, teamTextColors, teamAlternateColor } from "../Assets/teamDetails";
 
 
-export default function PersonalDetails({details, position, hallOfFame, allStar}){
+export default function PersonalDetails({details, position, accomplishments}){
 
   
   const {name, birthPlace, mainTeam, number, image} = details;
+  const{allStar, hallOfFame, silverSlugger, goldGlove, MVP, CyYoung, eraTitle, platinumGlove} = accomplishments;
   
   
   const backgroundColor = teamBackgroundColors[mainTeam] || "bg-gray-800";
@@ -46,6 +47,13 @@ export default function PersonalDetails({details, position, hallOfFame, allStar}
                 <span className="text-white text-sm">{allStar}x All-Star</span>
               </button>
             )}
+            {MVP && (
+              <button>
+                <span></span>
+              </button>
+            )
+
+            }
               </div>
             </div>
           </div>

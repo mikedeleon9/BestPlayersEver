@@ -28,8 +28,7 @@ const stats = [
     },
 
     accomplishments : {
-      AllStar: 7,
-      hallOfFame: "No",
+      allStar: 7,
       MVP: 1,
       SilverSlugger: 6,
       
@@ -65,8 +64,7 @@ const stats = [
         opsPlus: 145
     },
     accomplishments : {
-      AllStar: 11,
-      hallOfFame: "No",
+      allStar: 11,
       MVP: 1,
       SilverSlugger: 8
   
@@ -106,8 +104,7 @@ const stats = [
   },
 
   accomplishments : {
-    AllStar: 4,
-    hallOfFame: "No",
+    allStar: 4,
     MVP: 1,
     SilverSlugger: 6,
     goldGlove: 5,
@@ -149,7 +146,7 @@ Cedeño was also a consistent base-stealer, finishing his career with 550 stolen
     sb: 121
   },
   accomplishments : {
-    AllStar: 4,
+    allStar: 4,
     hallOfFame: "Yes",
     SilverSlugger: 4,
     goldGlove: 5,
@@ -194,7 +191,7 @@ His dedication and prowess on the field solidify his legacy as one of the game's
   },
 
   accomplishments : {
-    AllStar: 8,
+    allStar: 8,
     hallOfFame: "Yes",
     CyYoung: 3,
     eraTitle: 3,
@@ -242,7 +239,7 @@ he played a key role in breaking Boston's 86-year World Series drought in 2004, 
   },
 
   accomplishments : {
-    AllStar: 10,
+    allStar: 10,
     hallOfFame: "Yes",
     eraTitle: 1
 
@@ -285,7 +282,7 @@ Marichal's fierce competitiveness and remarkable durability made him a Hall of F
     sb: 181
   },
   accomplishments : {
-    AllStar: 9,
+    allStar: 9,
     hallOfFame: "Yes",
     MVP: 1,
     SilverSlugger: 8
@@ -325,11 +322,10 @@ A nine-time All-Star and 2004 AL MVP, he retired with a .318 batting average, 44
   },
 
   accomplishments : {
-    AllStar: 8,
-    hallOfFame: "No",
+    allStar: 8,
     SilverSlugger: 5,
     goldGlove: 2,
-    
+
   },
 
   trivia: "Grounded into the most double plays in MLB History",
