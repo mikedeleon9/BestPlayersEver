@@ -1,5 +1,6 @@
 import React, {useState} from "react";
-
+import forwardIcon from "./Assets/Images/forwardIcon.png"
+import backIcon from "./Assets/Images/backIcon.png"
 import './App.css';
 import stats from "./Assets/stats";
 import PersonalDetails from  "./Components/Personal-Info";
@@ -44,8 +45,9 @@ function App() {
           className="row-span-2"
         />
       </div>
-      <button onClick={prevPlayer} className="button">Previous</button>
-      <button onClick={nextPlayer} className="button">Next</button>
+      
+      <button onClick={prevPlayer} className="button"><img src={backIcon}></img></button>
+      <button onClick={nextPlayer} className="button"><img src={forwardIcon}></img></button>
     </div>
   );
   }
