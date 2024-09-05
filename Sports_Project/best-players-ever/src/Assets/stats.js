@@ -335,7 +335,6 @@ A nine-time All-Star and 2004 AL MVP, he retired with a .318 batting average, 44
 },
 
 //Manny Ramirez
-
 {
   personalDetails: {
       name: "Manny Ramirez",
@@ -347,23 +346,66 @@ A nine-time All-Star and 2004 AL MVP, he retired with a .318 batting average, 44
   },
   
   position: "Outfielder",
-  allStar: 12,
+
   CareerStats: {
       avg: .312,
       obp: .411,
       slg: .585,
       ops: .996,
-      opsPlus: 154
+      opsPlus: 154,
+      hr: 555,
+      rbi: 1831,
+      r: 1544,
+      WAR: 69.3
   },
 
   accomplishments : {
     allStar: 12,
     SilverSlugger: 9,
     battingTitle: 1,
+    wsMVP: 1
+  
+  },
+
+  trivia: "One of 27 players in MLB history with a .300/.400/.500 career slash",
+  youtubeUrl: "https://www.youtube.com/embed/rQW9SBBSQmA?si=NQvT9gvCXcyzpC8e",
+
+  Excerpt: `Robinson Canó is a Dominican professional baseball player known for his smooth fielding and powerful bat. 
+  Primarily a second baseman, Canó began his MLB career with the New York Yankees in 2005, becoming an eight-time All-Star and five-time Silver Slugger. 
+  He was instrumental in the Yankees' 2009 World Series win. Canó later signed with the Seattle Mariners, and 
+  despite facing challenges, including suspensions for performance-enhancing drugs, he remains one of the most talented infielders of his generation.`
+},
+
+//Miguel Tejada
+
+{
+  personalDetails: {
+      name: "Miguel Tejada",
+      mainTeam: "Athletics",
+      birthPlace: "Bani",
+      teams: ["Athletics", "Orioles", "Astros", "Padres", "Giants", "Royals"],
+      number: 10,
+      image: images["Cano"],
+  },
+  
+  position: "Shortstop",
+  allStar: 6,
+  CareerStats: {
+      avg: .285,
+      obp: .336,
+      slg: .456,
+      ops: .791,
+      opsPlus: 108
+  },
+
+  accomplishments : {
+    allStar: 6,
+    SilverSlugger: 2,
+    MVP: 1,
 
   },
 
-  trivia: "One of 27 players in MLB history with a .300/.400/.500 career slash line",
+  trivia: "One of 27 players in MLB history with a .300/.400/.500 career slash",
   youtubeUrl: "https://www.youtube.com/embed/rQW9SBBSQmA?si=NQvT9gvCXcyzpC8e",
 
   Excerpt: `Robinson Canó is a Dominican professional baseball player known for his smooth fielding and powerful bat. 
@@ -373,5 +415,8 @@ A nine-time All-Star and 2004 AL MVP, he retired with a .318 batting average, 44
 },
 
     ]
+
+
+
 
     export default stats;
