@@ -26,9 +26,15 @@ const stats = [
       r: 1475,
       sb: 234
     },
-    accomplishments : [
-      "1998 NL MVP", "7X All-Star", "6X Silver Slugger", "HR Derby Champ"
-    ],
+
+    accomplishments : {
+      AllStar: 7,
+      hallOfFame: "No",
+      MVP: 1,
+      SilverSlugger: 6,
+      
+  
+    },
     trivia: "Only Player in MLB History with three 60 HR seasons",
     youtubeUrl: "https://www.youtube.com/embed/GaYTHrAXol0?si=3VFM4wqAOpsqOhQj",
 
@@ -58,9 +64,13 @@ const stats = [
         ops: .918,
         opsPlus: 145
     },
-    accomplishments : [
-        "3X MVP (05, 08, 09", "11X All-Star", "6X Silver Slugger", "Rookie of The Year", "2X World Series"
-    ],
+    accomplishments : {
+      AllStar: 11,
+      hallOfFame: "No",
+      MVP: 1,
+      SilverSlugger: 8
+  
+    },
     trivia: "Grounded into the most double plays in MLB History",
     youtubeUrl: "https://www.youtube.com/embed/6DGih2DUYOs?si=efq4dWCljYwOViYA",
 
@@ -94,9 +104,16 @@ const stats = [
     r: 1084,
     sb: 550
   },
-  accomplishments : [
-    "4X All-Star", "5X Gold Glove",
-  ],
+
+  accomplishments : {
+    AllStar: 4,
+    hallOfFame: "No",
+    MVP: 1,
+    SilverSlugger: 6,
+    goldGlove: 5,
+
+  },
+
   trivia: "All time leader in Stolen Bases by a Dominican born player",
   youtubeUrl: "https://www.youtube.com/embed/aJnpe4Ow_Qg?si=-EbUEjmO1zesZCnM" ,
   Excerpt: `
@@ -131,9 +148,14 @@ Cedeño was also a consistent base-stealer, finishing his career with 550 stolen
     r: 1524,
     sb: 121
   },
-  accomplishments : [
-    "4X All-Star", "5X Gold Glove, 2X Platinum Glove, Hall of Fame",
-  ],
+  accomplishments : {
+    AllStar: 4,
+    hallOfFame: "Yes",
+    SilverSlugger: 4,
+    goldGlove: 5,
+    platinumGlove: 2
+
+  },
   trivia: "All time leader in Stolen Bases by a Dominican born player",
   youtubeUrl: "https://www.youtube.com/embed/32rIvfl2nBI?si=8Hath0Udzm5ui5HV" ,
   Excerpt: `
@@ -170,9 +192,15 @@ His dedication and prowess on the field solidify his legacy as one of the game's
     sho: 17,
    
   },
-  accomplishments : [
-    "8X All-Star", "3X Cy Young, 5X ERA Title, Pitching Triple Crown, Hall of Fame",
-  ],
+
+  accomplishments : {
+    AllStar: 8,
+    hallOfFame: "Yes",
+    CyYoung: 3,
+    eraTitle: 3,
+
+  },
+
   trivia: "All time leader in Stolen Bases by a Dominican born player",
   youtubeUrl: "https://www.youtube.com/embed/-yWa0e7hAvk?si=SYOojYoAmKkh_jGd" ,
   Excerpt: `
@@ -212,9 +240,13 @@ he played a key role in breaking Boston's 86-year World Series drought in 2004, 
     sho: 52,
     
   },
-  accomplishments : [
-    "10X All-Star", "ERA Title, Hall of Fame",
-  ],
+
+  accomplishments : {
+    AllStar: 10,
+    hallOfFame: "Yes",
+    eraTitle: 1
+
+  },
   trivia: "First Dominican Born player to be elected to the Baseball Hall of Fame",
   youtubeUrl: "https://www.youtube.com/embed/-d-X_eDR-lM?si=ZJ_o18gJe-VO29si" ,
   Excerpt: `
@@ -291,9 +323,15 @@ A nine-time All-Star and 2004 AL MVP, he retired with a .318 batting average, 44
       ops: .839,
       opsPlus: 124
   },
-  accomplishments : [
-       "8X All-Star", "5X Silver Slugger", "2X Gold Glove", "World Series"
-  ],
+
+  accomplishments : {
+    AllStar: 8,
+    hallOfFame: "No",
+    SilverSlugger: 5,
+    goldGlove: 2,
+    
+  },
+
   trivia: "Grounded into the most double plays in MLB History",
   youtubeUrl: "https://www.youtube.com/embed/rQW9SBBSQmA?si=NQvT9gvCXcyzpC8e",
 
