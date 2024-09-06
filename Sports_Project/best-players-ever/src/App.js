@@ -22,16 +22,17 @@ function App() {
   }
 
   return (
-    <div className="min-h-screen bg-gray-900 text-white">
+    <div className="min-h-screen bg-gray-900 text-white border-2 ">
+      <h1 className="text-3xl font-bold text-center ">Best Players Ever</h1>
       <Navbar />
-      <div className="container mx-auto px-4 py-8">
-        <h1 className="text-3xl font-bold text-center mb-8">Best Players Ever</h1>
-        <div className="flex flex-col lg:flex-row gap-8">
-          <aside className="lg:w-1/4">
+      <div className="container mx-auto px-4 py-6 ">
+        
+        <div className="flex flex-col lg:flex-row  ">
+          <aside className="w-1/8">
             <Sidebar mainTeam={stats[currentIndex].personalDetails.mainTeam} />
           </aside>
-          <main className="lg:w-3/4">
-            <div className="flex items-center justify-between mb-4">
+          <main className="w-3/4 ">
+            <div className="flex items-center ">
               <button onClick={prevPlayer} className="p-2 bg-gray-700 rounded-full">
                 <img className="w-6 h-6" src={backIcon} alt="Previous" />
               </button>
