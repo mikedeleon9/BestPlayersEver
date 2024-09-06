@@ -26,9 +26,9 @@ function App() {
   return (
    
     
-    <div className="text-white  App-Container-Div relative flex mt-8 w-full ">
-      <div className=" flex flex-col items-center"> 
-          <h1 className="text-white text-3xl font-titanOne">Best Players Ever</h1>
+    <div className="min-h-screen text-white  App-Container-Div relative flex mt-4 w-full">
+      <div className=" flex flex-col items-center "> 
+          <h1 className="text-white text-lg font-titanOne">Best Players Ever</h1>
          <Sidebar
           mainTeam={stats[currentIndex].personalDetails.mainTeam}
           />

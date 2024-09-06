@@ -10,7 +10,7 @@ export default function Navbar({mainTeam}){
     const borderColorClass = teamBorderColors[mainTeam];
     return(
         <div className= {`border-2 ${borderColorClass} w-48 ${backgroundColorClass} h-96 flex mt-20 flex-col align-center rounded-3xl p-5`}>
-            <div className="flex items-center gap-2">
+            <div className="flex items-center gap-2 ">
                 <img className="w-4 h-4" src={HomeIcon} alt="home-icon"></img>
                 <p className="text-white">Home</p>
             </div>
