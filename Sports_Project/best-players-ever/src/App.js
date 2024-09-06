@@ -23,13 +23,14 @@ function App() {
 
 
   return (
-    <div className="App-Container-Div flex">
-       <Navbar
+    <div className="App-Container-Div flex items-center">
+         <Navbar
           mainTeam={stats[currentIndex].personalDetails.mainTeam}
           />
       <button onClick={prevPlayer} className="button"><img className="max-w-16" src={backIcon}></img></button>
       
-    <div className="App flex flex-col flex-grow">
+    <div className="App flex flex-grow">
+
       <PersonalDetails 
       details={stats[currentIndex].personalDetails} 
       position = {stats[currentIndex].position}
