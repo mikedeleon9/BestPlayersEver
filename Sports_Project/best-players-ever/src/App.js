@@ -8,6 +8,7 @@ import CareerStats from "./Components/Career-Stats";
 import Excerpt from "./Components/Excerpt";
 import YoutubeVideo from "./Components/Youtube-Video";
 import Sidebar from "./Components/Sidebar";
+import Navbar from "./Components/Navbar";
 
 function App() {
 
@@ -23,21 +24,24 @@ function App() {
 
 
   return (
-    <div className="App-Container-Div flex mt-8">
+   
+    
+    <div className="App-Container-Div relative flex mt-8 w-full ">
+    
          <Sidebar
           mainTeam={stats[currentIndex].personalDetails.mainTeam}
           />
     {/*  <button onClick={prevPlayer} className="z-10 button"><img className="max-w-16" src={backIcon}></img></button> */}
       
-    <div className="App flex flex-grow">
-
+    <div className="App flex flex-grow ">
+    <Navbar />
       <PersonalDetails 
       details={stats[currentIndex].personalDetails} 
       position = {stats[currentIndex].position}
       accomplishments = {stats[currentIndex].accomplishments}
       />
      
-      <div className="grid grid-cols-2 gap-2 flex-grow">
+      <div className="grid grid-cols-2 gap-2 flex-grow ">
         <div className="grid gap-y-2">
          
           <CareerStats
@@ -61,6 +65,7 @@ function App() {
     </div>
     <button onClick={nextPlayer} className="button"><img className="max-w-16" src={forwardIcon}></img></button>
     </div>
+    
   );
   }
 
