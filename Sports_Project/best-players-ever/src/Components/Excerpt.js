@@ -1,15 +1,15 @@
 import React from "react";
-import "./components.css" 
+import "./components.css";
 import { teamBackgroundColors, teamBorderColors } from "../Assets/teamDetails";
 
-export default function Excerpt({mainTeam, Excerpt}){
+export default function Excerpt({ mainTeam, Excerpt }) {
+  const backgroundColor = teamBackgroundColors[mainTeam];
+  const bordercolor = teamBorderColors[mainTeam];
 
-    const backgroundColor = teamBackgroundColors[mainTeam];
-    const bordercolor = teamBorderColors[mainTeam]
-    return(
-        <div className={`w-full px-7 py-5 ${backgroundColor} rounded-3xl  text-white self-start gap-3 border-2 ${bordercolor}`}>
-                <p className="">{Excerpt}</p>
-
-        </div>
-    )
+  return (
+    <div className={`w-full p-6 ${backgroundColor} rounded-3xl text-white border-2 ${bordercolor}`}>
+      <h2 className="font-bold text-xl mb-4">Player Excerpt</h2>
+      <p className="text-sm leading-relaxed">{Excerpt}</p>
+    </div>
+  );
 }

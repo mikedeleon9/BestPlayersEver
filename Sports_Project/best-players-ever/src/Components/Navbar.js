@@ -1,11 +1,21 @@
 import React from "react";
-import "./components.css" 
+import "./components.css";
 import { teamBackgroundColors, teamBorderColors } from "../Assets/teamDetails";
 
-export default function Navbar(){
-    return(
-        <div className="w-full">
-            <input className="border-none w-full rounded-3xl h-10 placeholder:pl-4" placeholder="Search for a Player"></input>
+export default function Navbar() {
+  return (
+    <nav className="w-full py-4">
+      <div className="container mx-auto px-4">
+        <div className="flex justify-between items-center ">
+          
+          <div className="w-full">
+            <input 
+              className="w-full bg-gray-700 text-white border-none rounded-full p-3 focus:outline-none focus:ring-2 focus:ring-blue-600" 
+              placeholder="Search for a Player"
+            />
+          </div>
         </div>
-    )
+      </div>
+    </nav>
+  );
 }

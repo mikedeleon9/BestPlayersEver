@@ -1,58 +1,44 @@
 import React from "react";
-import "./components.css" 
+import "./components.css";
 import { teamBackgroundColors, teamBorderColors } from "../Assets/teamDetails";
 
+export default function CareerStats({ statistics, mainTeam, position }) {
+  const HittingStatsArray = { 
+    AVG: statistics.avg, OBP: statistics.obp, SLG: statistics.slg, 
+    OPS: statistics.ops, "OPS+": statistics.opsPlus, HR: statistics.hr,
+    RBI: statistics.rbi, Runs: statistics.r, SB: statistics.sb 
+  };
 
-export default function CareerStats({statistics: { avg, obp, slg, ops, opsPlus, hr, rbi, r, sb, w, l, ip, era, k, whip, eraPlus, bb, sho}, mainTeam, position}){
-    
-    const HittingStatsArray = { 
-                         AVG: avg,
-                         OBP: obp, 
-                         SLG: slg, 
-                         OPS: ops, 
-                         "OPS+": opsPlus,
-                         HR: hr,
-                         RBI: rbi,
-                         Runs : r,
-                         SB: sb 
-                        };
+  const PitchingStatsArray = {
+    Wins: statistics.w, Losses: statistics.l, Innings: statistics.ip,
+    ERA: statistics.era, Strikeouts: statistics.k, WHIP: statistics.whip,
+    "ERA+": statistics.eraPlus, Walks: statistics.bb, Shutouts: statistics.sho
+  };
 
-    const PitchingStatsArray = {
-                        Wins: w,
-                        Losses : l,
-                        Innings: ip,
-                        ERA: era,
-                        Strikeouts: k,
-                        WHIP: whip,
-                        "ERA+": eraPlus,
-                        Walks: bb,
-                        Shutouts: sho
+  const formatValue = (value) => {
+    if (value === undefined) return "N/A";
+    if (typeof value === "number") {
+      return value.toString().startsWith("0.") ? value.toFixed(3).slice(1) : value.toString();
     }
+    return value;
+  };
 
-    const formatValue = (value) => {
-        if (value === undefined) return "N/A";
-        if (typeof value === "number") {
-            return value.toString().startsWith("0.") ? value.toFixed(3).slice(1) : value.toString();
-        }
-        return value;
-    };
+  const backgroundColor = teamBackgroundColors[mainTeam];
+  const bordercolor = teamBorderColors[mainTeam];
 
-    const backgroundColor = teamBackgroundColors[mainTeam];
-    const bordercolor = teamBorderColors[mainTeam];
+  const statsArray = position === "Pitcher" ? PitchingStatsArray : HittingStatsArray;
 
-    const statsArray = position === "Pitcher" ? PitchingStatsArray : HittingStatsArray;
-
-    return(
-        <div className={`w-full px-7 py-5 grid grid-cols-3 ${backgroundColor} border-2 ${bordercolor} rounded-3xl text-white self-start gap-3`}>
-            <p className="col-span-3 text-center font-bold text-lg">Career Stats:</p>
-           {Object.entries(statsArray).map(([key, value]) => (
-            
-            <div key={key} className="flex flex-col items-center">
+  return (
+    <div className={`w-full p-6 ${backgroundColor} border-2 ${bordercolor} rounded-3xl text-white`}>
+      <h2 className="text-center font-bold text-xl mb-4">Career Stats</h2>
+      <div className="grid grid-cols-3 gap-4">
+        {Object.entries(statsArray).map(([key, value]) => (
+          <div key={key} className="flex flex-col items-center">
             <p className="font-bold">{key}</p>
             <p className="font-normal">{formatValue(value)}</p>
-            </div>
-           ))}
-        
-        </div>
-    )
+          </div>
+        ))}
+      </div>
+    </div>
+  );
 }
