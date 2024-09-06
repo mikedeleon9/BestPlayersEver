@@ -12,6 +12,7 @@ body{
 .App{
   display: flex;
   flex-direction: column;
+  
   justify-content: center;
   align-items: center;
   margin-top: 5rem;
@@ -20,6 +21,11 @@ body{
   font-family: "Raleway", sans-serif;
 }
 
+
+.App-Container-Div{
+  display: flex;
+  gap: 2rem;
+}
 
 /*.button{
   padding: 0.7rem 2rem;

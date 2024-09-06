@@ -1,6 +1,6 @@
 import React, {useState} from "react";
-import forwardIcon from "./Assets/Images/forwardIcon.png"
-import backIcon from "./Assets/Images/backIcon.png"
+import forwardIcon from "./Assets/Images/right-arrow.png"
+import backIcon from "./Assets/Images/left-arrow.png"
 import './App.css';
 import stats from "./Assets/stats";
 import PersonalDetails from  "./Components/Personal-Info";
@@ -20,6 +20,8 @@ function App() {
     setCurrentIndex((prevIndex) => (prevIndex + 1) % stats.length); // Loop back to 0 if you reach the end
   }
   return (
+    <div className="App-Container-Div">
+      <button onClick={prevPlayer} className="button"><img className="max-w-28" src={backIcon}></img></button>
     <div className="App">
       <PersonalDetails 
       details={stats[currentIndex].personalDetails} 
@@ -46,8 +48,10 @@ function App() {
         />
       </div>
       
-      <button onClick={prevPlayer} className="button"><img src={backIcon}></img></button>
-      <button onClick={nextPlayer} className="button"><img src={forwardIcon}></img></button>
+      
+      
+    </div>
+    <button onClick={nextPlayer} className="button"><img className="max-w-28" src={forwardIcon}></img></button>
     </div>
   );
   }
