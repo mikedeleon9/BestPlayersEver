@@ -7,7 +7,7 @@ export default function Navbar({mainTeam}){
     const backgroundColorClass = teamBackgroundColors[mainTeam];
     const borderColorClass = teamBorderColors[mainTeam];
     return(
-        <div className= {`border-2 ${borderColorClass} w-32 ${backgroundColorClass} h-96 flex align-center`}>
+        <div className= {`border-2 ${borderColorClass} w-48 ${backgroundColorClass} h-96 flex align-center rounded-3xl`}>
             
         </div>
     )

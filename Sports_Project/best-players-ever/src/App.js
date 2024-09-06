@@ -23,11 +23,11 @@ function App() {
 
 
   return (
-    <div className="App-Container-Div flex items-center">
+    <div className="App-Container-Div flex mt-8">
          <Navbar
           mainTeam={stats[currentIndex].personalDetails.mainTeam}
           />
-      <button onClick={prevPlayer} className="button"><img className="max-w-16" src={backIcon}></img></button>
+    {/*  <button onClick={prevPlayer} className="z-10 button"><img className="max-w-16" src={backIcon}></img></button> */}
       
     <div className="App flex flex-grow">
 
