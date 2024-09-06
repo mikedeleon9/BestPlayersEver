@@ -22,7 +22,7 @@ function App() {
   }
 
   return (
-    <div className="min-h-screen bg-gray-900 text-white border-2 ">
+    <div className="min-h-screen  text-white ">
       <h1 className="text-3xl font-bold text-center ">Best Players Ever</h1>
       <Navbar />
       <div className="container mx-auto px-4 py-6 ">
@@ -31,15 +31,8 @@ function App() {
           <aside className="w-1/8">
             <Sidebar mainTeam={stats[currentIndex].personalDetails.mainTeam} />
           </aside>
-          <main className="w-3/4 ">
-            <div className="flex items-center ">
-              <button onClick={prevPlayer} className="p-2 bg-gray-700 rounded-full">
-                <img className="w-6 h-6" src={backIcon} alt="Previous" />
-              </button>
-              <button onClick={nextPlayer} className="p-2 bg-gray-700 rounded-full">
-                <img className="w-6 h-6" src={forwardIcon} alt="Next" />
-              </button>
-            </div>
+          <main className="w-3/4">
+          
             <PersonalDetails 
               details={stats[currentIndex].personalDetails} 
               position={stats[currentIndex].position}
@@ -61,6 +54,15 @@ function App() {
                 mainTeam={stats[currentIndex].personalDetails.mainTeam}
                 Excerpt={stats[currentIndex].Excerpt}
               />
+
+<div className="flex items-center ">
+              <button onClick={prevPlayer} className="p-2 bg-gray-700 rounded-full">
+                <img className="w-6 h-6" src={backIcon} alt="Previous" />
+              </button>
+              <button onClick={nextPlayer} className="p-2 bg-gray-700 rounded-full">
+                <img className="w-6 h-6" src={forwardIcon} alt="Next" />
+              </button>
+            </div>
             </div>
           </main>
         </div>
