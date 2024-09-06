@@ -26,11 +26,13 @@ function App() {
   return (
    
     
-    <div className="App-Container-Div relative flex mt-8 w-full ">
-    
+    <div className="text-white  App-Container-Div relative flex mt-8 w-full ">
+      <div className=" flex flex-col items-center"> 
+          <h1 className="text-white text-3xl font-titanOne">Best Players Ever</h1>
          <Sidebar
           mainTeam={stats[currentIndex].personalDetails.mainTeam}
           />
+          </div>
     {/*  <button onClick={prevPlayer} className="z-10 button"><img className="max-w-16" src={backIcon}></img></button> */}
       
     <div className="App flex flex-grow ">
