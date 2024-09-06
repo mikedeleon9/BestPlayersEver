@@ -7,7 +7,7 @@ import PersonalDetails from  "./Components/Personal-Info";
 import CareerStats from "./Components/Career-Stats";
 import Excerpt from "./Components/Excerpt";
 import YoutubeVideo from "./Components/Youtube-Video";
-import Navbar from "./Components/Navbar";
+import Sidebar from "./Components/Sidebar";
 
 function App() {
 
@@ -24,7 +24,7 @@ function App() {
 
   return (
     <div className="App-Container-Div flex mt-8">
-         <Navbar
+         <Sidebar
           mainTeam={stats[currentIndex].personalDetails.mainTeam}
           />
     {/*  <button onClick={prevPlayer} className="z-10 button"><img className="max-w-16" src={backIcon}></img></button> */}
