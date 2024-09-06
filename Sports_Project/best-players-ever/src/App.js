@@ -7,6 +7,7 @@ import PersonalDetails from  "./Components/Personal-Info";
 import CareerStats from "./Components/Career-Stats";
 import Excerpt from "./Components/Excerpt";
 import YoutubeVideo from "./Components/Youtube-Video";
+import Navbar from "./Components/Navbar";
 
 function App() {
 
@@ -19,17 +20,23 @@ function App() {
   function nextPlayer() {
     setCurrentIndex((prevIndex) => (prevIndex + 1) % stats.length); // Loop back to 0 if you reach the end
   }
+
+
   return (
-    <div className="App-Container-Div">
-      <button onClick={prevPlayer} className="button"><img className="max-w-28" src={backIcon}></img></button>
-    <div className="App">
+    <div className="App-Container-Div flex">
+       <Navbar
+          mainTeam={stats[currentIndex].personalDetails.mainTeam}
+          />
+      <button onClick={prevPlayer} className="button"><img className="max-w-16" src={backIcon}></img></button>
+      
+    <div className="App flex flex-col flex-grow">
       <PersonalDetails 
       details={stats[currentIndex].personalDetails} 
       position = {stats[currentIndex].position}
       accomplishments = {stats[currentIndex].accomplishments}
       />
      
-      <div className="grid grid-cols-2 gap-2">
+      <div className="grid grid-cols-2 gap-2 flex-grow">
         <div className="grid gap-y-2">
          
           <CareerStats
@@ -51,7 +58,7 @@ function App() {
       
       
     </div>
-    <button onClick={nextPlayer} className="button"><img className="max-w-28" src={forwardIcon}></img></button>
+    <button onClick={nextPlayer} className="button"><img className="max-w-16" src={forwardIcon}></img></button>
     </div>
   );
   }
