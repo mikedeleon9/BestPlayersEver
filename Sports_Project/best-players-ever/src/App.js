@@ -22,17 +22,17 @@ function App() {
   }
 
   return (
-    <div className="min-h-screen  text-white flex flex-col">
+    <div className="min-h-screen text-white flex flex-col">
       
-      <Navbar />
-      <div className="container  px-4 py-4 ">
+      
+      <div className="container px-4 py-2 ">
         
         <div className="flex flex-col lg:flex-row  ">
-          <aside className="w-1/8">
+          <aside className="w-1/8 mt-16">
             <Sidebar mainTeam={stats[currentIndex].personalDetails.mainTeam} />
           </aside>
           <main className="w-2/3">
-          
+          <Navbar />
             <PersonalDetails 
               details={stats[currentIndex].personalDetails} 
               position={stats[currentIndex].position}
