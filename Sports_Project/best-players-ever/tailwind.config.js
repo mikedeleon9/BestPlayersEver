@@ -12,7 +12,8 @@ module.exports = {
       fontFamily:{
         protest: ["Protest Guerrilla", "sans-serif"],
         raleway: ["RaleWay", "sans-serif"],
-        titanOne: ["Titan One", "serif"]
+        titanOne: ["Titan One", "serif"],
+        Inter: ["Inter", "sans-serif"]
       }
     },
   },

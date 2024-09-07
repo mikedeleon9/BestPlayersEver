@@ -18,18 +18,18 @@ export default function PersonalDetails({details, position, accomplishments}){
   
 
     return(
-      <div className={`w-full  h-48 flex-shrink-0 flex items-center justify-evenly relative ${backgroundColor}  rounded-3xl `}>
+      <div className={`w-full  h-48 flex-shrink-0 flex justify-evenly relative ${backgroundColor}  rounded-3xl `}>
           <h1 className="absolute top-2 left-2 text-4xl text-white font-protest">#{number}</h1>
           
-          <div className=" rounded-2xl w-1/3 h-full">
-            <img className="mt-3 w-full max-w-48 h-full ml-16 object-cover" src={image}  alt={name} />
+          <div className=" rounded-2xl h-full ">
+            <img className=" w-full max-w-48 h-full  object-cover" src={image}  alt={name} />
           </div>
 
-          <div className="flex-1 flex flex-col justify-center ml-4 overflow-hidden">
+          <div className="flex-1 flex flex-col justify-end ml-4 overflow-hidden mb-2">
         <p className="text-white text-4xl font-bold truncate">{name}</p>
         <p className="text-white">{position === "Pitcher" ? `Starting Pitcher` : position}</p>
         <p className="text-white font-medium mt-2">Born: {birthPlace}, DR</p>
-        <div className="flex flex-wrap gap-2 mt-2">
+        <div className="flex flex-wrap gap-2 ">
           {hallOfFame && (
             <button className={`bg-amber-400 ${buttonStyling}`}>
               <span className="text-black text-sm">Hall Of Fame</span>

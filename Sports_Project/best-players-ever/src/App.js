@@ -25,21 +25,21 @@ function App() {
     <div className="min-h-screen  text-white flex flex-col">
       
       <Navbar />
-      <div className="container  px-4 py-6 ">
+      <div className="container  px-4 py-4 ">
         
         <div className="flex flex-col lg:flex-row  ">
           <aside className="w-1/8">
             <Sidebar mainTeam={stats[currentIndex].personalDetails.mainTeam} />
           </aside>
-          <main className="w-3/4">
+          <main className="w-2/3">
           
             <PersonalDetails 
               details={stats[currentIndex].personalDetails} 
               position={stats[currentIndex].position}
               accomplishments={stats[currentIndex].accomplishments}
             />
-            <div className="grid md:grid-cols-2 gap-8 mt-8">
-              <div className="space-y-8">
+            <div className="grid md:grid-cols-2 gap-4 mt-4">
+              <div className="space-y-4">
                 <CareerStats
                   statistics={stats[currentIndex].CareerStats}
                   mainTeam={stats[currentIndex].personalDetails.mainTeam}
