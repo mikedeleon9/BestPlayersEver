@@ -22,10 +22,10 @@ function App() {
   }
 
   return (
-    <div className="min-h-screen  text-white ">
-      <h1 className="text-3xl font-bold text-center ">Best Players Ever</h1>
+    <div className="min-h-screen  text-white flex flex-col">
+      
       <Navbar />
-      <div className="container mx-auto px-4 py-6 ">
+      <div className="container  px-4 py-6 ">
         
         <div className="flex flex-col lg:flex-row  ">
           <aside className="w-1/8">

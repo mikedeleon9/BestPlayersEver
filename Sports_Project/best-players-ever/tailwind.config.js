@@ -7,6 +7,7 @@ module.exports = {
     extend: {
       colors: {
         cubsBlue: '#1d4289',
+        darkerGray: 'rgb(35, 37, 36 )'
       },
       fontFamily:{
         protest: ["Protest Guerrilla", "sans-serif"],

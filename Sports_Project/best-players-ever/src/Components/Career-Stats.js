@@ -29,7 +29,7 @@ export default function CareerStats({ statistics, mainTeam, position }) {
   const statsArray = position === "Pitcher" ? PitchingStatsArray : HittingStatsArray;
 
   return (
-    <div className={`w-full p-6 ${backgroundColor} border-2 ${bordercolor} rounded-3xl text-white`}>
+    <div className={`w-full p-6 ${backgroundColor}  rounded-3xl text-white`}>
       <h2 className="text-center font-bold text-xl mb-4">Career Stats</h2>
       <div className="grid grid-cols-3 gap-4">
         {Object.entries(statsArray).map(([key, value]) => (

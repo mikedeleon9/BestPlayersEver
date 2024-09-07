@@ -18,7 +18,7 @@ export default function PersonalDetails({details, position, accomplishments}){
   
 
     return(
-      <div className={`w-full  h-48 flex-shrink-0 flex items-center justify-evenly relative ${backgroundColor} border-2 ${bordercolors} rounded-3xl `}>
+      <div className={`w-full  h-48 flex-shrink-0 flex items-center justify-evenly relative ${backgroundColor}  rounded-3xl `}>
           <h1 className="absolute top-2 left-2 text-4xl text-white font-protest">#{number}</h1>
           
           <div className=" rounded-2xl w-1/3 h-full">
