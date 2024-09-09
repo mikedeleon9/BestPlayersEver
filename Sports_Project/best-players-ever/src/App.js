@@ -22,9 +22,9 @@ function App() {
   }
 
   return (
-    <div className="min-h-screen text-white flex flex-col">
+    <div className="min-h-screen text-white flex flex-col relative">
+     <h1 className="font-Inter font-extrabold text-lg absolute top-6 left-6">Best Players Ever</h1>
     
-   
       <div className="container px-4 py-2 ">
       
         <div className="flex flex-col lg:flex-row  ">
@@ -33,9 +33,10 @@ function App() {
         
             <Sidebar mainTeam={stats[currentIndex].personalDetails.mainTeam} />
           </aside>
-          <main className="w-2/3 ">
-          
+          <main className="w-2/3">
+          <div>
           <Navbar />
+          </div>
             <PersonalDetails 
               details={stats[currentIndex].personalDetails} 
               position={stats[currentIndex].position}

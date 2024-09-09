@@ -6,9 +6,9 @@ import SearchIcon from "../Assets/Images/Nav-icons/search.png"
 
 export default function Navbar() {
   return (
-    <nav className="w-full py-3 ">
+    <nav className="w-full py-3">
       
-       
+     
          
           <div className="w-full mr-40 flex justify-end items-center ">
           
