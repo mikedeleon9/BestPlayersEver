@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import forwardIcon from "./Assets/Images/right-arrow.png"
 import backIcon from "./Assets/Images/left-arrow.png"
+import DRFlag from "./Assets/Images/DR-Flag.png"
 import './App.css';
 import stats from "./Assets/stats";
 import PersonalDetails from  "./Components/Personal-Info";
@@ -23,17 +24,19 @@ function App() {
 
   return (
     <div className="min-h-screen text-white flex flex-col relative">
-     <h1 className="font-Inter font-extrabold text-lg absolute top-6 left-6">Best Players Ever</h1>
-    
+      <div className="absolute top-6 left-6 flex gap-4">
+      <img className="w-6 h-6" src={DRFlag} alt="DR Flag" />
+     <h1 className="font-Inter font-extrabold text-lg  ">Best Players Ever</h1>
+    </div>
       <div className="container px-4 py-2 ">
       
-        <div className="flex flex-col lg:flex-row  ">
+        <div className="flex flex-col lg:flex-row ">
           
-          <aside className="w-1/8 mt-16 ">
+          <aside className="w-1/8 mt-16">
         
             <Sidebar mainTeam={stats[currentIndex].personalDetails.mainTeam} />
           </aside>
-          <main className="w-2/3">
+          <main className="w-2/3 ml-4">
           <div>
           <Navbar />
           </div>

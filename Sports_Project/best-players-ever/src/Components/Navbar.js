@@ -1,7 +1,7 @@
 import React from "react";
 import "./components.css";
 import { teamBackgroundColors, teamBorderColors } from "../Assets/teamDetails";
-import DRFlag from "../Assets/Images/DR-Flag.png"
+
 import SearchIcon from "../Assets/Images/Nav-icons/search.png"
 
 export default function Navbar() {
