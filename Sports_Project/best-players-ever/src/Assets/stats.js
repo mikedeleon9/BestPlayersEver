@@ -61,7 +61,11 @@ const stats = [
         obp: .374,
         slg: .544,
         ops: .918,
-        opsPlus: 145
+        opsPlus: 145,
+        hr: 703,
+        rbi: 2218,
+        r: 1914,
+        war: 101.4
     },
     accomplishments : {
       allStar: 11,
