@@ -1,13 +1,18 @@
 import React from "react";
 import "./components.css";
 import { teamBackgroundColors, teamBorderColors } from "../Assets/teamDetails";
-
+import DRFlag from "../Assets/Images/DR-Flag.png"
 import SearchIcon from "../Assets/Images/Nav-icons/search.png"
 
 export default function Navbar() {
   return (
-    <nav className="w-full py-3">
-      
+ 
+    <nav className="w-full py-3 fixed bg-backgroundColor z-10">
+        
+       <div className="flex items-center">
+      <img className="w-6 h-6" src={DRFlag} alt="DR Flag" />
+     <h1 className="font-Inter font-extrabold text-lg  ">Best Players Ever</h1>
+    </div>
      
          
           <div className="w-full mr-40 flex justify-end items-center ">
@@ -22,5 +27,6 @@ export default function Navbar() {
         
       
     </nav>
+  
   );
 }
