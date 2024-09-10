@@ -7,15 +7,15 @@ import SearchIcon from "../Assets/Images/Nav-icons/search.png"
 export default function Navbar() {
   return (
  
-    <nav className="w-full py-3 fixed bg-backgroundColor z-10">
+    <nav className="w-full py-3 flex fixed bg-backgroundColor z-10 justify-evenly ">
         
-       <div className="flex items-center">
+       <div className="flex items-center gap-2">
       <img className="w-6 h-6" src={DRFlag} alt="DR Flag" />
      <h1 className="font-Inter font-extrabold text-lg  ">Best Players Ever</h1>
     </div>
      
          
-          <div className="w-full mr-40 flex justify-end items-center ">
+          <div className="w-3/4 flex justify-end items-center ">
           
             <input 
               className="bg-gray-700 placeholder:ml-4 relative w-full text-white border-none rounded-full p-2 focus:outline-none focus:ring-2 focus:ring-blue-600" 
