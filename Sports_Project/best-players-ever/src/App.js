@@ -23,20 +23,18 @@ function App() {
   }
 
   return (
-    <div className="min-h-screen text-white flex flex-col">
+    <div className="min-h-screen text-white flex ">
      <Navbar  />
-      <div className="container px-4 py-2 ">
-      
-        <div className="flex flex-col lg:flex-row mt-4">
+    
+     <div className=" w-full px-8 py-4">
+        <Sidebar 
+        mainTeam={stats[currentIndex].personalDetails.mainTeam} />
+      </div>
+        <div className="flex flex-col lg:flex-row mt-4  ">
           
-          <aside className="w-1/8 mt-16 ">
         
-            <Sidebar mainTeam={stats[currentIndex].personalDetails.mainTeam} />
-          </aside>
-          <main className="w-2/3 ml-4  mt-16">
-          <div>
+          <main className="w-2/3 ml-4  mt-16  flex flex-col ">
           
-          </div>
             <PersonalDetails 
               details={stats[currentIndex].personalDetails} 
               position={stats[currentIndex].position}
@@ -70,7 +68,7 @@ function App() {
             </div>
           </main>
         </div>
-      </div>
+     
     </div>
   );
 }
