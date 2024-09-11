@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import forwardIcon from "./Assets/Images/right-arrow.png"
 import backIcon from "./Assets/Images/left-arrow.png"
-
 import './App.css';
 import stats from "./Assets/stats";
 import PersonalDetails from  "./Components/Personal-Info";
@@ -24,19 +23,17 @@ function App() {
 
   return (
     <div className="min-h-screen text-white flex flex-col">
-     <Navbar  />
-      <div className="container px-4 py-2 ">
+       <Navbar />
       
-        <div className="flex flex-col lg:flex-row mt-4">
-          
-          <aside className="w-1/8 mt-16 ">
+      <div className="container px-4 py-2 ">
         
+        <div className="flex flex-col lg:flex-row  ">
+          <aside className=" mt-16 flex border-2">
+
             <Sidebar mainTeam={stats[currentIndex].personalDetails.mainTeam} />
           </aside>
-          <main className="w-2/3 ml-4  mt-16">
-          <div>
-          
-          </div>
+          <main className="w-2/3 flex flex-col justify-center mt-16 " >
+        
             <PersonalDetails 
               details={stats[currentIndex].personalDetails} 
               position={stats[currentIndex].position}
