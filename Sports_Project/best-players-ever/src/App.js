@@ -27,7 +27,7 @@ function App() {
 
             <Sidebar mainTeam={stats[currentIndex].personalDetails.mainTeam} />
           </aside>
-          <div className="w-3/5 ml-2" >
+          <div className="w-1/2 ml-2" >
 
        <Navbar />
       
