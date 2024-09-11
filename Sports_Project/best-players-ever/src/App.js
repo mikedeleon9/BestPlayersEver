@@ -23,16 +23,15 @@ function App() {
 
   return (
     <div className="min-h-screen text-white flex">
-        <aside className="sticky  ">
+        <aside className="sticky ">
 
             <Sidebar mainTeam={stats[currentIndex].personalDetails.mainTeam} />
           </aside>
-          <div className="w-1/2 ml-8" >
+          <div className="w-1/2 ml-2" >
+
        <Navbar />
       
-      
-        
-        <div className="w-full flex flex-col lg:flex-row gap-4 ">
+        <div className="w-full flex flex-col lg:flex-row ">
         
           <main className="w-full flex flex-col  justify-center " >
         
