@@ -40,8 +40,8 @@ function App() {
               position={stats[currentIndex].position}
               accomplishments={stats[currentIndex].accomplishments}
             />
-            <div className="grid md:grid-cols-2 gap-4 mt-4">
-              <div className="space-y-4 flex flex-col">
+            <div className="grid md:grid-cols-2 gap-4 mt-4 ">
+              <div className="space-y-4 ">
                 <CareerStats
                   statistics={stats[currentIndex].CareerStats}
                   mainTeam={stats[currentIndex].personalDetails.mainTeam}
@@ -54,11 +54,12 @@ function App() {
               </div>
 
               
-              <Excerpt
-                mainTeam={stats[currentIndex].personalDetails.mainTeam}
-                Excerpt={stats[currentIndex].Excerpt}
-               
-              />
+              <div className="self-start">
+    <Excerpt
+      mainTeam={stats[currentIndex].personalDetails.mainTeam}
+      Excerpt={stats[currentIndex].Excerpt}
+    />
+  </div>
               
 
 <div className="flex items-center">
