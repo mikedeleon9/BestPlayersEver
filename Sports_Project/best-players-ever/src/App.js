@@ -22,20 +22,6 @@ function App() {
   }
 
   return (
-<<<<<<< HEAD
-    <div className="min-h-screen text-white flex ">
-     <Navbar  />
-    
-     <div className=" w-full px-8 py-4">
-        <Sidebar 
-        mainTeam={stats[currentIndex].personalDetails.mainTeam} />
-      </div>
-        <div className="flex flex-col lg:flex-row mt-4  ">
-          
-        
-          <main className="w-2/3 ml-4  mt-16  flex flex-col ">
-          
-=======
     <div className="min-h-screen text-white flex">
         <aside className="sticky  ">
 
@@ -50,7 +36,6 @@ function App() {
         
           <main className="w-full flex flex-col  justify-center " >
         
->>>>>>> 307de9695f56de377b82368ad7428b9c59423089
             <PersonalDetails 
               details={stats[currentIndex].personalDetails} 
               position={stats[currentIndex].position}
@@ -88,12 +73,8 @@ function App() {
             </div>
           </main>
         </div>
-<<<<<<< HEAD
-     
-=======
       
       </div>
->>>>>>> 307de9695f56de377b82368ad7428b9c59423089
     </div>
   );
 }
