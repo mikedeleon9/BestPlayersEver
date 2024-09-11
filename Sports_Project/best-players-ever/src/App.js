@@ -42,7 +42,7 @@ function App() {
               accomplishments={stats[currentIndex].accomplishments}
             />
             <div className="grid md:grid-cols-2 gap-4 mt-4">
-              <div className="space-y-4">
+              <div className="space-y-4 flex flex-col">
                 <CareerStats
                   statistics={stats[currentIndex].CareerStats}
                   mainTeam={stats[currentIndex].personalDetails.mainTeam}
@@ -53,12 +53,16 @@ function App() {
                   youtubeUrl={stats[currentIndex].youtubeUrl}
                 />
               </div>
+
+              
               <Excerpt
                 mainTeam={stats[currentIndex].personalDetails.mainTeam}
                 Excerpt={stats[currentIndex].Excerpt}
+               
               />
+              
 
-<div className="flex items-center ">
+<div className="flex items-center">
               <button onClick={prevPlayer} className="p-2 bg-gray-700 rounded-full">
                 <img className="w-6 h-6" src={backIcon} alt="Previous" />
               </button>
