@@ -7,9 +7,11 @@ export default function Excerpt({ mainTeam, Excerpt }) {
   const bordercolor = teamBorderColors[mainTeam];
 
   return (
-    <div className={`w-full p-6 ${backgroundColor} rounded-3xl text-white  `}>
+    <div className={` p-6 ${backgroundColor} rounded-3xl text-white`}>
       <h2 className="font-bold text-xl mb-4">Player Excerpt</h2>
-      <p className="text-sm leading-relaxed">{Excerpt}</p>
+     
+        <p className="text-sm leading-relaxed">{Excerpt}</p>
+     
     </div>
   );
 }
