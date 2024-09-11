@@ -418,6 +418,49 @@ A nine-time All-Star and 2004 AL MVP, he retired with a .318 batting average, 44
   despite facing challenges, including suspensions for performance-enhancing drugs, he remains one of the most talented infielders of his generation.`
 },
 
+
+//Bartolo Colon
+
+{
+  personalDetails: {
+    name: "Bartolo Colon",
+    mainTeam: "Indians",
+    birthPlace: "Altamira",
+    teams: ["Indians", "Expos", "White Sox", "Angels", "Red Sox", "Yankees", "Athletics", "Mets", "Braves", "Twins", "Rangers"],
+    number: 40,
+    image: images["Tejada"],
+},
+
+position: "Pitcher",
+allStar: 4,
+hallOfFame : "No",
+CareerStats:{
+  w : 247,
+  l : 188,
+  ip : "3,461",
+  era : 4.12,
+  k: "2,535",
+  whip : 1.312,
+  eraPlus: 106,
+  bb: 948,
+  sho: 13,
+},
+
+accomplishments : {
+  allStar: 4,
+  hallOfFame: "No",
+  CyYoung: 3,
+
+},
+
+trivia: "One of four Dominican players to win MVP",
+youtubeUrl: "https://www.youtube.com/embed/k8Ds8KtpHVY?si=vud6K2lNWXjxsc-1",
+
+Excerpt: `Robinson Canó is a Dominican professional baseball player known for his smooth fielding and powerful bat. 
+Primarily a second baseman, Canó began his MLB career with the New York Yankees in 2005, becoming an eight-time All-Star and five-time Silver Slugger. 
+He was instrumental in the Yankees' 2009 World Series win. Canó later signed with the Seattle Mariners, and 
+despite facing challenges, including suspensions for performance-enhancing drugs, he remains one of the most talented infielders of his generation.`
+}
     ]
 
 

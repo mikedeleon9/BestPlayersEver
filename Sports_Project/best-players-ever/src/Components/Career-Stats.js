@@ -30,7 +30,10 @@ export default function CareerStats({ statistics, mainTeam, position }) {
 
   return (
     <div className={`w-full p-4 ${backgroundColor} font-Inter rounded-3xl text-white`}>
-      <h2 className="text-center font-bold text-xl mb-4">Career Stats</h2>
+      <div className="flex justify-between py-3">
+      <h2 className=" font-bold text-xl">Career Stats</h2>
+      <button className="px-2 rounded-lg bg-white text-black">Turn</button>
+      </div>
       <div className="grid grid-cols-3 gap-4">
         {Object.entries(statsArray).map(([key, value]) => (
           <div key={key} className="flex flex-col items-center">
