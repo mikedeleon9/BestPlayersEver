@@ -11,7 +11,7 @@ export default function Navbar({mainTeam}){
     return(
         <div className="sticky top-0"> 
 
-        <div className="flex items-center gap-2 py-5 ">
+        <div className="flex items-center gap-2 p-4 ">
       <img className="w-6 h-6" src={DRFlag} alt="DR Flag" />
      <h1 className="font-Inter font-extrabold text-lg  ">Best Players Ever</h1>
     </div> 
