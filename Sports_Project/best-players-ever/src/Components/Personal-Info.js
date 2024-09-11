@@ -18,14 +18,15 @@ export default function PersonalDetails({details, position, accomplishments}){
   
 
     return(
-      <div className={` flex  ${backgroundColor} rounded-3xl pt-2 `}>
+      <div className={` flex  ${backgroundColor} rounded-3xl px-3 pt-4`}>
           
            
+         <div  className="h-52 w-72 overflow-hidden rounded-2xl">
          
-            <img className="h-48 min-w-48 rounded-2xl p-2 object-cover " src={image}  alt={name} />
-         
+            <img className="h-full w-full object-cover " src={image}  alt={name} />
+         </div>
 
-          <div className="w-full flex flex-col justify-end mb-2 ml-6 ">
+          <div className="w-full flex flex-col justify-end  ml-6 pb-4">
         <p className="text-white text-4xl font-bold">{name}</p>
         <div className="flex items-center gap-4 my-2">
         <p className="text-white">{position === "Pitcher" ? `Starting Pitcher` : position}</p>
