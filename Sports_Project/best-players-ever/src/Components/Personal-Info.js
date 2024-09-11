@@ -18,18 +18,20 @@ export default function PersonalDetails({details, position, accomplishments}){
   
 
     return(
-      <div className={`w-full h-48 flex-shrink-0 flex justify-evenly relative ${backgroundColor} rounded-3xl  p-2`}>
-          <h1 className="absolute top-2 left-2 text-xl text-white font-protest">#{number}</h1>
-          
-          <div className=" rounded-2xl relative h-3/4 ">
-            <img className=" max-w-40 absolute bottom-0  object-cover" src={image}  alt={name} />
-          </div>
+      <div className={` flex  ${backgroundColor} rounded-3xl pt-6 `}>
+          <h1 className="text-xl text-white font-protest">#{number}</h1>
+           
+         
+            <img className="max-h-48 min-w-52  object-cover " src={image}  alt={name} />
+         
 
-          <div className="flex-1 flex flex-col justify-end ml-4 overflow-hidden mb-2">
-        <p className="text-white text-4xl font-bold truncate">{name}</p>
+          <div className="w-full flex flex-col justify-end mb-2 ml-6 ">
+        <p className="text-white text-4xl font-bold">{name}</p>
+        <div className="flex items-center gap-4 my-2">
         <p className="text-white">{position === "Pitcher" ? `Starting Pitcher` : position}</p>
-        <p className="text-white font-medium mt-2">Born: {birthPlace}, DR</p>
-        <div className="flex flex-wrap gap-2 ">
+        <p className="text-white font-medium ">Born: {birthPlace}, DR</p>
+        </div>
+        <div className="flex gap-2 ">
           {hallOfFame && (
             <button className={`bg-amber-400 ${buttonStyling}`}>
               <span className="text-black text-sm">Hall Of Fame</span>
