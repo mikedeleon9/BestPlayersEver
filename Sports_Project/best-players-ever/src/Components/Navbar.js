@@ -12,7 +12,7 @@ export default function Navbar() {
           className="bg-gray-700 placeholder:ml-4 w-full relative text-white border-none rounded-full p-2 focus:outline-none focus:ring-2 focus:ring-blue-600" 
           placeholder="Search for a Player"
         />
-        <img src={SearchIcon} alt="search icon" className="z-10 absolute w-6 h-6" />
+        <img src={SearchIcon} alt="search icon" className="z-10 absolute right-2 w-6 h-6" />
       </div>
     </nav>
   );

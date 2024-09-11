@@ -23,8 +23,8 @@ const stats = [
       opsPlus : 128,
       hr: 609,
       rbi: 1667,
-      r: 1475,
-      sb: 234
+      war: 50
+      
     },
 
     accomplishments : {

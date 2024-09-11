@@ -6,7 +6,7 @@ export default function CareerStats({ statistics, mainTeam, position }) {
   const HittingStatsArray = { 
     AVG: statistics.avg, OBP: statistics.obp, SLG: statistics.slg, 
     OPS: statistics.ops, "OPS+": statistics.opsPlus, HR: statistics.hr,
-    RBI: statistics.rbi, Runs: statistics.r, SB: statistics.sb, WAR: statistics.war
+    RBI: statistics.rbi,  SB: statistics.sb, WAR: statistics.war
   };
 
   const PitchingStatsArray = {
