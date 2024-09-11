@@ -18,11 +18,11 @@ export default function PersonalDetails({details, position, accomplishments}){
   
 
     return(
-      <div className={`w-full  h-48 flex-shrink-0 flex justify-evenly relative ${backgroundColor} rounded-3xl `}>
+      <div className={`w-full h-48 flex-shrink-0 flex justify-evenly relative ${backgroundColor} rounded-3xl `}>
           <h1 className="absolute top-2 left-2 text-4xl text-white font-protest">#{number}</h1>
           
           <div className=" rounded-2xl h-full ">
-            <img className=" w-full max-w-48 h-full  object-cover" src={image}  alt={name} />
+            <img className=" w-full max-w-48 h-full ml-8 object-cover" src={image}  alt={name} />
           </div>
 
           <div className="flex-1 flex flex-col justify-end ml-4 overflow-hidden mb-2">
