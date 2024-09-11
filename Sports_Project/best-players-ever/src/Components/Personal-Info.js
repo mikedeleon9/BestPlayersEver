@@ -18,11 +18,11 @@ export default function PersonalDetails({details, position, accomplishments}){
   
 
     return(
-      <div className={` flex  ${backgroundColor} rounded-3xl pt-6 `}>
-          <h1 className="text-xl text-white font-protest">#{number}</h1>
+      <div className={` flex  ${backgroundColor} rounded-3xl pt-2 `}>
+          
            
          
-            <img className="max-h-48 min-w-52  object-cover " src={image}  alt={name} />
+            <img className="h-48 min-w-48 rounded-2xl p-2 object-cover " src={image}  alt={name} />
          
 
           <div className="w-full flex flex-col justify-end mb-2 ml-6 ">
