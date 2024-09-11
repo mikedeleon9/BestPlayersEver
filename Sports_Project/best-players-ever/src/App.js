@@ -22,7 +22,7 @@ function App() {
   }
 
   return (
-    <div className="min-h-screen text-white flex">
+    <div className="min-h-screen text-white flex px-6">
         <aside className="sticky ">
 
             <Sidebar mainTeam={stats[currentIndex].personalDetails.mainTeam} />
