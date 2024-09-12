@@ -1,6 +1,6 @@
 import React from "react"
 import "./components.css" 
-
+import { Link } from "react-router-dom";
 import HomeIcon from "../Assets/Images/Nav-icons/home.png"
 import CardsIcon from "../Assets/Images/Nav-icons/card.png"
 import BoltIcon from  "../Assets/Images/Nav-icons/bolt.png"
@@ -11,7 +11,7 @@ export default function Sidebar({mainTeam}){
     ;
 
     const navItems = [
-        { icon: HomeIcon, label: "Home" },
+        { icon: HomeIcon, label: <Link to ="/HomePage">Home</Link> },
         { icon: CardsIcon, label: "Player List" },
         { icon: BoltIcon, label: "Trivia" }
       ];
