@@ -1,10 +1,10 @@
 import React from "react"
 import "./components.css" 
-import { Link } from "react-router-dom";
 import HomeIcon from "../Assets/Images/Nav-icons/home.png"
 import CardsIcon from "../Assets/Images/Nav-icons/card.png"
 import BoltIcon from  "../Assets/Images/Nav-icons/bolt.png"
 import DRFlag from "../Assets/Images/DR-Flag.png"
+import { Link } from "react-router-dom";
 
 export default function Sidebar({mainTeam}){
 
@@ -12,7 +12,7 @@ export default function Sidebar({mainTeam}){
 
     const navItems = [
         { icon: HomeIcon, label: <Link to ="/HomePage">Home</Link> },
-        { icon: CardsIcon, label: "Player List" },
+        { icon: CardsIcon, label:<Link to ="/PlayersPage">Players List</Link> },
         { icon: BoltIcon, label: "Trivia" }
       ];
 
