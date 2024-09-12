@@ -9,7 +9,7 @@ import Excerpt from "../Components/Excerpt";
 import YoutubeVideo from "../Components/Youtube-Video";
 import Sidebar from "../Components/Sidebar";
 import Navbar from "../Components/Navbar";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
 
 
 export default function PlayersPage() {
@@ -24,14 +24,7 @@ export default function PlayersPage() {
   }
 
   return (
-    <div className="min-h-screen text-white flex ml-3">
-            <aside className="sticky ">
-                <Sidebar mainTeam={stats[currentIndex].personalDetails.mainTeam} />
-            </aside>
-
-        <div className="w-3/5 ml-6" >
-
-            <Navbar />
+    <div className="">
 
         <div className="w-full flex flex-col lg:flex-row ">
             <main className="w-full flex flex-col  justify-center " >    
@@ -76,7 +69,7 @@ export default function PlayersPage() {
           </main>
         </div>
       
-      </div>
+     
     </div>
   );
 }
