@@ -27,10 +27,10 @@ export default function Sidebar({mainTeam}){
             
              
 
-            <div >
+            <div className="flex flex-col gap-2 font-Inter">
                 {navItems.map((item, index)=>(
-                    <div key={index} className="flex items-center gap-3">
-                        <img className="w-5 h-5" src={item.icon} alt={`${item.label}-icon`} />
+                    <div key={index} className="flex items-center gap-3 cursor-pointer  w-fit">
+                        <img className="w-6 h-6 " src={item.icon} alt={`${item.label}-icon`} />
                         <p className="text-white">{item.label}</p>
                     </div>
                )) 
