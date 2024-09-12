@@ -1,13 +1,21 @@
 import React from "react"
 import "./components.css" 
-import { teamBackgroundColors, teamBorderColors } from "../Assets/teamDetails";
+
 import HomeIcon from "../Assets/Images/Nav-icons/home.png"
+import CardsIcon from "../Assets/Images/Nav-icons/card.png"
+import BoltIcon from  "../Assets/Images/Nav-icons/bolt.png"
 import DRFlag from "../Assets/Images/DR-Flag.png"
 
-export default function Navbar({mainTeam}){
+export default function Sidebar({mainTeam}){
 
-    const backgroundColorClass = teamBackgroundColors[mainTeam];
-    const borderColorClass = teamBorderColors[mainTeam];
+    ;
+
+    const navItems = [
+        { icon: HomeIcon, label: "Home" },
+        { icon: CardsIcon, label: "Player List" },
+        { icon: BoltIcon, label: "Trivia" }
+      ];
+
     return(
         <div className="sticky top-0"> 
 
@@ -19,9 +27,14 @@ export default function Navbar({mainTeam}){
             
              
 
-            <div className="flex items-center gap-2 ">
-                <img className="w-4 h-4" src={HomeIcon} alt="home-icon"></img>
-                <p className="text-white">Home</p>
+            <div >
+                {navItems.map((item, index)=>(
+                    <div key={index} className="flex items-center gap-3">
+                        <img className="w-5 h-5" src={item.icon} alt={`${item.label}-icon`} />
+                        <p className="text-white">{item.label}</p>
+                    </div>
+               )) 
+                }    
             </div>
         </div>
         </div>

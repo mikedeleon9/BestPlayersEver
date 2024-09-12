@@ -22,12 +22,12 @@ function App() {
   }
 
   return (
-    <div className="min-h-screen text-white flex px-6">
+    <div className="min-h-screen text-white flex ml-3">
         <aside className="sticky ">
 
             <Sidebar mainTeam={stats[currentIndex].personalDetails.mainTeam} />
           </aside>
-          <div className="w-3/5 ml-2" >
+          <div className="w-3/5 ml-6" >
 
        <Navbar />
       
