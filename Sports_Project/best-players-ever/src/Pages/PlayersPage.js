@@ -1,18 +1,18 @@
 import React, { useState } from "react";
-import forwardIcon from "./Assets/Images/right-arrow.png"
-import backIcon from "./Assets/Images/left-arrow.png"
-import './App.css';
-import stats from "./Assets/stats";
-import PersonalDetails from  "./Components/Personal-Info";
-import CareerStats from "./Components/Career-Stats";
-import Excerpt from "./Components/Excerpt";
-import YoutubeVideo from "./Components/Youtube-Video";
-import Sidebar from "./Components/Sidebar";
-import Navbar from "./Components/Navbar";
+import forwardIcon from "../Assets/Images/right-arrow.png"
+import backIcon from "../Assets/Images/left-arrow.png"
+import '../App.css';
+import stats from "../Assets/stats";
+import PersonalDetails from  "../Components/Personal-Info";
+import CareerStats from "../Components/Career-Stats";
+import Excerpt from "../Components/Excerpt";
+import YoutubeVideo from "../Components/Youtube-Video";
+import Sidebar from "../Components/Sidebar";
+import Navbar from "../Components/Navbar";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 
-function App() {
+export default function PlayersPage() {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   function prevPlayer(){
@@ -81,4 +81,3 @@ function App() {
   );
 }
 
-export default App;
