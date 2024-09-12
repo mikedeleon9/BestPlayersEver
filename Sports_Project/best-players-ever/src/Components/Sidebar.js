@@ -11,7 +11,7 @@ export default function Sidebar({mainTeam}){
     ;
 
     const navItems = [
-        { icon: HomeIcon, label: <Link to ="/HomePage">Home</Link> },
+        { icon: HomeIcon, label: <Link to ="/">Home</Link> },
         { icon: CardsIcon, label:<Link to ="/PlayersPage">Players List</Link> },
         { icon: BoltIcon, label: "Trivia" }
       ];

@@ -13,8 +13,9 @@ function App() {
     
       <Router>
         <MainLayout >
+          
         <Routes>
-          <Route path="/HomePage" element={<HomePage />} />
+          <Route path="/" element={<HomePage />} />
           <Route path="/PlayersPage" element={<PlayersPage />} />
         </Routes>
         </MainLayout>
