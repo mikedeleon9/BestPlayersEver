@@ -11,7 +11,8 @@ export const teamTextColors = {
     Giants: "text-orange-700",
     Angels: "text-red-400",
     Yankees: "text-blue-950",
-    Athletics: "text-green-800"
+    Athletics: "text-green-800",
+    Indians: "text-red-500"
   }
 
   export const teamAlternateColor = {
@@ -23,7 +24,8 @@ export const teamTextColors = {
     Giants: "bg-black",
     Angels: "bg-white",
     Yankees: "bg-white",
-    Athletics: "bg-yellow-500"
+    Athletics: "bg-yellow-500",
+    Indians: "bg-red-600"
   }
 
   export const teamBorderColors = {
@@ -51,7 +53,8 @@ export const teamTextColors = {
     Giants: "bg-orange-700",
     Angels: "bg-red-500",
     Yankees: "bg-blue-950",
-    Athletics: "bg-green-800"
+    Athletics: "bg-green-800",
+    Indians: "bg-red-800"
   }
 
  export const teamPages = {

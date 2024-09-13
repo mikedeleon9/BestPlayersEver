@@ -8,7 +8,8 @@ import VladImage from "../Images/Vlad.png"
 import CanoImage from "../Images/Cano.png"
 import TejadaImage from "../Images/Tejada.png"
 import MannyImage from "../Images/Manny.png"
-
+import ColonImage from "../Images/Colon.png"
+import OrtizImage from "..//Images/Ortiz.png"
 
 const images = {
    Sosa: SosaImage, 
@@ -20,8 +21,9 @@ const images = {
    Vlad : VladImage,
    Cano: CanoImage,
    Manny: MannyImage,
-   Tejada: TejadaImage
-
+   Tejada: TejadaImage,
+   Colon: ColonImage,
+   Ortiz: OrtizImage,
 }
 
 export default images;

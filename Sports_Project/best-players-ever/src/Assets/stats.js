@@ -422,7 +422,7 @@ A nine-time All-Star and 2004 AL MVP, he retired with a .318 batting average, 44
     birthPlace: "Altamira",
     teams: ["Indians", "Expos", "White Sox", "Angels", "Red Sox", "Yankees", "Athletics", "Mets", "Braves", "Twins", "Rangers"],
     number: 40,
-    image: images["Tejada"],
+    image: images["Colon"],
 },
 
 position: "Pitcher",
@@ -465,7 +465,7 @@ despite facing challenges, including suspensions for performance-enhancing drugs
       birthPlace: "Santo Domingo",
       teams: ["Twins", "Red Sox"],
       number: 34,
-      image: images["Tejada"],
+      image: images["Ortiz"],
   },
   
   position: "Designated Hitter",
