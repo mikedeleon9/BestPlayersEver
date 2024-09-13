@@ -15,7 +15,7 @@ export default function MainLayout({ children }) {
             <div className="w-3/5 ml-6" >
     
                 <Navbar />
-                <main className="flex-1 ml-4">
+                <main className=" ml-4">
               {children}
             </main>
         </div>
