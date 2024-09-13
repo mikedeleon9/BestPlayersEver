@@ -374,10 +374,10 @@ A nine-time All-Star and 2004 AL MVP, he retired with a .318 batting average, 44
   trivia: "One of 27 players in MLB history with a .300/.400/.500 career slash",
   youtubeUrl: "https://www.youtube.com/embed/rQW9SBBSQmA?si=NQvT9gvCXcyzpC8e",
 
-  Excerpt: `Robinson Canó is a Dominican professional baseball player known for his smooth fielding and powerful bat. 
-  Primarily a second baseman, Canó began his MLB career with the New York Yankees in 2005, becoming an eight-time All-Star and five-time Silver Slugger. 
-  He was instrumental in the Yankees' 2009 World Series win. Canó later signed with the Seattle Mariners, and 
-  despite facing challenges, including suspensions for performance-enhancing drugs, he remains one of the most talented infielders of his generation.`
+  Excerpt: `Manny Ramirez 
+ChatGPT said:
+ChatGPT
+Manny Ramirez, a Dominican-born MLB star, was one of the most feared hitters of his era. Known for his incredible power and clutch performances, he played for teams like the Cleveland Indians, Boston Red Sox, and Los Angeles Dodgers. A 12-time All-Star and 9-time Silver Slugger, Ramirez helped the Red Sox end their 86-year World Series drought in 2004. Despite controversies later in his career, Manny's legacy as a dynamic slugger remains a key chapter in baseball history..`
 },
 
 //Miguel Tejada
@@ -412,10 +412,7 @@ A nine-time All-Star and 2004 AL MVP, he retired with a .318 batting average, 44
   trivia: "One of four Dominican players to win MVP",
   youtubeUrl: "https://www.youtube.com/embed/k8Ds8KtpHVY?si=vud6K2lNWXjxsc-1",
 
-  Excerpt: `Robinson Canó is a Dominican professional baseball player known for his smooth fielding and powerful bat. 
-  Primarily a second baseman, Canó began his MLB career with the New York Yankees in 2005, becoming an eight-time All-Star and five-time Silver Slugger. 
-  He was instrumental in the Yankees' 2009 World Series win. Canó later signed with the Seattle Mariners, and 
-  despite facing challenges, including suspensions for performance-enhancing drugs, he remains one of the most talented infielders of his generation.`
+  Excerpt: `Miguel Tejada, a Dominican-born shortstop, was a standout player in Major League Baseball known for his strong bat and durable defense. A six-time All-Star and 2002 American League MVP, Tejada played for teams like the Oakland Athletics, Baltimore Orioles, and Houston Astros. He was renowned for his power hitting and impressive streak of consecutive games played. With over 300 home runs and 1,300 RBIs in his career, Tejada remains one of the top shortstops to emerge from the Dominican Republic..`
 },
 
 
