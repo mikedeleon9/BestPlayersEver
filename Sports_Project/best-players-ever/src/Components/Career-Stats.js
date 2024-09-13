@@ -6,7 +6,8 @@ export default function CareerStats({ statistics, mainTeam, position }) {
   const HittingStatsArray = { 
     AVG: statistics.avg, OBP: statistics.obp, SLG: statistics.slg, 
     OPS: statistics.ops, "OPS+": statistics.opsPlus, HR: statistics.hr,
-    RBI: statistics.rbi,  SB: statistics.sb, WAR: statistics.war
+    RBI: statistics.rbi,  WAR: statistics.war,
+    ...(statistics.sb && { SB: statistics.sb })
   };
 
   const PitchingStatsArray = {
@@ -36,6 +37,7 @@ export default function CareerStats({ statistics, mainTeam, position }) {
       </div>
       <div className="grid grid-cols-3 gap-4">
         {Object.entries(statsArray).map(([key, value]) => (
+         
           <div key={key} className="flex flex-col items-center">
             <p className="font-bold">{key}</p>
             <p className="font-extralight text-sm">{formatValue(value)}</p>
