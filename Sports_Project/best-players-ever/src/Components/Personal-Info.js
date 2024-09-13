@@ -1,6 +1,6 @@
 import React from "react";
 import "./components.css";
-import { teamBackgroundColors, teamTextColors, teamAlternateColor, teamBorderColors } from "../Assets/teamDetails";
+import { teamBackgroundColors } from "../Assets/teamDetails";
 
 
 export default function PersonalDetails({details, position, accomplishments}){
@@ -11,19 +11,19 @@ export default function PersonalDetails({details, position, accomplishments}){
   
   
   const backgroundColor = teamBackgroundColors[mainTeam] || "bg-gray-800";
-  const bordercolors = teamBorderColors[mainTeam] || "bg-gray-800"
+  
 
   const buttonStyling = "font-bold py-1 px-2 rounded-lg  text-center";
 
   
 
     return(
-      <div className={` flex  ${backgroundColor} rounded-3xl px-3 pt-4`}>
+      <div className={` flex  ${backgroundColor} rounded-3xl px-4 pt-4`}>
           
            
-         <div  className="h-40 w-56  ">
+         <div  className="h-40 w-56 ">
          
-            <img className="h-full w-full object-contain" src={image}  alt={name} />
+            <img className="h-full w-full object-cover " src={image}  alt={name} />
          </div>
 
           <div className="flex flex-col justify-end  ml-6 pb-2">
@@ -56,6 +56,11 @@ export default function PersonalDetails({details, position, accomplishments}){
           {SilverSlugger && (
             <button className={`bg-slate-500 ${buttonStyling}`}>
               <span className="text-white text-sm">{`${SilverSlugger === 1 ? "Silver Slugger" : `${SilverSlugger}X Silver Slugger`}`}</span>
+            </button>
+          )}
+           {CyYoung && (
+            <button className={`bg-amber-600 ${buttonStyling}`}>
+              <span className="text-white text-sm">{`${CyYoung === 1 ? "Cy Young" : `${CyYoung}X Cy Young`}`}</span>
             </button>
           )}
         </div>

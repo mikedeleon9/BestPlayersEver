@@ -102,7 +102,7 @@ const stats = [
     opsPlus : 123,
     hr: 199,
     rbi: 976,
-    r: 1084,
+    war: 53.1,
     sb: 550
   },
 
@@ -144,7 +144,7 @@ Cedeño was also a consistent base-stealer, finishing his career with 550 stolen
     hr: 477,
     rbi: 1707,
     r: 1524,
-    sb: 121
+    war: 93.5
   },
   accomplishments : {
     allStar: 4,
@@ -279,7 +279,7 @@ Marichal's fierce competitiveness and remarkable durability made him a Hall of F
     opsPlus : 140,
     hr: 449,
     rbi: 1496,
-    r: 1328,
+    war: 59.5,
     sb: 181
   },
   accomplishments : {
@@ -319,7 +319,11 @@ A nine-time All-Star and 2004 AL MVP, he retired with a .318 batting average, 44
       obp: .351,
       slg: .488,
       ops: .839,
-      opsPlus: 124
+      opsPlus: 124,
+      hr: 335,
+      rbi: 1306,
+      war: 68.1,
+      
   },
 
   accomplishments : {
@@ -360,7 +364,7 @@ A nine-time All-Star and 2004 AL MVP, he retired with a .318 batting average, 44
       hr: 555,
       rbi: 1831,
       r: 1544,
-      WAR: 69.3
+      war: 69.3
   },
 
   accomplishments : {
@@ -396,7 +400,11 @@ A nine-time All-Star and 2004 AL MVP, he retired with a .318 batting average, 44
       obp: .336,
       slg: .456,
       ops: .791,
-      opsPlus: 108
+      opsPlus: 108,
+      hr: 307,
+      rbi: 1302,
+      r: 1230,
+      war: 47.1
   },
 
   accomplishments : {
@@ -442,13 +450,12 @@ CareerStats:{
 
 accomplishments : {
   allStar: 4,
-  hallOfFame: "No",
-  CyYoung: 3,
+  CyYoung: 1,
 
 },
 
 trivia: "One of four Dominican players to win MVP",
-youtubeUrl: "https://www.youtube.com/embed/k8Ds8KtpHVY?si=vud6K2lNWXjxsc-1",
+youtubeUrl: "https://www.youtube.com/embed/OVFsq9FQBlc?si=MBtJP0KAP67Nnz7y",
 
 Excerpt: `Robinson Canó is a Dominican professional baseball player known for his smooth fielding and powerful bat. 
 Primarily a second baseman, Canó began his MLB career with the New York Yankees in 2005, becoming an eight-time All-Star and five-time Silver Slugger. 
@@ -474,7 +481,11 @@ despite facing challenges, including suspensions for performance-enhancing drugs
       obp: .380,
       slg: .552,
       ops: .931,
-      opsPlus: 141
+      opsPlus: 141,
+      hr: 541,
+      rbi: 1768,
+      r: 1419,
+      war: 55.3
   },
 
   accomplishments : {
@@ -486,7 +497,7 @@ despite facing challenges, including suspensions for performance-enhancing drugs
   },
 
   trivia: "One of four Dominican players to win MVP",
-  youtubeUrl: "https://www.youtube.com/embed/k8Ds8KtpHVY?si=vud6K2lNWXjxsc-1",
+  youtubeUrl: "https://www.youtube.com/embed/p95jSKmJOhw?si=DfLCMbHmVXa0NpSi",
 
   Excerpt: `Tejada was a standout player in Major League Baseball known for his strong bat and durable defense. A six-time All-Star and 2002 American League MVP, Tejada played for teams like the Oakland Athletics, Baltimore Orioles, and Houston Astros. He was renowned for his power hitting and impressive streak of consecutive games played. With over 300 home runs and 1,300 RBIs in his career, Tejada remains one of the top shortstops to emerge from the Dominican Republic..`
 },
