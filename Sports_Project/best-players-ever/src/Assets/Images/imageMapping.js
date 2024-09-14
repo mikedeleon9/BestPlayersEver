@@ -10,6 +10,7 @@ import TejadaImage from "../Images/Tejada.png"
 import MannyImage from "../Images/Manny.png"
 import ColonImage from "../Images/Colon.png"
 import OrtizImage from "..//Images/Ortiz.png"
+import JRamImage from "../Images/J-Ram.png"
 
 const images = {
    Sosa: SosaImage, 
@@ -24,6 +25,7 @@ const images = {
    Tejada: TejadaImage,
    Colon: ColonImage,
    Ortiz: OrtizImage,
+   JRam: JRamImage,
 }
 
 export default images;

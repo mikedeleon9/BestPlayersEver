@@ -426,9 +426,9 @@ A nine-time All-Star and 2004 AL MVP, he retired with a .318 batting average, 44
 {
   personalDetails: {
     name: "Bartolo Colon",
-    mainTeam: "Indians",
+    mainTeam: "Guardians",
     birthPlace: "Altamira",
-    teams: ["Indians", "Expos", "White Sox", "Angels", "Red Sox", "Yankees", "Athletics", "Mets", "Braves", "Twins", "Rangers"],
+    teams: ["Guardians", "Expos", "White Sox", "Angels", "Red Sox", "Yankees", "Athletics", "Mets", "Braves", "Twins", "Rangers"],
     number: 40,
     image: images["Colon"],
 },
@@ -502,7 +502,44 @@ despite facing challenges, including suspensions for performance-enhancing drugs
   Excerpt: `Tejada was a standout player in Major League Baseball known for his strong bat and durable defense. A six-time All-Star and 2002 American League MVP, Tejada played for teams like the Oakland Athletics, Baltimore Orioles, and Houston Astros. He was renowned for his power hitting and impressive streak of consecutive games played. With over 300 home runs and 1,300 RBIs in his career, Tejada remains one of the top shortstops to emerge from the Dominican Republic..`
 },
 
+//Jose Ramirez
 
+{
+  personalDetails: {
+      name: "Jose Ramirez",
+      mainTeam: "Guardians",
+      birthPlace: "Bani",
+      teams: ["Guardians"],
+      number: 11,
+      image: images["JRam"],
+  },
+  
+  position: "Third Baseman",
+  CareerStats: {
+      avg: .278,
+      obp: .352,
+      slg: .501,
+      ops: .852,
+      opsPlus: 129,
+      hr: 250,
+      rbi: 852,
+      r: 888,
+      war: 50.9,
+      sb: 241
+  },
+
+  accomplishments : {
+    allStar: 6,
+    SilverSlugger: 4,
+    
+
+  },
+
+  trivia: "One of four Dominican players to win MVP",
+  youtubeUrl: "https://www.youtube.com/embed/mtuc9vRgMl4?si=T-bFNm8KfpsNVEwk",
+
+  Excerpt: `Tejada was a standout player in Major League Baseball known for his strong bat and durable defense. A six-time All-Star and 2002 American League MVP, Tejada played for teams like the Oakland Athletics, Baltimore Orioles, and Houston Astros. He was renowned for his power hitting and impressive streak of consecutive games played. With over 300 home runs and 1,300 RBIs in his career, Tejada remains one of the top shortstops to emerge from the Dominican Republic..`
+},
 
     ]
 

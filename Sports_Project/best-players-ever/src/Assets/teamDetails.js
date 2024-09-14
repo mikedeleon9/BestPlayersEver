@@ -12,7 +12,7 @@ export const teamTextColors = {
     Angels: "text-red-400",
     Yankees: "text-blue-950",
     Athletics: "text-green-800",
-    Indians: "text-red-500"
+    Guardians: "text-red-500"
   }
 
   export const teamAlternateColor = {
@@ -25,7 +25,7 @@ export const teamTextColors = {
     Angels: "bg-white",
     Yankees: "bg-white",
     Athletics: "bg-yellow-500",
-    Indians: "bg-red-600"
+    Guardians: "bg-red-600"
   }
 
   export const teamBorderColors = {
@@ -54,13 +54,7 @@ export const teamTextColors = {
     Angels: "bg-red-500",
     Yankees: "bg-blue-950",
     Athletics: "bg-green-800",
-    Indians: "bg-red-800"
+    Guardians: "bg-red-800"
   }
 
- export const teamPages = {
-    Rangers: "https://www.mlb.com/rangers",
-    Cubs: "https://www.mlb.com/cubs",
-    Orioles: "https://www.mlb.com/orioles",
-    "White Sox": "https://www.mlb.com/whitesox"
-  }
-
+ 
