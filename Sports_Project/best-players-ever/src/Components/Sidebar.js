@@ -3,7 +3,7 @@ import "./components.css"
 import HomeIcon from "../Assets/Images/Nav-icons/home.png"
 import CardsIcon from "../Assets/Images/Nav-icons/card.png"
 import BoltIcon from  "../Assets/Images/Nav-icons/bolt.png"
-import DRFlag from "../Assets/Images/DR-Flag.png"
+
 import { Link } from "react-router-dom";
 
 export default function Sidebar({mainTeam}){
@@ -17,13 +17,10 @@ export default function Sidebar({mainTeam}){
       ];
 
     return(
-        <div className="sticky top-0"> 
+        <div className="sticky h-full left-0"> 
 
-        <div className="flex items-center gap-2 py-4 ">
-      <img className="w-6 h-6" src={DRFlag} alt="DR Flag" />
-     <h1 className="font-Inter font-extrabold text-lg  ">Best Players Ever</h1>
-    </div> 
-        <div className= {`bg-darkerGray w-52  h-96 flex flex-col rounded-3xl p-5 `}>
+        
+        <div className= {`bg-darkerGray w-52 h-full flex flex-col  p-5`}>
             
              
 
