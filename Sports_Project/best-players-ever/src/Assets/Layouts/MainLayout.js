@@ -17,7 +17,7 @@ export default function MainLayout({ children }) {
 
                
                 <div className="flex-1 overflow-auto "> {/* Ensure scrollability */}
-                   
+                    
                     <main className="ml-4 "> {/* Added margin-top to ensure content does not overlap */}
                         {children}
                     </main>

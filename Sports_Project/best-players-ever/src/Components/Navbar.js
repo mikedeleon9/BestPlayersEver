@@ -7,21 +7,23 @@ import DRFlag from "../Assets/Images/DR-Flag.png"
 
 export default function Navbar() {
   return (
-    <nav className="w-full flex flex-col sticky top-0 bg-darkerGray z-10 px-6">
-      <div className="flex">
+    <nav className="w-full flex flex-col sticky top-0 bg-darkerGray z-10 px-6 border-2">
+      <div className="flex gap-12">
           <div className="flex items-center gap-2 py-4">
           <img className="w-6 h-6" src={DRFlag} alt="DR Flag" />
         <h1 className="font-Inter font-extrabold text-lg  ">Best Players Ever</h1>
         </div> 
           <div className="w-1/4 flex items-center relative ">
+
+        
             <input 
-              className="bg-darkerGray placeholder:ml-4 w-full relative text-white border-blue-600 rounded-full p-2 focus:outline-none focus:ring-2 focus:ring-blue-600" 
+              className="bg-darkerGray placeholder:ml-4 w-full relative text-white border-2 border-blue-600 rounded-full p-2 focus:outline-none focus:ring-2 focus:ring-blue-600" 
               placeholder="Search for a Player"
             />
-            <img src={SearchIcon} alt="search icon" className="z-10 absolute w-6 h-6 right-0" />
+            <img src={SearchIcon} alt="search icon" className="z-10 absolute w-6 h-6 right-2" />
           </div>
       </div>
-    <RankBar />
+      <RankBar />
     </nav>
   );
 }
