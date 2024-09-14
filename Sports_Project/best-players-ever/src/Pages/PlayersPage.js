@@ -7,8 +7,7 @@ import PersonalDetails from  "../Components/Personal-Info";
 import CareerStats from "../Components/Career-Stats";
 import Excerpt from "../Components/Excerpt";
 import YoutubeVideo from "../Components/Youtube-Video";
-import Sidebar from "../Components/Sidebar";
-import Navbar from "../Components/Navbar";
+
 
 
 
