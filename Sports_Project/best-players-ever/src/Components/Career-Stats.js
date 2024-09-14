@@ -5,9 +5,13 @@ import { teamBackgroundColors, teamBorderColors } from "../Assets/teamDetails";
 export default function CareerStats({ statistics, mainTeam, position }) {
   const HittingStatsArray = { 
     AVG: statistics.avg, OBP: statistics.obp, SLG: statistics.slg, 
-    OPS: statistics.ops, "OPS+": statistics.opsPlus, HR: statistics.hr,
+    OPS: statistics.ops, "OPS+": statistics.opsPlus, 
     RBI: statistics.rbi,  WAR: statistics.war,
-    ...(statistics.sb && { SB: statistics.sb })
+    
+    ...(statistics.sb && { SB: statistics.sb }),
+    ...(statistics.hr && { HR: statistics.hr}),
+    ...(statistics.h && { H: statistics.h})
+    
   };
 
   const PitchingStatsArray = {

@@ -12,7 +12,8 @@ export const teamTextColors = {
     Angels: "text-red-400",
     Yankees: "text-blue-950",
     Athletics: "text-green-800",
-    Guardians: "text-red-500"
+    Guardians: "text-red-500",
+    "Blue Jays" : "bg-blue-600"
   }
 
   export const teamAlternateColor = {
@@ -57,7 +58,8 @@ export const teamTextColors = {
     Yankees: "bg-blue-950",
     Athletics: "bg-green-800",
     Guardians: "bg-red-800",
-     Mariners: "bg-teal-600"
+     Mariners: "bg-teal-600",
+     "Blue Jays" : "bg-blue-600"
   }
 
  

@@ -12,7 +12,7 @@ import ColonImage from "../Images/Colon.png"
 import OrtizImage from "..//Images/Ortiz.png"
 import JRamImage from "../Images/J-Ram.png"
 import CruzImage from "../Images/Cruz.png"
-
+import FernandezImage from "../Images/Fernandez.png"
 
 
 const images = {
@@ -29,7 +29,8 @@ const images = {
    Colon: ColonImage,
    Ortiz: OrtizImage,
    JRam: JRamImage,
-   Cruz: CruzImage
+   Cruz: CruzImage,
+   Fernandez: FernandezImage
 }
 
 export default images;
