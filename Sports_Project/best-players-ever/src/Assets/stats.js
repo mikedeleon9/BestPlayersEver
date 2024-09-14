@@ -541,6 +541,48 @@ despite facing challenges, including suspensions for performance-enhancing drugs
   Excerpt: `Tejada was a standout player in Major League Baseball known for his strong bat and durable defense. A six-time All-Star and 2002 American League MVP, Tejada played for teams like the Oakland Athletics, Baltimore Orioles, and Houston Astros. He was renowned for his power hitting and impressive streak of consecutive games played. With over 300 home runs and 1,300 RBIs in his career, Tejada remains one of the top shortstops to emerge from the Dominican Republic..`
 },
 
+
+//Nelson Cruz
+
+{
+  personalDetails: {
+      name: "Nelson Cruz",
+      mainTeam: "Mariners",
+      birthPlace: "Bani",
+      teams: ["Guardians"],
+      number: 23,
+      image: images["Cruz"],
+  },
+  
+  position: "Right Fielder/ DH",
+  CareerStats: {
+      avg: .274,
+      obp: .343,
+      slg: .513,
+      ops: .856,
+      opsPlus: 130,
+      hr: 464,
+      rbi: 1325,
+      r: 1090,
+      war: 42.1,
+      
+  },
+
+  accomplishments : {
+    allStar: 7,
+    SilverSlugger: 4,
+    
+
+  },
+
+  trivia: "One of four Dominican players to win MVP",
+  youtubeUrl: "https://www.youtube.com/embed/u_Qj7CPh9G8?si=vud22BhYDhKqj-sq",
+
+  Excerpt: `Tejada was a standout player in Major League Baseball known for his strong bat and durable defense. A six-time All-Star and 2002 American League MVP, Tejada played for teams like the Oakland Athletics, Baltimore Orioles, and Houston Astros. He was renowned for his power hitting and impressive streak of consecutive games played. With over 300 home runs and 1,300 RBIs in his career, Tejada remains one of the top shortstops to emerge from the Dominican Republic..`
+},
+
+
+
     ]
 
 

@@ -25,7 +25,8 @@ export const teamTextColors = {
     Angels: "bg-white",
     Yankees: "bg-white",
     Athletics: "bg-yellow-500",
-    Guardians: "bg-red-600"
+    Guardians: "bg-red-600",
+    Mariners: "bg-teal-600",
   }
 
   export const teamBorderColors = {
@@ -38,6 +39,7 @@ export const teamTextColors = {
     Angels: "border-white",
     Yankees: "border-white",
     Athletics: "border-yellow-500",
+   
   };
 
  export const teamBackgroundColors = {
@@ -54,7 +56,8 @@ export const teamTextColors = {
     Angels: "bg-red-500",
     Yankees: "bg-blue-950",
     Athletics: "bg-green-800",
-    Guardians: "bg-red-800"
+    Guardians: "bg-red-800",
+     Mariners: "bg-teal-600"
   }
 
  

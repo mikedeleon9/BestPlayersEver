@@ -21,7 +21,7 @@ export default function PersonalDetails({details, position, accomplishments}){
       <div className={` flex  ${backgroundColor} rounded-3xl px-4 pt-4`}>
           
            
-         <div  className="h-40 w-56 ">
+         <div  className="h-44 w-60 ">
          
             <img className="h-full w-full object-cover " src={image}  alt={name} />
          </div>
