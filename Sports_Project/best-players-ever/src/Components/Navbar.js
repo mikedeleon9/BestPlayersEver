@@ -1,7 +1,7 @@
 import React from "react";
 import "./components.css";
 import { teamBackgroundColors, teamBorderColors } from "../Assets/teamDetails";
-
+import RankBar from "./RankBar";
 import SearchIcon from "../Assets/Images/Nav-icons/search.png"
 
 export default function Navbar() {
@@ -14,6 +14,8 @@ export default function Navbar() {
         />
         <img src={SearchIcon} alt="search icon" className="z-10 absolute right-2 w-6 h-6" />
       </div>
+
+    <RankBar />
     </nav>
   );
 }
