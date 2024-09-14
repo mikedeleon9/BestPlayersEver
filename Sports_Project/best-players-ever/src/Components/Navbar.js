@@ -4,6 +4,7 @@ import { teamBackgroundColors, teamBorderColors } from "../Assets/teamDetails";
 import RankBar from "./RankBar";
 import SearchIcon from "../Assets/Images/Nav-icons/search.png"
 import DRFlag from "../Assets/Images/DR-Flag.png"
+import { PlayerProvider } from "../Assets/PlayerContext";
 
 export default function Navbar() {
   return (
@@ -23,7 +24,9 @@ export default function Navbar() {
             <img src={SearchIcon} alt="search icon" className="z-10 absolute w-6 h-6 right-2" />
           </div>
       </div>
+      <PlayerProvider>
       <RankBar />
+      </PlayerProvider>
     </nav>
   );
 }

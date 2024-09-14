@@ -7,6 +7,7 @@ import RankBar from "../../Components/RankBar";
 
 export default function MainLayout({ children }) {
     return (
+        
         <div className="min-h-screen text-white flex flex-col ">
              <Navbar />
          

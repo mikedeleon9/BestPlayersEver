@@ -27,6 +27,8 @@ export default function PlayersPage() {
     setCurrentIndex((prevIndex) => (prevIndex + 1) % stats.length);
   }
 
+  
+
   return (
     <div className="">
 
