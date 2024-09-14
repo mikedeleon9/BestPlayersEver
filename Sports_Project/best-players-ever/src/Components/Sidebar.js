@@ -20,7 +20,7 @@ export default function Sidebar({mainTeam}){
         <div className="sticky h-full left-0"> 
 
         
-        <div className= {`bg-darkerGray w-52 h-full flex flex-col  p-5`}>
+        <div className= {`bg-backgroundColor w-52 h-full flex flex-col  p-5`}>
             
              
 

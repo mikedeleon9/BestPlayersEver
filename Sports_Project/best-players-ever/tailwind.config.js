@@ -16,7 +16,10 @@ module.exports = {
         titanOne: ["Titan One", "serif"],
         Inter: ["Inter", "sans-serif"],
         ConcertOne: ["Concert One", "sans-serif"]
-      }
+      },
+      spacing: {
+        '45': '181px',
+      },
     },
   },
   plugins: [],
