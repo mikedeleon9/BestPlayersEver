@@ -14,7 +14,8 @@ module.exports = {
         protest: ["Protest Guerrilla", "sans-serif"],
         raleway: ["RaleWay", "sans-serif"],
         titanOne: ["Titan One", "serif"],
-        Inter: ["Inter", "sans-serif"]
+        Inter: ["Inter", "sans-serif"],
+        ConcertOne: ["Concert One", "sans-serif"]
       }
     },
   },

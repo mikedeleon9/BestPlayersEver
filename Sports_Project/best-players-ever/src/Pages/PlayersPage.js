@@ -14,6 +14,11 @@ import Navbar from "../Components/Navbar";
 
 export default function PlayersPage() {
   const [currentIndex, setCurrentIndex] = useState(0);
+  
+
+  const sortedPlayers = stats.sort((a, b) => a.rank - b.rank);
+
+  
 
   function prevPlayer(){
     setCurrentIndex((prevIndex) => (prevIndex === 0 ? stats.length - 1 : prevIndex - 1));
@@ -33,6 +38,7 @@ export default function PlayersPage() {
               details={stats[currentIndex].personalDetails} 
               position={stats[currentIndex].position}
               accomplishments={stats[currentIndex].accomplishments}
+              rank = {stats[currentIndex].rank}
             />
 
         <div className="grid md:grid-cols-2 gap-4 mt-4 ">

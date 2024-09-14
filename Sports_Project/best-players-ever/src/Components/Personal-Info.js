@@ -3,30 +3,30 @@ import "./components.css";
 import { teamBackgroundColors } from "../Assets/teamDetails";
 
 
-export default function PersonalDetails({details, position, accomplishments}){
+export default function PersonalDetails({details, position, accomplishments, rank}){
 
   
   const {name, birthPlace, mainTeam, number, image} = details;
   const{allStar, hallOfFame, SilverSlugger, goldGlove, MVP, CyYoung, eraTitle, platinumGlove} = accomplishments;
-  
-  
   const backgroundColor = teamBackgroundColors[mainTeam] || "bg-gray-800";
-  
-
   const buttonStyling = "font-bold py-1 px-2 rounded-lg  text-center";
 
   
 
     return(
-      <div className={` flex  ${backgroundColor} rounded-3xl px-4 pt-4`}>
+      <div className={` flex relative ${backgroundColor} rounded-3xl px-4 pt-4`}>
           
-           
+          <div className="absolute right-6 rounded-full w-16 h-16 flex items-center justify-center border-amber-400 border-2"> 
+          <h1 className=" text-amber-400 text-5xl font-ConcertOne">{rank}</h1>
+          </div>
+
          <div  className="h-44 w-56 ">
          
             <img className="h-full w-full object-cover " src={image}  alt={name} />
          </div>
 
           <div className="flex flex-col justify-end  ml-6 pb-2">
+            
         <p className="text-white text-4xl font-bold">{name}</p>
         <div className="flex items-center gap-4 my-2">
         <p className="text-white">{position === "Pitcher" ? `Starting Pitcher` : position}</p>
@@ -64,6 +64,7 @@ export default function PersonalDetails({details, position, accomplishments}){
             </button>
           )}
         </div>
+         
       </div>
     </div>
   )

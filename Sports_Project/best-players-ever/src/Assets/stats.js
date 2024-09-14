@@ -14,7 +14,7 @@ const stats = [
     },
     
     position: "Outfielder",
-    allStar: 7,
+    rank: 11,
     CareerStats:{
       avg : .273,
       obp : .344,
@@ -55,7 +55,7 @@ const stats = [
     },
     
     position: "First Base",
-    allStar: 11,
+    rank: 1,
     CareerStats: {
         avg: .296,
         obp: .374,
@@ -93,6 +93,7 @@ const stats = [
     image: images["Cedeno"], 
   },
   
+  rank: 10,
   position: "Outfielder",
   CareerStats:{
     avg : .285,
@@ -133,7 +134,7 @@ Cedeño was also a consistent base-stealer, finishing his career with 550 stolen
   },
   
   position: "Third Baseman",
-  
+  rank: 3,
  
   CareerStats:{
     avg : .286,
@@ -173,10 +174,11 @@ His dedication and prowess on the field solidify his legacy as one of the game's
     teams: ["Dodgers", "Expos", "Red Sox", "Mets", "Phillies"],
     number: 45,
     image: images["Pedro"], 
+    
   },
   
   position: "Pitcher",
-  allStar: 8,
+  rank: 2,
   hallOfFame : "Yes",
   CareerStats:{
     w : 219,
@@ -224,7 +226,7 @@ he played a key role in breaking Boston's 86-year World Series drought in 2004, 
   },
   
   position: "Pitcher",
-  allStar: 10,
+  rank: 4,
   hallOfFame : "Yes",
   CareerStats:{
     w : 243,
@@ -269,7 +271,7 @@ Marichal's fierce competitiveness and remarkable durability made him a Hall of F
   },
   
   position: "Outfielder",
-  allStar: 9,
+  rank: 6,
   hallOfFame: "Yes",
   CareerStats:{
     avg : .318,
@@ -313,7 +315,7 @@ A nine-time All-Star and 2004 AL MVP, he retired with a .318 batting average, 44
   },
   
   position: "Second Base",
-  allStar: 8,
+  rank: 9,
   CareerStats: {
       avg: .301,
       obp: .351,
@@ -352,7 +354,7 @@ A nine-time All-Star and 2004 AL MVP, he retired with a .318 batting average, 44
       number: 24,
       image: images["Manny"],
   },
-  
+  rank: 5,
   position: "Outfielder",
 
   CareerStats: {
@@ -395,6 +397,7 @@ A nine-time All-Star and 2004 AL MVP, he retired with a .318 batting average, 44
   
   position: "Shortstop",
   allStar: 6,
+  rank: 14,
   CareerStats: {
       avg: .285,
       obp: .336,
@@ -434,8 +437,8 @@ A nine-time All-Star and 2004 AL MVP, he retired with a .318 batting average, 44
 },
 
 position: "Pitcher",
-allStar: 4,
-hallOfFame : "No",
+rank: 15,
+
 CareerStats:{
   w : 247,
   l : 188,
@@ -489,7 +492,7 @@ despite facing challenges, including suspensions for performance-enhancing drugs
   },
 
   accomplishments : {
-    allStar: 10,
+    rank: 8,
     SilverSlugger: 7,
     WSMVP: 1,
     hallOfFame: "Yes"
@@ -514,6 +517,7 @@ despite facing challenges, including suspensions for performance-enhancing drugs
       image: images["JRam"],
   },
   
+  rank: 12,
   position: "Third Baseman",
   CareerStats: {
       avg: .278,
@@ -554,6 +558,7 @@ despite facing challenges, including suspensions for performance-enhancing drugs
       image: images["Cruz"],
   },
   
+  rank: 13,
   position: "Right Fielder/ DH",
   CareerStats: {
       avg: .274,
@@ -593,6 +598,7 @@ despite facing challenges, including suspensions for performance-enhancing drugs
       image: images["Fernandez"],
   },
   
+  rank: 16,
   position: "Shortstop",
   CareerStats: {
       avg: .288,
@@ -608,8 +614,8 @@ despite facing challenges, including suspensions for performance-enhancing drugs
   },
 
   accomplishments : {
-    allStar: 7,
-    SilverSlugger: 4,
+    allStar: 5,
+    goldGlove: 4,
     
 
   },
@@ -617,7 +623,7 @@ despite facing challenges, including suspensions for performance-enhancing drugs
   trivia: "One of four Dominican players to win MVP",
   youtubeUrl: "https://www.youtube.com/embed/DOnh7l8aA7I?si=8FtdgjeE9zIGEWe_",
 
-  Excerpt: `TTony Fernández was known for his smooth fielding and consistent hitting. A five-time All-Star and four-time Gold Glove Award winner, Fernández played the majority of his career with the Toronto Blue Jays. Renowned for his defensive skills, quick hands, and strong arm, he also contributed offensively with over 2,200 career hits. 
+  Excerpt: `Tony Fernández was known for his smooth fielding and consistent hitting. A five-time All-Star and four-time Gold Glove Award winner, Fernández played the majority of his career with the Toronto Blue Jays. Renowned for his defensive skills, quick hands, and strong arm, he also contributed offensively with over 2,200 career hits. 
   Fernández played a key role in the Blue Jays' 1993 World Series victory, solidifying his legacy as one of baseball’s top shortstops of his era.`
 },
 
