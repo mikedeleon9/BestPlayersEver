@@ -615,9 +615,10 @@ despite facing challenges, including suspensions for performance-enhancing drugs
   },
 
   trivia: "One of four Dominican players to win MVP",
-  youtubeUrl: "https://www.youtube.com/embed/u_Qj7CPh9G8?si=vud22BhYDhKqj-sq",
+  youtubeUrl: "https://www.youtube.com/embed/DOnh7l8aA7I?si=8FtdgjeE9zIGEWe_",
 
-  Excerpt: `Tejada was a standout player in Major League Baseball known for his strong bat and durable defense. A six-time All-Star and 2002 American League MVP, Tejada played for teams like the Oakland Athletics, Baltimore Orioles, and Houston Astros. He was renowned for his power hitting and impressive streak of consecutive games played. With over 300 home runs and 1,300 RBIs in his career, Tejada remains one of the top shortstops to emerge from the Dominican Republic..`
+  Excerpt: `TTony Fernández was known for his smooth fielding and consistent hitting. A five-time All-Star and four-time Gold Glove Award winner, Fernández played the majority of his career with the Toronto Blue Jays. Renowned for his defensive skills, quick hands, and strong arm, he also contributed offensively with over 2,200 career hits. 
+  Fernández played a key role in the Blue Jays' 1993 World Series victory, solidifying his legacy as one of baseball’s top shortstops of his era.`
 },
 
     ]
