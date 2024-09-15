@@ -15,7 +15,7 @@ export default function RankBar() {
         <p
           key={index}
           onClick={() => handleClick(index)} // Set the active element on click
-          className={`w-16 px-2 py-1 text-center cursor-pointer hover:rounded-md hover:bg-darkerGray ${
+          className={`w-16 px-2 py-1 text-center cursor-pointer  hover:bg-darkerGray ${
             activeIndex === index ? "border-b-4 border-blue-500" : ""
           }`}
         >
