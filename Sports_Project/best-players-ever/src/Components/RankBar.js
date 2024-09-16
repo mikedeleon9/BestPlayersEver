@@ -35,7 +35,7 @@ export default function RankBar() {
                )) 
                 }  
         </div>
-        <div className="flex items-center">
+        <div className="flex items-center mr-5">
 
       {["Ranks", "15-11", "10-6", "5-1"].map((label, index) => (
         <p

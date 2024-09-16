@@ -30,8 +30,10 @@ export default function PlayersPage() {
   
 
   return (
-    <div className="">
-
+    <div className="flex items-center gap-4">
+<button onClick={prevPlayer} className="p-2 bg-gray-700 rounded-full">
+                <img className="w-10 h-10" src={backIcon} alt="Previous" />
+              </button>
         <div className="w-full flex flex-col lg:flex-row ">
             <main className="w-full flex flex-col  justify-center " >    
 
@@ -64,18 +66,13 @@ export default function PlayersPage() {
          </div>
               
 
-        <div className="flex items-center">
-              <button onClick={prevPlayer} className="p-2 bg-gray-700 rounded-full">
-                <img className="w-6 h-6" src={backIcon} alt="Previous" />
-              </button>
-              <button onClick={nextPlayer} className="p-2 bg-gray-700 rounded-full">
-                <img className="w-6 h-6" src={forwardIcon} alt="Next" />
-              </button>
-            </div>
+       
             </div>
           </main>
         </div>
-      
+        <button onClick={nextPlayer} className="p-2 bg-gray-700 rounded-full">
+                <img className="w-10 h-10" src={forwardIcon} alt="Next" />
+              </button>
      
     </div>
   );
