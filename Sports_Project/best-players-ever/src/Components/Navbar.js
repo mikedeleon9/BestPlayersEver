@@ -5,16 +5,20 @@ import RankBar from "./RankBar";
 import SearchIcon from "../Assets/Images/Nav-icons/search.png"
 import DRFlag from "../Assets/Images/DR-Flag.png"
 import { PlayerProvider } from "../Assets/PlayerContext";
+import { Link } from "react-router-dom";
+
+<Link to ="/">Home</Link>
 
 export default function Navbar() {
   return (
     <nav className="w-full flex items-center sticky top-0 bg-backgroundColor z-10 border-b border-darkerGray pt-2 px-4">
       <div className="flex w-1/4 justify-between mb-2">
-          <div className="flex items-center gap-2 py-4 ">
+      <Link to ="/"> 
+        <div className="flex items-center gap-2 py-4 cursor-pointer">
           <img className="w-6 h-6" src={DRFlag} alt="DR Flag" />
         <h1 className="font-Inter font-extrabold text-xl  ">Best Players Ever</h1>
         </div> 
-        
+      </Link>
           
       </div>
 <div className="flex items-center w-full">

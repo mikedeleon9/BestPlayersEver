@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+
 import HomeIcon from "../Assets/Images/Nav-icons/home.png"
 import { Link } from "react-router-dom";
 import CardsIcon from "../Assets/Images/Nav-icons/card.png"
@@ -15,6 +16,8 @@ export default function RankBar() {
     { icon: CardsIcon, label:<Link to ="/PlayersPage">Players List</Link> },
     { icon: BoltIcon, label: "Trivia" }
   ];
+
+
 
   // Function to update the active index on click
   const handleClick = (index) => {
