@@ -8,7 +8,7 @@ import { PlayerProvider } from "../Assets/PlayerContext";
 
 export default function Navbar() {
   return (
-    <nav className="w-full flex flex-col sticky top-0 bg-backgroundColor z-10 px-6">
+    <nav className="w-full flex flex-col sticky top-0 bg-backgroundColor z-10 px-6 border-b pt-4">
       <div className="flex gap-12">
           <div className="flex items-center gap-2 py-4">
           <img className="w-6 h-6" src={DRFlag} alt="DR Flag" />
