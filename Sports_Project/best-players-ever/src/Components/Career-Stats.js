@@ -26,7 +26,7 @@ function triggerStats(){
     
   };
 
- const BestCareerYearArray = {
+ const BestHittingCareerYearArray = {
   AVG: careerYear.avg , OBP: careerYear.obp, SLG: careerYear.slg, 
   OPS: careerYear.ops, "OPS+": careerYear.opsPlus, 
   RBI: careerYear.rbi,  WAR: careerYear.war,
@@ -43,6 +43,12 @@ function triggerStats(){
     "ERA+": statistics.eraPlus, Walks: statistics.bb, Shutouts: statistics.sho
   };
 
+  const BestPitchingCareerYearArray = {
+    Wins: careerYear.w, Losses: careerYear.l, Innings: careerYear.ip,
+    ERA: careerYear.era, Strikeouts: careerYear.k, WHIP: careerYear.whip,
+    "ERA+": careerYear.eraPlus, Walks: careerYear.bb, Shutouts: careerYear.sho
+  };
+
   const formatValue = (value) => {
     if (value === undefined) return "N/A";
     if (typeof value === "number") {
@@ -55,7 +61,7 @@ function triggerStats(){
 
 
   const statsArray = position === "Pitcher" ? PitchingStatsArray : HittingStatsArray;
-  const careerArray = BestCareerYearArray;
+  const BestcareerArray = position === "Pitcher" ? BestPitchingCareerYearArray : BestHittingCareerYearArray;
 
   return (
     <div className={`w-full px-4 py-2 ${backgroundColor} font-Inter rounded-xl text-white border-2`}>
@@ -64,7 +70,7 @@ function triggerStats(){
       <button onClick={triggerStats} className="px-2 rounded-lg bg-white text-black">Turn</button>
       </div>
       <div className="grid grid-cols-3 gap-4">
-        {Object.entries(isButtonPressed ? careerArray: statsArray).map(([key, value]) => (
+        {Object.entries(isButtonPressed ? BestcareerArray: statsArray).map(([key, value]) => (
          
           <div key={key} className="flex flex-col items-center">
             <p className="font-bold">{key}</p>
