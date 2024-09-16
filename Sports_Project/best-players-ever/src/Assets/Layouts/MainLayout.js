@@ -8,18 +8,16 @@ import RankBar from "../../Components/RankBar";
 export default function MainLayout({ children }) {
     return (
         
-        <div className="min-h-screen text-white flex flex-col ">
+        <div className="min-h-screen text-white flex flex-col">
              <Navbar />
          
-            <div className="w-3/4 flex sticky top-0">
-            <aside className="sticky top-0">
-                <Sidebar />
-            </aside>
+            <div className="w-full flex justify-center top-0">
+         
 
                
-                <div className="flex-1 overflow-auto "> {/* Ensure scrollability */}
+                <div className="flex-1 flex overflow-auto justify-center"> {/* Ensure scrollability */}
                     
-                    <main className="ml-4 "> {/* Added margin-top to ensure content does not overlap */}
+                    <main className="flex justify-center w-2/3"> {/* Added margin-top to ensure content does not overlap */}
                         {children}
                     </main>
                 </div>
