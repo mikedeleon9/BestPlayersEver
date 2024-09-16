@@ -27,13 +27,26 @@ const stats = [
       
     },
 
+   careerYear:{
+      avg : .275,
+      obp : .344,
+      slg : .534,
+      ops : .878,
+      opsPlus : 128,
+      hr: 609,
+      rbi: 1667,
+      war: 50
+      
+    },
+
     accomplishments : {
       allStar: 7,
       MVP: 1,
       SilverSlugger: 6,
-      
-  
-    },
+      },
+
+
+
     trivia: "Only Player in MLB History with three 60 HR seasons",
     youtubeUrl: "https://www.youtube.com/embed/GaYTHrAXol0?si=3VFM4wqAOpsqOhQj",
 

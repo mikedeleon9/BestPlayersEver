@@ -47,9 +47,10 @@ export default function PlayersPage() {
         <div className="grid md:grid-cols-2 gap-4 mt-4 ">
             <div className="space-y-4 ">
                 <CareerStats
-                  statistics={stats[currentIndex].CareerStats}
+                  statistics={stats[currentIndex].CareerStats || {}}
                   mainTeam={stats[currentIndex].personalDetails.mainTeam}
                   position={stats[currentIndex].position}
+                  careerYear={stats[currentIndex].careerYear || {}}
                 />
                 <YoutubeVideo 
                   mainTeam={stats[currentIndex].personalDetails.mainTeam}
