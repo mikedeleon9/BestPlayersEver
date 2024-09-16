@@ -58,8 +58,8 @@ function triggerStats(){
   const careerArray = BestCareerYearArray;
 
   return (
-    <div className={`w-full p-4 ${backgroundColor} font-Inter rounded-xl text-white`}>
-      <div className="flex justify-between py-3">
+    <div className={`w-full px-4 py-2 ${backgroundColor} font-Inter rounded-xl text-white border-2`}>
+      <div className="flex justify-between py-2">
       <h2 className=" font-bold text-xl">{isButtonPressed ? 'Best Season': 'Career Stats'}</h2>
       <button onClick={triggerStats} className="px-2 rounded-lg bg-white text-black">Turn</button>
       </div>

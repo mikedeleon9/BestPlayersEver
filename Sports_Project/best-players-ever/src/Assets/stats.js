@@ -80,6 +80,19 @@ const stats = [
         r: 1914,
         war: 101.4
     },
+
+    careerYear:{
+      avg : .327,
+      obp : .443,
+      slg : .658,
+      ops : 1.101,
+      opsPlus : 189,
+      hr: 47,
+      rbi: 135,
+      war: 9.7
+      
+    },
+
     accomplishments : {
       allStar: 11,
       MVP: 3,
