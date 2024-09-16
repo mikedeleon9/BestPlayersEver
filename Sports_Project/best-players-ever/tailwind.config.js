@@ -7,8 +7,8 @@ module.exports = {
     extend: {
       colors: {
         cubsBlue: '#1d4289',
-        darkerGray: 'rgb(35, 37, 36 )',
-        backgroundColor: 'rgb(21 21 22)'
+        darkerGray: '#57606a',
+        backgroundColor: '#151b23'
       },
       fontFamily:{
         protest: ["Protest Guerrilla", "sans-serif"],
@@ -19,7 +19,8 @@ module.exports = {
       },
       spacing: {
         '45': '181px',
-        '1': '1px'
+        '1': '0.25rem',
+        '100': '100px'
       },
     },
   },
