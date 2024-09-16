@@ -22,14 +22,14 @@ export default function RankBar() {
   };
 
   return (
-    <div className="w-full h-12 top-0 sticky flex items-center justify-between border-2">
+    <div className="w-full h-12 top-0 flex items-center justify-between ">
         <div className="flex gap-4">
         {navItems.map((item, index)=>(
                     <div 
                     key={index} 
                     
-                    className={`flex w-16 px-2 py-1 hover:rounded-md items-center cursor-pointer  w-fit hover:bg-darkerGray `}>
-                        <img className="w-6 h-6 " src={item.icon} alt={`${item.label}-icon`} />
+                    className={`flex w-16 px-2 py-1 hover:rounded-md items-center cursor-pointer gap-2 w-fit hover:bg-darkerGray `}>
+                        <img className="w-5 h-5 " src={item.icon} alt={`${item.label}-icon`} />
                         <p className="text-white">{item.label}</p>
                     </div>
                )) 

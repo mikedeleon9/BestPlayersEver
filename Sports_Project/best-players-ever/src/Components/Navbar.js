@@ -8,8 +8,8 @@ import { PlayerProvider } from "../Assets/PlayerContext";
 
 export default function Navbar() {
   return (
-    <nav className="w-full flex align-center sticky top-0 bg-backgroundColor z-10 border-b border-darkerGray pt-2 px-4">
-      <div className="flex w-3/5 justify-between mb-2 ">
+    <nav className="w-full flex items-center sticky top-0 bg-backgroundColor z-10 border-b border-darkerGray pt-2 px-4">
+      <div className="flex w-1/4 justify-between mb-2">
           <div className="flex items-center gap-2 py-4 ">
           <img className="w-6 h-6" src={DRFlag} alt="DR Flag" />
         <h1 className="font-Inter font-extrabold text-xl  ">Best Players Ever</h1>
@@ -17,7 +17,7 @@ export default function Navbar() {
         
           
       </div>
-
+<div className="flex items-center w-full">
       
       <PlayerProvider>
       <RankBar />
@@ -31,6 +31,8 @@ export default function Navbar() {
               placeholder="Search for a Player"
             />
             <img src={SearchIcon} alt="search icon" className="z-10 absolute w-6 h-6 right-2" />
+          </div>
+
           </div>
     </nav>
   );
