@@ -22,7 +22,7 @@ export default function RankBar() {
   };
 
   return (
-    <div className="w-3/5 h-12 top-0 sticky flex items-center justify-between">
+    <div className="w-full h-12 top-0 sticky flex items-center justify-between border-2">
         <div className="flex gap-4">
         {navItems.map((item, index)=>(
                     <div 

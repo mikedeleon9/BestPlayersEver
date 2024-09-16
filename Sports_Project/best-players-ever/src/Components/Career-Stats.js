@@ -34,7 +34,7 @@ export default function CareerStats({ statistics, mainTeam, position }) {
   const statsArray = position === "Pitcher" ? PitchingStatsArray : HittingStatsArray;
 
   return (
-    <div className={`w-full p-4 ${backgroundColor} font-Inter rounded-3xl text-white`}>
+    <div className={`w-full p-4 ${backgroundColor} font-Inter rounded-xl text-white`}>
       <div className="flex justify-between py-3">
       <h2 className=" font-bold text-xl">Career Stats</h2>
       <button className="px-2 rounded-lg bg-white text-black">Turn</button>
