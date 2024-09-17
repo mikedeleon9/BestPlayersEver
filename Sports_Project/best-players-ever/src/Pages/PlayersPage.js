@@ -12,14 +12,14 @@ import YoutubeVideo from "../Components/Youtube-Video";
 export default function PlayersPage() {
   const { currentIndex, setCurrentIndex } = useContext(PlayerContext);
 
- 
-
-  function prevPlayer() {
-    setCurrentIndex((prevIndex) => (prevIndex === 0 ? stats.length - 1 : prevIndex - 1));
-  }
+ const sortedPlayers = stats.sort((a, b) => a.rank - b.rank);
 
   function nextPlayer() {
-    setCurrentIndex((prevIndex) => (prevIndex + 1) % stats.length);
+    setCurrentIndex((prevIndex) => (prevIndex === 0 ? sortedPlayers.length - 1 : prevIndex - 1));
+  }
+
+  function prevPlayer() {
+    setCurrentIndex((prevIndex) => (prevIndex + 1) % sortedPlayers.length);
   }
 
   return (
