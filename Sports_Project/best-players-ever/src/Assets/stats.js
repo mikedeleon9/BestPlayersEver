@@ -188,6 +188,7 @@ Cedeño was also a consistent base-stealer, finishing his career with 550 stolen
 
 
   careerYear:{
+    year: 2004,
     avg : .334,
     obp : .388,
     slg : .629,
@@ -237,6 +238,7 @@ His dedication and prowess on the field solidify his legacy as one of the game's
 
 
   CareerStats:{
+    year: 2000,
     w : 219,
     l : 100,
     ip : "2,827",
@@ -260,7 +262,6 @@ His dedication and prowess on the field solidify his legacy as one of the game's
     eraPlus: 291,
     bb: 32,
     sho: 4,
-   
   },
 
   accomplishments : {

@@ -64,7 +64,7 @@ function triggerStats(){
   const BestcareerArray = position === "Pitcher" ? BestPitchingCareerYearArray : BestHittingCareerYearArray;
 
   return (
-    <div className={`w-full px-4 py-2 ${backgroundColor} font-Inter rounded-xl text-white border-2`}>
+    <div className={`w-full px-4 py-2 ${backgroundColor} font-Inter rounded-xl text-white border-2 shadow-md`}>
       <div className="flex justify-between py-2">
       <h2 className=" font-bold text-xl">{isButtonPressed ? 'Best Season': 'Career Stats'}</h2>
 

@@ -11,7 +11,7 @@ import { Link } from "react-router-dom";
 
 export default function Navbar() {
   return (
-    <nav className="w-full flex items-center sticky top-0 bg-backgroundColor z-10 border-b border-darkerGray pt-2 px-4">
+    <nav className="w-full flex items-center sticky top-0 bg-backgroundColor z-10 border-b border-darkerGray pt-2 px-4 shadow-md">
       <div className="flex w-1/4 justify-between mb-2">
       <Link to ="/"> 
         <div className="flex items-center gap-2 py-4 cursor-pointer">
