@@ -3,11 +3,11 @@ import { Link } from "react-router-dom";
 import Sidebar from "../../Components/Sidebar";
 import Navbar from "../../Components/Navbar";
 import RankBar from "../../Components/RankBar";
-import PlayersPage from "../../Pages/PlayersPage";
+
 
 export default function MainLayout({ children }) {
     return (
-        
+       
         <div className="min-h-screen text-white flex flex-col">
                  {/* This ensures PlayerContext.Provider wraps everything */}
                      <Navbar />
@@ -24,6 +24,7 @@ export default function MainLayout({ children }) {
                 </div>
             </div>
         </div>
+       
     );
 }
 

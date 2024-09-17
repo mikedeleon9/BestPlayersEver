@@ -5,7 +5,7 @@ import { PlayerContext } from "../Pages/PlayersPage";
 import RankBar from "./RankBar";
 import SearchIcon from "../Assets/Images/Nav-icons/search.png"
 import DRFlag from "../Assets/Images/DR-Flag.png"
-import { PlayerProvider } from "../Assets/PlayerContext";
+
 import { Link } from "react-router-dom";
 
 <Link to ="/">Home</Link>
@@ -27,9 +27,9 @@ export default function Navbar() {
       </div>
 <div className="flex items-center w-full">
       
-   
+
       <RankBar />
-     
+    
 
       <div className="w-1/3 flex items-center relative">
 

@@ -14,7 +14,7 @@ const stats = [
     },
     
     position: "Outfielder",
-    rank: 11,
+    rank: 9,
     CareerStats:{
       avg : .273,
       obp : .344,
@@ -119,8 +119,9 @@ const stats = [
     image: images["Cedeno"], 
   },
   
-  rank: 10,
+ 
   position: "Outfielder",
+  rank: 10,
   CareerStats:{
     avg : .285,
     obp : .347,
@@ -386,7 +387,7 @@ A nine-time All-Star and 2004 AL MVP, he retired with a .318 batting average, 44
   },
   
   position: "Second Base",
-  rank: 9,
+  rank: 8,
   CareerStats: {
       avg: .301,
       obp: .351,
@@ -508,7 +509,7 @@ A nine-time All-Star and 2004 AL MVP, he retired with a .318 batting average, 44
 },
 
 position: "Pitcher",
-rank: 15,
+rank: 13,
 
 CareerStats:{
   w : 247,
@@ -550,6 +551,7 @@ despite facing challenges, including suspensions for performance-enhancing drugs
   },
   
   position: "Designated Hitter",
+  rank: 7,
   CareerStats: {
       avg: .286,
       obp: .380,
@@ -629,7 +631,7 @@ despite facing challenges, including suspensions for performance-enhancing drugs
       image: images["Cruz"],
   },
   
-  rank: 13,
+  rank: 11,
   position: "Right Fielder/ DH",
   CareerStats: {
       avg: .274,
@@ -669,7 +671,7 @@ despite facing challenges, including suspensions for performance-enhancing drugs
       image: images["Fernandez"],
   },
   
-  rank: 16,
+  rank: 15,
   position: "Shortstop",
   CareerStats: {
       avg: .288,

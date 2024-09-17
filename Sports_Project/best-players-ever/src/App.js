@@ -4,6 +4,7 @@ import HomePage from "./Pages/HomePage";
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import MainLayout from "./Assets/Layouts/MainLayout";
+import { PlayerProvider } from "./Assets/PlayerContext";
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
    
     
       <Router>
+        <PlayerProvider>
         <MainLayout >
           
         <Routes>
@@ -19,6 +21,7 @@ function App() {
           <Route path="/PlayersPage" element={<PlayersPage />} />
         </Routes>
         </MainLayout>
+        </PlayerProvider>
       </Router>
 
     
