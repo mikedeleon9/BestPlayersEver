@@ -69,7 +69,7 @@ function triggerStats(){
       <h2 className=" font-bold text-xl">{isButtonPressed ? 'Best Season': 'Career Stats'}</h2>
 
 
-      <input type="checkbox" id="dark-mode" className="peer sr-only"/> 
+      <input onClick={triggerStats} type="checkbox" id="dark-mode" className="peer sr-only"/> 
   <label for="dark-mode" className="label relative block w-10 h-5 bg-slate-400 rounded-2xl cursor-pointer peer-checked:bg-white">
   <div className="circle w-4 h-4 bg-white rounded-full top-0.5 left-0.5 absolute transition-all duration-300 ease-linear peer-checked:translate-x-5 animate-toggleOn"></div>
   </label>

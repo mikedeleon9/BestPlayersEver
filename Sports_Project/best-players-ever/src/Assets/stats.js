@@ -28,14 +28,14 @@ const stats = [
     },
 
    careerYear:{
-      avg : .275,
-      obp : .344,
-      slg : .534,
-      ops : .878,
-      opsPlus : 128,
-      hr: 609,
-      rbi: 1667,
-      war: 50
+      avg : .328,
+      obp : .437,
+      slg : .737,
+      ops : 1.174,
+      opsPlus : 203,
+      hr: 64,
+      rbi: 160,
+      war: 10.3
       
     },
 
@@ -133,6 +133,18 @@ const stats = [
     sb: 550
   },
 
+  careerYear:{
+    avg : .320,
+    obp : .385,
+    slg : .537,
+    ops : 1.101,
+    opsPlus : 162,
+    hr: 22,
+    sb: 55,
+    war: 8.0
+    
+  },
+
   accomplishments : {
     allStar: 4,
     goldGlove: 5,
@@ -173,6 +185,22 @@ Cedeño was also a consistent base-stealer, finishing his career with 550 stolen
     r: 1524,
     war: 93.5
   },
+
+
+  careerYear:{
+    avg : .334,
+    obp : .388,
+    slg : .629,
+    ops : 1.017,
+    opsPlus : 163,
+    hr: 48,
+    rbi: 121,
+    war: 9.6
+    
+  },
+
+
+
   accomplishments : {
     allStar: 4,
     hallOfFame: "Yes",
@@ -206,6 +234,8 @@ His dedication and prowess on the field solidify his legacy as one of the game's
   position: "Pitcher",
   rank: 2,
   hallOfFame : "Yes",
+
+
   CareerStats:{
     w : 219,
     l : 100,
@@ -216,6 +246,20 @@ His dedication and prowess on the field solidify his legacy as one of the game's
     eraPlus: 154,
     bb: 760,
     sho: 17,
+   
+  },
+
+
+  careerYear:{
+    w : 18,
+    l : 6,
+    ip : "2,827",
+    era : 2.17,
+    k: "284",
+    whip : 0.737,
+    eraPlus: 291,
+    bb: 32,
+    sho: 4,
    
   },
 
