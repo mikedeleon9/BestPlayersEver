@@ -9,6 +9,7 @@ import BoltIcon from  "../Assets/Images/Nav-icons/bolt.png"
 export default function RankBar() {
   // State to track which element is active (clicked)
   const [activeIndex, setActiveIndex] = useState(null);
+ 
 
   //Nav Icons
   const navItems = [
@@ -25,6 +26,7 @@ export default function RankBar() {
   };
 
   return (
+    
     <div className="w-full h-12 top-0 flex items-center justify-between ">
         <div className="flex gap-4">
         {navItems.map((item, index)=>(
@@ -53,5 +55,6 @@ export default function RankBar() {
       ))}
       </div>
     </div>
+    
   );
 }

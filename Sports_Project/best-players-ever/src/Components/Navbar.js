@@ -1,6 +1,7 @@
-import React from "react";
+import {React, useContext} from "react";
 import "./components.css";
 import { teamBackgroundColors, teamBorderColors } from "../Assets/teamDetails";
+import { PlayerContext } from "../Pages/PlayersPage";
 import RankBar from "./RankBar";
 import SearchIcon from "../Assets/Images/Nav-icons/search.png"
 import DRFlag from "../Assets/Images/DR-Flag.png"
@@ -10,7 +11,10 @@ import { Link } from "react-router-dom";
 <Link to ="/">Home</Link>
 
 export default function Navbar() {
+
+ 
   return (
+  
     <nav className="w-full flex items-center sticky top-0 bg-backgroundColor z-10 border-b border-darkerGray pt-2 px-4 shadow-md">
       <div className="flex w-1/4 justify-between mb-2">
       <Link to ="/"> 
@@ -23,9 +27,9 @@ export default function Navbar() {
       </div>
 <div className="flex items-center w-full">
       
-      <PlayerProvider>
+   
       <RankBar />
-      </PlayerProvider>
+     
 
       <div className="w-1/3 flex items-center relative">
 
@@ -39,5 +43,6 @@ export default function Navbar() {
 
           </div>
     </nav>
+    
   );
 }
