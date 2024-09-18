@@ -42,7 +42,6 @@ export default function RankBar() {
                )) 
                 }  
         </div>
-        <Link to ="/PlayersPage"> 
         <div className="flex items-center mr-5">
 
         {["Ranks", "15-11", "10-6", "5-1"].map((label, index) => {
@@ -73,7 +72,7 @@ export default function RankBar() {
           );
         })}
       </div>
-     </Link>
+     
     </div>
   );
 }

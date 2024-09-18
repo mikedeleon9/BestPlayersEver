@@ -12,8 +12,7 @@ import YoutubeVideo from "../Components/Youtube-Video";
 export default function PlayersPage() {
   const { currentIndex, setCurrentIndex } = useContext(PlayerContext);
 
- const sortedPlayers = stats.sort((a, b) => a.rank - b.rank);
-
+ const sortedPlayers = stats.sort((a, b) => a.rank - b.rank)
   function nextPlayer() {
     setCurrentIndex((prevIndex) => (prevIndex === 0 ? sortedPlayers.length - 1 : prevIndex - 1));
   }
@@ -22,6 +21,7 @@ export default function PlayersPage() {
     setCurrentIndex((prevIndex) => (prevIndex + 1) % sortedPlayers.length);
   }
 
+  
   return (
     <div className="flex items-center gap-4">
       <button onClick={prevPlayer} className="p-2 bg-gray-700 rounded-full">
