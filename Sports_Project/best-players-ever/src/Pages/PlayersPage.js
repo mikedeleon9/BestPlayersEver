@@ -51,7 +51,7 @@ export default function PlayersPage() {
 
   function prevPlayer() {
     setCurrentIndex(prevIndex => {
-      const prevIndexInRange = (currentIndexInRange + 1 + playersInRange.length) % playersInRange.length;
+      const prevIndexInRange = (currentIndexInRange + 1 ) ;
       const prevPlayer = playersInRange[prevIndexInRange];
       if (prevPlayer) {
         return sortedPlayers.indexOf(prevPlayer); // Update global index
