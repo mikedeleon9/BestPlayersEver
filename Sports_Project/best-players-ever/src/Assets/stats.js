@@ -239,7 +239,7 @@ His dedication and prowess on the field solidify his legacy as one of the game's
 
 
   CareerStats:{
-    year: 2000,
+   
     w : 219,
     l : 100,
     ip : "2,827",
@@ -254,6 +254,7 @@ His dedication and prowess on the field solidify his legacy as one of the game's
 
 
   careerYear:{
+    year: 2000,
     w : 18,
     l : 6,
     ip : "2,827",
@@ -312,6 +313,19 @@ he played a key role in breaking Boston's 86-year World Series drought in 2004, 
     sho: 52,
     
   },
+
+  careerYear:{
+    w : 22,
+    l : 13,
+    ip : "295.1",
+    era : 2.13,
+    k: "240",
+    whip : 0.914,
+    eraPlus: 169,
+    bb: 46,
+    sho: 10,
+  },
+
 
   accomplishments : {
     allStar: 10,
