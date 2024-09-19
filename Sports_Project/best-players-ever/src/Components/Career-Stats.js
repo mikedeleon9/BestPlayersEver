@@ -4,6 +4,7 @@ import { teamBackgroundColors,  } from "../Assets/teamDetails";
 
 export default function CareerStats({ statistics, mainTeam, position, careerYear }) {
 
+  
 const [isButtonPressed, pressButton] = useState(false);
   
 function triggerStats(){
@@ -76,13 +77,13 @@ function triggerStats(){
       
       
       </div>
-      <div className="grid grid-cols-3 gap-4">
+      <div className="grid grid-cols-3 gap-4 transition-opacity">
         {Object.entries(isButtonPressed ? BestcareerArray: statsArray).map(([key, value]) => (
          
-          <div key={key} className="flex flex-col items-center">
-            <p className="font-bold">{key}</p>
-            <p className="font-extralight text-sm">{formatValue(value)}</p>
-          </div>
+         <div key={key} className="flex flex-col items-center">
+         <p className="font-bold">{key}</p>
+         <p className="font-extralight text-sm">{formatValue(value)}</p>
+       </div>
         ))}
       </div>
     </div>

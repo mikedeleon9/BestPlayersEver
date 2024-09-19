@@ -45,7 +45,7 @@ export default function RankBar() {
         <Link to ="/PlayersPage">
         <div className="flex items-center mr-5">
 
-        {["Ranks", "15-11", "10-6", "5-1"].map((label, index) => {
+        {["25-21","20-16","15-11", "10-6", "5-1"].map((label, index) => {
           let rank;
           switch (label) {
             case "15-11":
@@ -57,8 +57,7 @@ export default function RankBar() {
             case "5-1":
               rank = 5;
               break;
-            default:
-              rank = 1;
+           
           }
           return (
             <p
