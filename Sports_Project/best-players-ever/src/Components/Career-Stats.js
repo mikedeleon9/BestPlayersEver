@@ -77,7 +77,7 @@ function triggerStats(){
       <input onClick={triggerStats} type="checkbox" id="dark-mode" className="peer sr-only "/> 
   <label for="dark-mode" className="label relative block w-10 h-5 bg-slate-400 rounded-2xl cursor-pointer peer-checked:bg-black">
     
-  <div className="circle w-4 h-4 bg-white rounded-full top-0.5 left-0.5 absolute transition-all duration-300 ease-linear peer-checked:translate-x-5 animate-toggleOff"></div>
+  <div className="circle w-4 h-4 bg-white rounded-full top-0.5 left-0.5 absolute transition-all duration-300 ease-linear"></div>
   </label>
       
       
@@ -85,7 +85,7 @@ function triggerStats(){
       <div className={`grid grid-cols-3 gap-4 `}>
         {Object.entries(isButtonPressed ? BestcareerArray: statsArray).map(([key, value]) => (
          
-         <div key={key} className="flex flex-col items-center">
+         <div key={key} className={`flex flex-col items-center ${isButtonPressed ? "duration-300 ease-linear" : ""}`}>
          <p className="font-bold">{key}</p>
          <p className="font-extralight text-sm">{formatValue(value)}</p>
        </div>
