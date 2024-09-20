@@ -6,18 +6,19 @@ export default function CareerStats({ statistics, mainTeam, position, careerYear
 
   
 const [isButtonPressed, pressButton] = useState(false);
+const [displayedStats, setDisplayedStats] = useState(statistics);
   
 function triggerStats(){
-  if(!isButtonPressed){
-  pressButton(true)
-
-  }
-  else{
-    pressButton(false)
-  }
+ pressButton((prev) => !prev)
 }
 
+useEffect(()=> {
+  const timer = setTimeout(()=>{
+    setDisplayedStats(isButtonPressed ? careerYear : statistics)
+  }, 500);
 
+  return() => clearTimeout(timer);
+}, [isButtonPressed, statistics, careerYear])
 
   const HittingStatsArray = { 
     AVG: statistics.avg, OBP: statistics.obp, SLG: statistics.slg, 
@@ -87,10 +88,10 @@ function triggerStats(){
 
   
 
-      <div className={`grid grid-cols-3 gap-4  `}>
+      <div className={`grid grid-cols-3 gap-4 `}>
         {Object.entries(isButtonPressed ? BestcareerArray : statsArray).map(([key, value]) => (
          
-         <div key={key} className={`flex flex-col items-center  transition-all duration-300 `}>
+         <div key={key} className={`flex flex-col items-center  transition-all duration-500 ${isButtonPressed !== (displayedStats === careerYear) ? 'opacity-0' : 'opacity-100'}  `}>
          <p className="font-bold">{key}</p>
          <p className="font-extralight text-sm">{formatValue(value)}</p>
        </div>
