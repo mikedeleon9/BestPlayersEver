@@ -1,4 +1,4 @@
-import {React, useState} from "react";
+import {React, useState, useEffect} from "react";
 import "./components.css";
 import { teamBackgroundColors,  } from "../Assets/teamDetails";
 
@@ -6,7 +6,6 @@ export default function CareerStats({ statistics, mainTeam, position, careerYear
 
   
 const [isButtonPressed, pressButton] = useState(false);
-
   
 function triggerStats(){
   if(!isButtonPressed){
@@ -17,6 +16,8 @@ function triggerStats(){
     pressButton(false)
   }
 }
+
+
 
   const HittingStatsArray = { 
     AVG: statistics.avg, OBP: statistics.obp, SLG: statistics.slg, 
@@ -84,29 +85,19 @@ function triggerStats(){
       
       </div>
 
-     { isButtonPressed ?
+  
 
       <div className={`grid grid-cols-3 gap-4  `}>
-        {Object.entries(statsArray).map(([key, value]) => (
+        {Object.entries(isButtonPressed ? BestcareerArray : statsArray).map(([key, value]) => (
          
-         <div key={key} className={`flex flex-col items-center ${isButtonPressed ? "opacity-100" : "opacity-0"} transition-all duration-300 `}>
+         <div key={key} className={`flex flex-col items-center  transition-all duration-300 `}>
          <p className="font-bold">{key}</p>
          <p className="font-extralight text-sm">{formatValue(value)}</p>
        </div>
         ))}
       </div>
 
-:
-      <div className={`grid grid-cols-3 gap-4 `}>
-        {Object.entries(BestcareerArray).map(([key, value]) => (
-         
-         <div key={key} className={`flex flex-col items-center  `}>
-         <p className="font-bold">{key}</p>
-         <p className="font-extralight text-sm">{formatValue(value)}</p>
-       </div>
-        ))}
-      </div>
-}
+
 
 
     </div>
