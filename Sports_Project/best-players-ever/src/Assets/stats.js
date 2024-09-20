@@ -700,6 +700,20 @@ despite facing challenges, including suspensions for performance-enhancing drugs
       
   },
 
+  careerYear:{
+    year: 1986,
+    avg : .310,
+    obp : .338,
+    slg : .428,
+    ops : .805,
+    opsPlus : 105,
+    h: 213,
+    doubles: 33,
+    war: 5.0,
+    sb: 25
+  },
+
+
   accomplishments : {
     allStar: 5,
     goldGlove: 4,

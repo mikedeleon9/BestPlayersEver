@@ -10,6 +10,7 @@ const [isButtonPressed, pressButton] = useState(false);
 function triggerStats(){
   if(!isButtonPressed){
   pressButton(true)
+
   }
   else{
     pressButton(false)
@@ -23,18 +24,21 @@ function triggerStats(){
     
     ...(statistics.sb && { SB: statistics.sb }),
     ...(statistics.hr && { HR: statistics.hr}),
-    ...(statistics.h && { H: statistics.h})
+    ...(statistics.h && { H: statistics.h}),
+    ...(statistics.doubles && {'2B': statistics.doubles})
     
   };
 
  const BestHittingCareerYearArray = {
   AVG: careerYear.avg , OBP: careerYear.obp, SLG: careerYear.slg, 
   OPS: careerYear.ops, "OPS+": careerYear.opsPlus, 
-  RBI: careerYear.rbi,  WAR: careerYear.war,
+  WAR: careerYear.war,
   
   ...(careerYear.sb && { SB: careerYear.sb }),
   ...(careerYear.hr && { HR: careerYear.hr}),
-  ...(careerYear.h && { H: careerYear.h})
+  ...(careerYear.h && { H: careerYear.h}),
+  ...(careerYear.doubles && {'2B': careerYear.doubles}),
+  ...(careerYear.rbi && { RBI : careerYear.rbi})
  }
 
 
@@ -72,12 +76,13 @@ function triggerStats(){
 
       <input onClick={triggerStats} type="checkbox" id="dark-mode" className="peer sr-only"/> 
   <label for="dark-mode" className="label relative block w-10 h-5 bg-slate-400 rounded-2xl cursor-pointer peer-checked:bg-white">
+    
   <div className="circle w-4 h-4 bg-white rounded-full top-0.5 left-0.5 absolute transition-all duration-300 ease-linear peer-checked:translate-x-5 animate-toggleOn"></div>
   </label>
       
       
       </div>
-      <div className="grid grid-cols-3 gap-4 transition-opacity">
+      <div className={`grid grid-cols-3 gap-4 `}>
         {Object.entries(isButtonPressed ? BestcareerArray: statsArray).map(([key, value]) => (
          
          <div key={key} className="flex flex-col items-center">
