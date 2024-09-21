@@ -277,7 +277,6 @@ His dedication and prowess on the field solidify his legacy as one of the game's
   trivia: "All time leader in Stolen Bases by a Dominican born player",
   youtubeUrl: "https://www.youtube.com/embed/-yWa0e7hAvk?si=SYOojYoAmKkh_jGd" ,
   Excerpt: `
-
 Pedro Martínez, a Hall of Fame pitcher, is one of the most dominant players in MLB history. 
 Born in the Dominican Republic, he had a career spanning 18 seasons, primarily with the Montreal Expos and Boston Red Sox. 
 Martínez won three Cy Young Awards and was an eight-time All-Star. 
@@ -657,7 +656,7 @@ despite facing challenges, including suspensions for performance-enhancing drugs
       rbi: 1325,
       r: 1090,
       war: 42.1,
-      
+      doubles: 235
   },
 
   accomplishments : {
@@ -699,20 +698,6 @@ despite facing challenges, including suspensions for performance-enhancing drugs
       war: 45.3,
       
   },
-
-  careerYear:{
-    year: 1986,
-    avg : .310,
-    obp : .338,
-    slg : .428,
-    ops : .805,
-    opsPlus : 105,
-    h: 213,
-    doubles: 33,
-    war: 5.0,
-    sb: 25
-  },
-
 
   accomplishments : {
     allStar: 5,
