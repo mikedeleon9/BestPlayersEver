@@ -19,13 +19,13 @@ export default function PersonalDetails({details, position, accomplishments, ran
           <div className="absolute right-6 rounded-full w-16 h-16 flex items-center justify-center border-amber-400 border-2"> 
           <h1 className=" text-amber-400 text-5xl font-ConcertOne">{rank}</h1>
           </div>
-
-         <div  className="h-44 w-66 ">
+       <div className="flex w-full">
+         <div  className="h-44 w-56 ">
          
-            <img className="h-full w-full object-cover " src={image}  alt={name} />
+            <img className="h-full w-full object-cover" src={image}  alt={name} />
          </div>
 
-          <div className="flex flex-col justify-end  ml-6 pb-2">
+          <div className="flex flex-col justify-end ml-12 pb-2 ">
             
         <p className="text-white text-4xl font-bold">{name}</p>
         <div className="flex items-center gap-4 my-2">
@@ -80,6 +80,7 @@ export default function PersonalDetails({details, position, accomplishments, ran
           )}
         </div>
          
+      </div>
       </div>
     </div>
   )
