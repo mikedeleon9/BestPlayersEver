@@ -1,10 +1,10 @@
 import React from 'react';
 import "./components.css";
-import { teamBorderColors } from '../Assets/teamDetails';
+
 
 export default function YoutubeVideo({youtubeUrl, mainTeam}){
 
-    const bordercolor = teamBorderColors[mainTeam]
+
 
     return(
 

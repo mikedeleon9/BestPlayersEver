@@ -1,47 +1,4 @@
-export const teamTextColors = {
-    Rangers : "text-blue-500",
-    "White Sox" : "text-black",
-    Cubs : "cubsBlue",
-    Orioles : "text-orange-500",
-    Cardinals: "text-red-500",
-    Angels: "text-red-500",
-    Dodgers: "text-blue-800",
-    Astros: "text-orange-600",
-    "Red Sox": "text-red-400",
-    Giants: "text-orange-700",
-    Angels: "text-red-400",
-    Yankees: "text-blue-950",
-    Athletics: "text-green-800",
-    Guardians: "text-red-500",
-    "Blue Jays" : "bg-blue-600"
-  }
 
-  export const teamAlternateColor = {
-    Cubs: "bg-red-500",
-    Astros: "bg-blue-900",
-    Cardinals: "bg-white",
-    Rangers: "bg-red-500",
-    "Red Sox" : "bg-blue-900",
-    Giants: "bg-black",
-    Angels: "bg-white",
-    Yankees: "bg-white",
-    Athletics: "bg-yellow-500",
-    Guardians: "bg-red-600",
-    Mariners: "bg-teal-600",
-  }
-
-  export const teamBorderColors = {
-    Cubs: "border-red-500",
-    Astros: "border-blue-900",
-    Cardinals: "border-white",
-    Rangers: "border-red-500",
-    "Red Sox": "border-blue-900",
-    Giants: "border-black",
-    Angels: "border-white",
-    Yankees: "border-white",
-    Athletics: "border-yellow-500",
-   
-  };
 
  export const teamBackgroundColors = {
     Rangers : "bg-blue-500",
@@ -59,7 +16,8 @@ export const teamTextColors = {
     Athletics: "bg-green-800",
     Guardians: "bg-red-800",
      Mariners: "bg-teal-600",
-     "Blue Jays" : "bg-blue-600"
+     "Blue Jays" : "bg-blue-600",
+     Marlins: 'bg-teal-600'
   }
 
  

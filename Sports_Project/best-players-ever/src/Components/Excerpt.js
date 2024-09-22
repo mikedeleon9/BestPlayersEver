@@ -1,10 +1,10 @@
 import React from "react";
 import "./components.css";
-import { teamBackgroundColors, teamBorderColors } from "../Assets/teamDetails";
+import { teamBackgroundColors } from "../Assets/teamDetails";
 
 export default function Excerpt({ mainTeam, Excerpt }) {
   const backgroundColor = teamBackgroundColors[mainTeam];
-  const bordercolor = teamBorderColors[mainTeam];
+
 
   return (
     <div className={` p-6 ${backgroundColor} rounded-xl text-white `}>

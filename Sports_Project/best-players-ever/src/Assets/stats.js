@@ -97,7 +97,8 @@ const stats = [
       allStar: 11,
       MVP: 3,
       SilverSlugger: 6,
-      goldGlove: 2
+      goldGlove: 2,
+      RoY: "Yes"
     },
     trivia: "Grounded into the most double plays in MLB History",
     youtubeUrl: "https://www.youtube.com/embed/6DGih2DUYOs?si=efq4dWCljYwOViYA",
@@ -788,11 +789,11 @@ despite facing challenges, including suspensions for performance-enhancing drugs
       obp: .360,
       slg: .486,
       ops: .847,
-      opsPlus: 111,
-      h: 2586,
+      opsPlus: 124,
+      h: 1834,
       sb: 281,
-      r: 1285,
-      war: 43.6,
+      r: 1834,
+      war: 38,
       
   },
 
@@ -811,8 +812,9 @@ despite facing challenges, including suspensions for performance-enhancing drugs
 
   accomplishments : {
     allStar: 3,
-    SilverSlugger: 5,
+    SilverSlugger: 2,
     BattlingTitle: 1,
+    RoY: "yes"
 
   },
 
@@ -824,16 +826,16 @@ despite facing challenges, including suspensions for performance-enhancing drugs
   He holds the record as the oldest player to hit a home run, achieving this at age 48.`
 },
 
-//Rafael Furcal
+//Jose Bautista
 
 {
   personalDetails: {
-      name: "Julio Franco",
-      mainTeam: "Rangers",
-      birthPlace: "Hato Mayor",
-      teams: ["Phillies", "Indians", "Rangers", "White Sox", "Brewers", "Devil Rays", "Braves", "Mets"],
-      number: 14,
-      image: images["Franco"],
+      name: "Jose Bautista",
+      mainTeam: "Blue Jays",
+      birthPlace: "santo D",
+      teams: ["Orioles", "Rays", "Royals", "Pirates", "Blue Jays", "Braves", "Mets", "Phillies"],
+      number: 19,
+      image: images["Bautista"],
   },
   
   rank: 17,

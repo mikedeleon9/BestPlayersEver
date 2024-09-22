@@ -1,6 +1,6 @@
 import {React, useContext} from "react";
 import "./components.css";
-import { teamBackgroundColors, teamBorderColors } from "../Assets/teamDetails";
+
 import { PlayerContext } from "../Pages/PlayersPage";
 import RankBar from "./RankBar";
 import SearchIcon from "../Assets/Images/Nav-icons/search.png"

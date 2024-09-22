@@ -7,7 +7,7 @@ export default function PersonalDetails({details, position, accomplishments, ran
 
   
   const {name, birthPlace, mainTeam, number, image} = details;
-  const{allStar, hallOfFame, SilverSlugger, goldGlove, MVP, CyYoung, eraTitle, platinumGlove} = accomplishments;
+  const{allStar, hallOfFame, SilverSlugger, goldGlove, MVP, CyYoung, eraTitle, platinumGlove, RoY} = accomplishments;
   const backgroundColor = teamBackgroundColors[mainTeam] || "bg-gray-800";
   const buttonStyling = "font-bold py-1 px-2 rounded-lg  text-center";
 
@@ -20,7 +20,7 @@ export default function PersonalDetails({details, position, accomplishments, ran
           <h1 className=" text-amber-400 text-5xl font-ConcertOne">{rank}</h1>
           </div>
 
-         <div  className="h-44 w-56 ">
+         <div  className="h-44 w-66 ">
          
             <img className="h-full w-full object-cover " src={image}  alt={name} />
          </div>
@@ -61,6 +61,16 @@ export default function PersonalDetails({details, position, accomplishments, ran
            {CyYoung && (
             <button className={`bg-amber-600 ${buttonStyling}`}>
               <span className="text-white text-sm">{`${CyYoung === 1 ? "Cy Young" : `${CyYoung}X Cy Young`}`}</span>
+            </button>
+          )}
+           {RoY && (
+            <button className={`bg-amber-600 ${buttonStyling}`}>
+             <span className="text-black text-sm">R.O.Y</span>
+            </button>
+          )}
+            {eraTitle && (
+            <button className={`bg-sky-700 ${buttonStyling}`}>
+              <span className="text-white text-sm">{`${eraTitle === 1 ? "ERA Title" : `${eraTitle}X ERA Title`}`}</span>
             </button>
           )}
         </div>
