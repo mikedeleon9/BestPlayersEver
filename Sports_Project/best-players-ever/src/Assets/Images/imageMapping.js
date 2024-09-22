@@ -13,7 +13,7 @@ import OrtizImage from "..//Images/Ortiz.png"
 import JRamImage from "../Images/J-Ram.png"
 import CruzImage from "../Images/Cruz.png"
 import FernandezImage from "../Images/Fernandez.png"
-
+import FrancoImage from "../Images/Franco.png"
 
 const images = {
    Sosa: SosaImage, 
@@ -30,7 +30,8 @@ const images = {
    Ortiz: OrtizImage,
    JRam: JRamImage,
    Cruz: CruzImage,
-   Fernandez: FernandezImage
+   Fernandez: FernandezImage,
+   Franco : FrancoImage
 }
 
 export default images;

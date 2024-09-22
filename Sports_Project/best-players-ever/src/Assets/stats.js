@@ -684,7 +684,7 @@ despite facing challenges, including suspensions for performance-enhancing drugs
       image: images["Fernandez"],
   },
   
-  rank: 15,
+  rank: 16,
   position: "Shortstop",
   CareerStats: {
       avg: .288,
@@ -711,6 +711,62 @@ despite facing challenges, including suspensions for performance-enhancing drugs
 
   Excerpt: `Tony Fernández was known for his smooth fielding and consistent hitting. A five-time All-Star and four-time Gold Glove Award winner, Fernández played the majority of his career with the Toronto Blue Jays. Renowned for his defensive skills, quick hands, and strong arm, he also contributed offensively with over 2,200 career hits. 
   Fernández played a key role in the Blue Jays' 1993 World Series victory, solidifying his legacy as one of baseball’s top shortstops of his era.`
+},
+
+
+//Julio Franco
+
+{
+  personalDetails: {
+      name: "Julio Franco",
+      mainTeam: "Rangers",
+      birthPlace: "Hato Mayor",
+      teams: ["Phillies", "Indians", "Rangers", "White Sox", "Brewers", "Devil Rays", "Braves", "Mets"],
+      number: 14,
+      image: images["Franco"],
+  },
+  
+  rank: 15,
+  position: "Infielder",
+  CareerStats: {
+      avg: .298,
+      obp: .365,
+      slg: .417,
+      ops: .782,
+      opsPlus: 111,
+      h: 2586,
+      sb: 281,
+      r: 1285,
+      war: 43.6,
+      
+  },
+
+  careerYear:{
+    avg : .341,
+    obp : .408,
+    slg : .474,
+    ops : .882,
+    opsPlus : 146,
+    hr: 15,
+    sb: 36,
+    war: 6.2
+    
+  },
+
+
+  accomplishments : {
+    allStar: 3,
+    SilverSlugger: 5,
+    BattlingTitle: 1,
+
+  },
+
+  trivia: "One of four Dominican players to win MVP",
+  youtubeUrl: "https://www.youtube.com/embed/7F6I_bDfdOg?si=X1Jwv6LCT5zqD8fd",
+
+  Excerpt: `Known for his unique batting stance and remarkable longevity, Franco made his MLB debut in 1982 and played for several teams, including the Cleveland Indians, Texas Rangers, and Atlanta Braves. 
+  A versatile infielder, Franco won the American League batting title in 1991 and was a three-time All-Star. 
+  He holds the record as the oldest player to hit a home run, achieving this at age 48.`
 },
 
     ]

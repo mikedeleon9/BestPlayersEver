@@ -18,7 +18,7 @@ export default function MainLayout({ children }) {
               
                 <div className="flex-1 flex overflow-auto justify-center"> {/* Ensure scrollability */}
                     
-                    <main className="flex justify-center w-2/3"> {/* Added margin-top to ensure content does not overlap */}
+                    <main className="flex justify-center w-3/5"> {/* Added margin-top to ensure content does not overlap */}
                        
                         {children}
                        
