@@ -7,7 +7,7 @@ export default function PersonalDetails({details, position, accomplishments, ran
 
   
   const {name, birthPlace, mainTeam, number, image} = details;
-  const{allStar, hallOfFame, SilverSlugger, goldGlove, MVP, CyYoung, eraTitle, platinumGlove, RoY} = accomplishments;
+  const{allStar, hallOfFame, SilverSlugger, goldGlove, MVP, CyYoung, eraTitle, platinumGlove, RoY, battingTitle} = accomplishments;
   const backgroundColor = teamBackgroundColors[mainTeam] || "bg-gray-800";
   const buttonStyling = "font-bold py-1 px-2 rounded-lg  text-center";
 
@@ -71,6 +71,11 @@ export default function PersonalDetails({details, position, accomplishments, ran
             {eraTitle && (
             <button className={`bg-sky-700 ${buttonStyling}`}>
               <span className="text-white text-sm">{`${eraTitle === 1 ? "ERA Title" : `${eraTitle}X ERA Title`}`}</span>
+            </button>
+          )}
+           {battingTitle && (
+            <button className={`bg-amber-600 ${buttonStyling}`}>
+              <span className="text-white text-sm">{`${battingTitle === 1 ? "Batting Title" : `${SilverSlugger}X Batting Title`}`}</span>
             </button>
           )}
         </div>

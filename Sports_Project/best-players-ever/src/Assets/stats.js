@@ -98,7 +98,8 @@ const stats = [
       MVP: 3,
       SilverSlugger: 6,
       goldGlove: 2,
-      RoY: "Yes"
+      RoY: "Yes",
+      battingTitle: 1
     },
     trivia: "Grounded into the most double plays in MLB History",
     youtubeUrl: "https://www.youtube.com/embed/6DGih2DUYOs?si=efq4dWCljYwOViYA",
@@ -886,26 +887,25 @@ Bautista’s leadership and clutch performances made him a fan favorite in Toron
 
 {
   personalDetails: {
-      name: "Julio Franco",
-      mainTeam: "Rangers",
-      birthPlace: "Hato Mayor",
-      teams: ["Phillies", "Indians", "Rangers", "White Sox", "Brewers", "Devil Rays", "Braves", "Mets"],
-      number: 14,
-      image: images["Franco"],
+      name: "Juan Soto",
+      mainTeam: "Nationals",
+      birthPlace: "Santo Domingo",
+      teams: ["Nationals", "Padres", "Yankees"],
+      number: 22,
+      image: images["Soto"],
   },
   
   rank: 18,
-  position: "Infielder",
+  position: "Outfielder",
   CareerStats: {
-      avg: .298,
-      obp: .365,
-      slg: .417,
-      ops: .782,
-      opsPlus: 111,
-      h: 2586,
-      sb: 281,
-      r: 1285,
-      war: 43.6,
+      avg: .285,
+      obp: .421,
+      slg: .533,
+      ops: .954,
+      opsPlus: 160,
+      hr: 200,
+      bb: 764,
+      war: 36.3,
       
   },
 
@@ -923,9 +923,9 @@ Bautista’s leadership and clutch performances made him a fan favorite in Toron
 
 
   accomplishments : {
-    allStar: 3,
-    SilverSlugger: 5,
-    BattlingTitle: 1,
+    allStar: 4,
+    SilverSlugger: 4,
+    battingTitle: 1,
 
   },
 
@@ -943,7 +943,7 @@ Bautista’s leadership and clutch performances made him a fan favorite in Toron
 {
   personalDetails: {
       name: "Felipe Alou",
-      mainTeam: "Braves",
+      mainTeam: "Giants",
       birthPlace: "Hato Mayor",
       teams: ["Giants", "Braves", "Athletics", "Yankees", "Expos", "Brewers"],
       number: 29,
@@ -951,28 +951,30 @@ Bautista’s leadership and clutch performances made him a fan favorite in Toron
   },
   
   rank: 19,
-  position: "Infielder",
+  position: "Outfielder",
   CareerStats: {
-      avg: .298,
-      obp: .365,
-      slg: .417,
-      ops: .782,
-      opsPlus: 111,
-      h: 2586,
-      sb: 281,
-      r: 1285,
-      war: 43.6,
+      avg: .286,
+      obp: .328,
+      slg: .433,
+      ops: .761,
+      opsPlus: 113,
+      h: 2101,
+      r: 985,
+      doubles: 352,
+      war: 42.2,
+      hr: 206
       
   },
 
   careerYear:{
-    avg : .341,
-    obp : .408,
-    slg : .474,
-    ops : .882,
-    opsPlus : 146,
-    hr: 15,
-    sb: 36,
+    avg : .327,
+    obp : .361,
+    slg : .533,
+    ops : .894,
+    opsPlus : 142,
+    hr: 31,
+    rbi: 74,
+    doubles: 32,
     war: 6.2
     
   },
@@ -980,17 +982,16 @@ Bautista’s leadership and clutch performances made him a fan favorite in Toron
 
   accomplishments : {
     allStar: 3,
-    SilverSlugger: 5,
-    BattlingTitle: 1,
+    
 
   },
 
   trivia: "One of four Dominican players to win MVP",
-  youtubeUrl: "https://www.youtube.com/embed/7F6I_bDfdOg?si=X1Jwv6LCT5zqD8fd",
+  youtubeUrl: "https://www.youtube.com/embed/1qOpEkKyQ2U?si=3nw6RaVMZB7M23e-",
 
-  Excerpt: `Known for his unique batting stance and remarkable longevity, Franco made his MLB debut in 1982 and played for several teams, including the Cleveland Indians, Texas Rangers, and Atlanta Braves. 
-  A versatile infielder, Franco won the American League batting title in 1991 and was a three-time All-Star. 
-  He holds the record as the oldest player to hit a home run, achieving this at age 48.`
+  Excerpt: `Felipe Alou had a distinguished playing and managerial career. As a player, Alou was a versatile outfielder and first baseman, earning three All-Star selections. 
+  He played for teams like the San Francisco Giants and Atlanta Braves during his 17-year career, excelling as a hitter with over 2,100 hits and 200 home runs. 
+  Alou also became the first Dominican manager in MLB history, leading the Montreal Expos and later the Giants. He is celebrated for his contributions both on and off the field.`
 },
 
     ]

@@ -23,8 +23,9 @@ useEffect(()=> {
   const HittingStatsArray = { 
     AVG: statistics.avg, OBP: statistics.obp, SLG: statistics.slg, 
     OPS: statistics.ops, "OPS+": statistics.opsPlus, 
-    RBI: statistics.rbi,  WAR: statistics.war,
+    WAR: statistics.war,
     
+    ...(statistics.rbi && {RBI: statistics.rbi}),
     ...(statistics.sb && { SB: statistics.sb }),
     ...(statistics.hr && { HR: statistics.hr}),
     ...(statistics.h && { H: statistics.h}),

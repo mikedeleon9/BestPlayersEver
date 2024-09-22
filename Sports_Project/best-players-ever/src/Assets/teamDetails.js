@@ -17,7 +17,9 @@
     Guardians: "bg-red-800",
      Mariners: "bg-teal-600",
      "Blue Jays" : "bg-blue-600",
-     Marlins: 'bg-teal-600'
+     Marlins: 'bg-teal-600',
+     Braves: 'bg-red-800',
+     Nationals: 'bg-red-900'
   }
 
  
