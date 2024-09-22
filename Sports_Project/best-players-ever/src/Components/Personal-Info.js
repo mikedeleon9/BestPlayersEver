@@ -32,7 +32,7 @@ export default function PersonalDetails({details, position, accomplishments, ran
         <p className="text-white">{position === "Pitcher" ? `Starting Pitcher` : position}</p>
         <p className="text-white font-medium ">Born: {birthPlace}, DR</p>
         </div>
-        <div className="flex gap-2 ">
+        <div className="flex gap-2 flex-wrap">
           {hallOfFame && (
             <button className={`bg-amber-400 ${buttonStyling}`}>
               <span className="text-black text-sm">Hall Of Fame</span>
