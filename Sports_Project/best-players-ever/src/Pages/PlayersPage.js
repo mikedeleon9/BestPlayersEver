@@ -12,6 +12,7 @@ import YoutubeVideo from "../Components/Youtube-Video";
 export default function PlayersPage() {
 
   const RANK_RANGES = {
+    '20-16' : {min: 16, max: 20},
     '15-11': { min: 11, max: 15 },
     '10-6': { min: 6, max: 10 },
     '5-1': { min: 1, max: 5 },

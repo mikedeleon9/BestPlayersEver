@@ -684,7 +684,7 @@ despite facing challenges, including suspensions for performance-enhancing drugs
       image: images["Fernandez"],
   },
   
-  rank: 16,
+  rank: 20,
   position: "Shortstop",
   CareerStats: {
       avg: .288,
@@ -769,7 +769,231 @@ despite facing challenges, including suspensions for performance-enhancing drugs
   He holds the record as the oldest player to hit a home run, achieving this at age 48.`
 },
 
+
+//Hanley Ramirez
+{
+  personalDetails: {
+      name: "Hanley Ramirez",
+      mainTeam: "Marlins",
+      birthPlace: "Samana",
+      teams: ["Marlins", "Dodgers", "Red Sox", "Indians"],
+      number: 2,
+      image: images["Hanley"],
+  },
+  
+  rank: 16,
+  position: "Shortstop",
+  CareerStats: {
+      avg: .289,
+      obp: .360,
+      slg: .486,
+      ops: .847,
+      opsPlus: 111,
+      h: 2586,
+      sb: 281,
+      r: 1285,
+      war: 43.6,
+      
+  },
+
+  careerYear:{
+    avg : .341,
+    obp : .408,
+    slg : .474,
+    ops : .882,
+    opsPlus : 146,
+    hr: 15,
+    sb: 36,
+    war: 6.2
+    
+  },
+
+
+  accomplishments : {
+    allStar: 3,
+    SilverSlugger: 5,
+    BattlingTitle: 1,
+
+  },
+
+  trivia: "One of four Dominican players to win MVP",
+  youtubeUrl: "https://www.youtube.com/embed/7F6I_bDfdOg?si=X1Jwv6LCT5zqD8fd",
+
+  Excerpt: `Known for his unique batting stance and remarkable longevity, Franco made his MLB debut in 1982 and played for several teams, including the Cleveland Indians, Texas Rangers, and Atlanta Braves. 
+  A versatile infielder, Franco won the American League batting title in 1991 and was a three-time All-Star. 
+  He holds the record as the oldest player to hit a home run, achieving this at age 48.`
+},
+
+//Rafael Furcal
+
+{
+  personalDetails: {
+      name: "Julio Franco",
+      mainTeam: "Rangers",
+      birthPlace: "Hato Mayor",
+      teams: ["Phillies", "Indians", "Rangers", "White Sox", "Brewers", "Devil Rays", "Braves", "Mets"],
+      number: 14,
+      image: images["Franco"],
+  },
+  
+  rank: 17,
+  position: "Infielder",
+  CareerStats: {
+      avg: .298,
+      obp: .365,
+      slg: .417,
+      ops: .782,
+      opsPlus: 111,
+      h: 2586,
+      sb: 281,
+      r: 1285,
+      war: 43.6,
+      
+  },
+
+  careerYear:{
+    avg : .341,
+    obp : .408,
+    slg : .474,
+    ops : .882,
+    opsPlus : 146,
+    hr: 15,
+    sb: 36,
+    war: 6.2
+    
+  },
+
+
+  accomplishments : {
+    allStar: 3,
+    SilverSlugger: 5,
+    BattlingTitle: 1,
+
+  },
+
+  trivia: "One of four Dominican players to win MVP",
+  youtubeUrl: "https://www.youtube.com/embed/7F6I_bDfdOg?si=X1Jwv6LCT5zqD8fd",
+
+  Excerpt: `Known for his unique batting stance and remarkable longevity, Franco made his MLB debut in 1982 and played for several teams, including the Cleveland Indians, Texas Rangers, and Atlanta Braves. 
+  A versatile infielder, Franco won the American League batting title in 1991 and was a three-time All-Star. 
+  He holds the record as the oldest player to hit a home run, achieving this at age 48.`
+},
+
+
+//Juan Soto
+
+{
+  personalDetails: {
+      name: "Julio Franco",
+      mainTeam: "Rangers",
+      birthPlace: "Hato Mayor",
+      teams: ["Phillies", "Indians", "Rangers", "White Sox", "Brewers", "Devil Rays", "Braves", "Mets"],
+      number: 14,
+      image: images["Franco"],
+  },
+  
+  rank: 18,
+  position: "Infielder",
+  CareerStats: {
+      avg: .298,
+      obp: .365,
+      slg: .417,
+      ops: .782,
+      opsPlus: 111,
+      h: 2586,
+      sb: 281,
+      r: 1285,
+      war: 43.6,
+      
+  },
+
+  careerYear:{
+    avg : .341,
+    obp : .408,
+    slg : .474,
+    ops : .882,
+    opsPlus : 146,
+    hr: 15,
+    sb: 36,
+    war: 6.2
+    
+  },
+
+
+  accomplishments : {
+    allStar: 3,
+    SilverSlugger: 5,
+    BattlingTitle: 1,
+
+  },
+
+  trivia: "One of four Dominican players to win MVP",
+  youtubeUrl: "https://www.youtube.com/embed/7F6I_bDfdOg?si=X1Jwv6LCT5zqD8fd",
+
+  Excerpt: `Known for his unique batting stance and remarkable longevity, Franco made his MLB debut in 1982 and played for several teams, including the Cleveland Indians, Texas Rangers, and Atlanta Braves. 
+  A versatile infielder, Franco won the American League batting title in 1991 and was a three-time All-Star. 
+  He holds the record as the oldest player to hit a home run, achieving this at age 48.`
+},
+
+
+//Felipe Alou
+
+{
+  personalDetails: {
+      name: "Felipe Alou",
+      mainTeam: "Braves",
+      birthPlace: "Hato Mayor",
+      teams: ["Giants", "Braves", "Athletics", "Yankees", "Expos", "Brewers"],
+      number: 29,
+      image: images["Alou"],
+  },
+  
+  rank: 19,
+  position: "Infielder",
+  CareerStats: {
+      avg: .298,
+      obp: .365,
+      slg: .417,
+      ops: .782,
+      opsPlus: 111,
+      h: 2586,
+      sb: 281,
+      r: 1285,
+      war: 43.6,
+      
+  },
+
+  careerYear:{
+    avg : .341,
+    obp : .408,
+    slg : .474,
+    ops : .882,
+    opsPlus : 146,
+    hr: 15,
+    sb: 36,
+    war: 6.2
+    
+  },
+
+
+  accomplishments : {
+    allStar: 3,
+    SilverSlugger: 5,
+    BattlingTitle: 1,
+
+  },
+
+  trivia: "One of four Dominican players to win MVP",
+  youtubeUrl: "https://www.youtube.com/embed/7F6I_bDfdOg?si=X1Jwv6LCT5zqD8fd",
+
+  Excerpt: `Known for his unique batting stance and remarkable longevity, Franco made his MLB debut in 1982 and played for several teams, including the Cleveland Indians, Texas Rangers, and Atlanta Braves. 
+  A versatile infielder, Franco won the American League batting title in 1991 and was a three-time All-Star. 
+  He holds the record as the oldest player to hit a home run, achieving this at age 48.`
+},
+
     ]
+
+
 
 
 
