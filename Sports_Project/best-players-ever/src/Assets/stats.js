@@ -819,11 +819,10 @@ despite facing challenges, including suspensions for performance-enhancing drugs
   },
 
   trivia: "One of four Dominican players to win MVP",
-  youtubeUrl: "https://www.youtube.com/embed/7F6I_bDfdOg?si=X1Jwv6LCT5zqD8fd",
+  youtubeUrl: "https://www.youtube.com/embed/Ptfy6Xgmu_c?si=66Jw2XSvncq2Hph3",
 
-  Excerpt: `Known for his unique batting stance and remarkable longevity, Franco made his MLB debut in 1982 and played for several teams, including the Cleveland Indians, Texas Rangers, and Atlanta Braves. 
-  A versatile infielder, Franco won the American League batting title in 1991 and was a three-time All-Star. 
-  He holds the record as the oldest player to hit a home run, achieving this at age 48.`
+  Excerpt: `Known for his dynamic offensive skills and versatility, primarily at shortstop, Ramírez won the National League Rookie of the Year in 2006 with the Florida Marlins and earned three All-Star selections throughout his career. 
+  He also won the NL batting title in 2009, hitting .342. Ramírez had stints with the Boston Red Sox and Los Angeles Dodgers, where his combination of power and speed made him one of the top players of his era.`
 },
 
 //Jose Bautista
@@ -839,46 +838,47 @@ despite facing challenges, including suspensions for performance-enhancing drugs
   },
   
   rank: 17,
-  position: "Infielder",
+  position: "Outfielder",
   CareerStats: {
-      avg: .298,
-      obp: .365,
-      slg: .417,
-      ops: .782,
-      opsPlus: 111,
-      h: 2586,
-      sb: 281,
-      r: 1285,
+      avg: .247,
+      obp: .361,
+      slg: .475,
+      ops: .836,
+      opsPlus: 124,
+      hr: 344,
+      h: 1496,
+      rbi: 975,
       war: 43.6,
       
   },
 
   careerYear:{
-    avg : .341,
-    obp : .408,
-    slg : .474,
-    ops : .882,
-    opsPlus : 146,
-    hr: 15,
-    sb: 36,
-    war: 6.2
+    avg : .302,
+    obp : .447,
+    slg : .608,
+    ops : 1.056,
+    opsPlus : 182,
+    hr: 43,
+    rbi: 103,
+    war: 8.3
     
   },
 
 
   accomplishments : {
-    allStar: 3,
-    SilverSlugger: 5,
-    BattlingTitle: 1,
+    allStar: 6,
+    SilverSlugger: 3,
+    
 
   },
 
   trivia: "One of four Dominican players to win MVP",
-  youtubeUrl: "https://www.youtube.com/embed/7F6I_bDfdOg?si=X1Jwv6LCT5zqD8fd",
+  youtubeUrl: "https://www.youtube.com/embed/-UdsVO7HaJg?si=9x_solGFRY7Ci3Cq",
 
-  Excerpt: `Known for his unique batting stance and remarkable longevity, Franco made his MLB debut in 1982 and played for several teams, including the Cleveland Indians, Texas Rangers, and Atlanta Braves. 
-  A versatile infielder, Franco won the American League batting title in 1991 and was a three-time All-Star. 
-  He holds the record as the oldest player to hit a home run, achieving this at age 48.`
+  Excerpt: `
+ Best known for his powerful hitting and iconic bat flip during the 2015 playoffs, Bautista played for several teams, but rose to prominence with the Toronto Blue Jays, where he became a six-time All-Star and led the league in home runs twice. 
+His 54 homers in 2010 solidified his status as one of the game's premier sluggers. 
+Bautista’s leadership and clutch performances made him a fan favorite in Toronto.`
 },
 
 
