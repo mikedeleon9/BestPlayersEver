@@ -73,8 +73,8 @@ useEffect(()=> {
 
   return (
     <div className={`w-full px-4 py-2 ${backgroundColor} font-Inter rounded-xl text-white shadow-md`}>
-      <div className="flex justify-between py-2">
-      <h2 className=" font-bold text-xl">{isButtonPressed ? 'Best Season': 'Career Stats'}</h2>
+      <div className="flex  justify-between py-2">
+      <h2 className=" font-bold text-xl ">{isButtonPressed ? 'Best Season': 'Career Stats'}</h2>
 
 
       <input onClick={triggerStats} type="checkbox" id="dark-mode" className="peer sr-only "/> 
