@@ -688,6 +688,7 @@ despite facing challenges, including suspensions for performance-enhancing drugs
   
   rank: 20,
   position: "Shortstop",
+
   CareerStats: {
       avg: .288,
       obp: .347,
@@ -700,6 +701,20 @@ despite facing challenges, including suspensions for performance-enhancing drugs
       war: 45.3,
       
   },
+
+
+  careerYear:{
+    avg : .310,
+    obp : .338,
+    slg : .428,
+    ops : .766,
+    opsPlus : 105,
+    doules: 33,
+    sb: 25,
+    war: 5.0
+    
+  },
+
 
   accomplishments : {
     allStar: 5,

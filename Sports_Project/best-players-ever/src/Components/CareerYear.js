@@ -25,17 +25,25 @@ export default function CareerYear({careerYear, mainTeam, position}){
         "ERA+": careerYear.eraPlus, Walks: careerYear.bb, Shutouts: careerYear.sho
       };
 
-      const rateStats = ["AVG", "OBP", "SLG", "OPS"];
+      const statThresholds = {
+        AVG: 0.330,
+        OBP: 0.400,
+        SLG: 0.600,
+        OPS: 1.000,
+        "OPS+": 150,
+        WAR: 7,
+      };
 
-      const getBarWidth = (key, value) => {
-        // Only apply the width logic to rate stats
-        if (rateStats.includes(key) && value > 0.330) {
-          return "w-full"; // Adjust width for rate stats > 0.290
+      const getBarWidthPercentage = (key, value) => {
+        const threshold = statThresholds[key];
+        if (threshold && value >= threshold) {
+          return "100%"; // Full bar if value meets or exceeds the threshold
+        } else if (threshold && value >= threshold * 0.8) {
+          return "66%"; // Two-thirds bar
+        } else if (threshold && value >= threshold * 0.5) {
+          return "33%"; // One-third bar
         }
-        else if(rateStats.includes(key) && value < 0.330 && value > .300){
-            return "w-3/4"
-        }
-        return "w-1/4"; // Default width for other stats or for rate stats <= 0.290
+        return "100%"; // Default width for non-rate stats or undefined thresholds
       };
     
 
@@ -50,17 +58,21 @@ export default function CareerYear({careerYear, mainTeam, position}){
     
     const BestcareerArray = position === "Pitcher" ? BestPitchingCareerYearArray : BestHittingCareerYearArray;
 
-    return(
-        <div className={`${backgroundColor} w-full px-4 py-2 rounded-xl`}>
-            <div className={` gap-4 `}>
-        {Object.entries(BestcareerArray ).map(([key, value]) => (
-         
-         <div key={key} className={`flex gap-2 py-2 transition-all duration-500 `}>
-         <p className="font-bold w-12">{key}</p><div className={`${getBarWidth(key, value)} border-2`}></div>
-       { /* <p className="font-extralight text-sm">{formatValue(value)}</p> */}
-       </div>
-        ))}
-      </div>
+    return (
+      <div className={`${backgroundColor} w-full px-4 py-2 rounded-xl`}>
+        <div className="gap-4">
+          {Object.entries(BestcareerArray).map(([key, value]) => (
+            <div key={key} className="flex gap-2 py-2 items-center">
+              <p className="font-bold w-12">{key}</p>
+              <div
+                className="fill-bar border-2 text-center"
+                style={{ width: getBarWidthPercentage(key, value) }}
+              >
+                {formatValue(value)}
+              </div>
+            </div>
+          ))}
         </div>
-    )
+      </div>
+    );
 }
