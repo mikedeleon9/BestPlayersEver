@@ -43,7 +43,7 @@ export default function RankBar() {
                 }  
         </div>
         <Link to ="/PlayersPage">
-        <div className="flex items-center gap-2 md:gap-4">
+        <div className="flex items-center gap-2 md:gap-2">
 
         {["25-21","20-16","15-11", "10-6", "5-1"].map((label, index) => {
           let rank;
