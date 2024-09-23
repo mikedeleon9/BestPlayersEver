@@ -27,23 +27,36 @@ export default function CareerYear({careerYear, mainTeam, position}){
 
       const statThresholds = {
         AVG: 0.330,
-        OBP: 0.400,
-        SLG: 0.600,
+        OBP: 0.420,
+        SLG: 0.620,
         OPS: 1.000,
         "OPS+": 150,
         WAR: 7,
+        HR: 50,
+        SB: 30
       };
 
       const getBarWidthPercentage = (key, value) => {
-        const threshold = statThresholds[key];
+      const threshold = statThresholds[key];
         if (threshold && value >= threshold) {
           return "100%"; // Full bar if value meets or exceeds the threshold
-        } else if (threshold && value >= threshold * 0.8) {
-          return "66%"; // Two-thirds bar
-        } else if (threshold && value >= threshold * 0.5) {
-          return "33%"; // One-third bar
+        } 
+        else if (threshold && value >= threshold * 0.9) {
+          return "80%"; 
         }
-        return "100%"; // Default width for non-rate stats or undefined thresholds
+        else if(threshold && value >= threshold * 0.8){
+          return "60%"
+        }
+        else if(threshold && value >= threshold * 0.7){
+          return "40%"
+        }
+        else if (threshold && value >= threshold * 0.5){
+          return "50%";
+          }
+        else if (threshold && value >= threshold * 0.3) {
+          return "30%"; // One-third bar
+        }
+        return "0%"; // Default width for non-rate stats or undefined thresholds
       };
     
 
