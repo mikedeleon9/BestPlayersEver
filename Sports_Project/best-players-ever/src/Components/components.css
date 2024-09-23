@@ -3,6 +3,12 @@
 @tailwind utilities;
 
 
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 @keyframes toggleOn{
     0%{
       transform: translateX(0);

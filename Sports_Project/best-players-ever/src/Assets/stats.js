@@ -497,6 +497,18 @@ A nine-time All-Star and 2004 AL MVP, he retired with a .318 batting average, 44
       war: 47.1
   },
 
+  careerYear:{
+    avg : .311,
+    obp : .360,
+    slg : .534,
+    ops : .894,
+    opsPlus : 131,
+    hr: 34,
+    rbi: 150,
+    war: 7.4
+    
+  },
+
   accomplishments : {
     allStar: 6,
     SilverSlugger: 2,
@@ -814,14 +826,14 @@ despite facing challenges, including suspensions for performance-enhancing drugs
   },
 
   careerYear:{
-    avg : .341,
-    obp : .408,
-    slg : .474,
-    ops : .882,
-    opsPlus : 146,
-    hr: 15,
-    sb: 36,
-    war: 6.2
+    avg : .342,
+    obp : .410,
+    slg : .543,
+    ops : .954,
+    opsPlus : 148,
+    hr: 24,
+    sb: 37,
+    war: 7.3
     
   },
 
