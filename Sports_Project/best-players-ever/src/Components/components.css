@@ -41,3 +41,9 @@
     opacity: 0;
     transform: translateY(-20px); /* Slight upward animation */
   }
+
+  @media screen and (min-width: 1280px) and (max-width: 1440px) and (-webkit-min-device-pixel-ratio: 2) {
+    .custom-macbook-text {
+      font-size: 0.875rem; /* Adjust for MacBook (smaller text) */
+    }
+  }
