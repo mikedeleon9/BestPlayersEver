@@ -8,6 +8,7 @@ import PersonalDetails from "../Components/Personal-Info";
 import CareerStats from "../Components/Career-Stats";
 import Excerpt from "../Components/Excerpt";
 import YoutubeVideo from "../Components/Youtube-Video";
+import CareerYear from "../Components/CareerYear";
 
 export default function PlayersPage() {
 
@@ -87,12 +88,18 @@ export default function PlayersPage() {
                 youtubeUrl={currentPlayer.youtubeUrl}
               />
             </div>
-            <div className="self-start">
+            <div className="self-start space-y-4">
               <Excerpt
                 mainTeam={currentPlayer.personalDetails.mainTeam}
                 Excerpt={currentPlayer.Excerpt}
               />
+
+              <CareerYear 
+               careerYear={currentPlayer.careerYear || {}}
+               mainTeam = {currentPlayer.personalDetails.mainTeam}
+              />
             </div>
+            
           </div>
         </main>
       </div>

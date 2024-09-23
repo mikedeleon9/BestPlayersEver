@@ -22,7 +22,7 @@ export default function PersonalDetails({details, position, accomplishments, ran
        <div className="flex w-full">
          <div  className="h-44 w-56 ">
          
-            <img className="h-full w-full object-cover" src={image}  alt={name} />
+            <img className="h-full w-full object-cover object-center" src={image}  alt={name} />
          </div>
 
           <div className="flex flex-col justify-end ml-12 pb-2 ">
