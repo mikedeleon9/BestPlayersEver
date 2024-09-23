@@ -31,7 +31,7 @@ export default function Navbar() {
       {/* Right side (Search Bar) */}
       <div className="flex w-1/3 md:w-1/4 items-center justify-end relative">
         <input
-          className="bg-backgroundColor placeholder:text-sm placeholder:ml-4 w-full md:w-auto border border-blue-600 rounded-md p-2 pr-10 focus:outline-none focus:ring-2 focus:ring-blue-600 transition-all duration-300"
+          className="bg-backgroundColor placeholder:text-sm placeholder:ml-4 w-full md:w-auto text-white border border-blue-600 rounded-md p-2 pr-10 focus:outline-none focus:ring-2 focus:ring-blue-600"
           placeholder="Search for a Player"
         />
         <img

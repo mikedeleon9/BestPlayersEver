@@ -29,21 +29,21 @@ export default function RankBar() {
 
   return (
     
-    <div className="w-full h-12 flex items-center justify-between md-gap-4">
-        <div className="flex gap-4 md:gap-8">
+    <div className="w-full  flex items-center justify-between ">
+        <div className="flex space-x-4">
         {navItems.map((item, index)=>(
                     <div 
                     key={index} 
                     
                     className={`flex items-center px-3 py-2 hover:rounded-md cursor-pointer gap-2 hover:bg-darkerGray transition-all duration-200 `}>
-                        <img className="w-5 h-5 md-6 md:h-6 " src={item.icon} alt={`${item.label}-icon`} />
+                        <img className="w-5 h-5  " src={item.icon} alt={`${item.label}-icon`} />
                         <p className="text-white text-sm md:text-base">{item.label}</p>
                     </div>
                )) 
                 }  
         </div>
         <Link to ="/PlayersPage">
-        <div className="flex items-center gap-2 md:gap-2">
+        <div className="flex items-center space-x-2">
 
         {["25-21","20-16","15-11", "10-6", "5-1"].map((label, index) => {
           let rank;
@@ -66,7 +66,7 @@ export default function RankBar() {
             <p
               key={index}
               onClick={() => handleClick(index, rank)}
-              className={`px-3 py-1 text-center text-sm md:text-base lg:text-sm xl:text-lg cursor-pointer hover:rounded-md hover:bg-darkerGray transition-all duration-200 ${
+              className={`px-3 py-1 text-center text-sm md:text-base   hover:rounded-md hover:bg-darkerGray transition-all duration-200 ${
                 activeIndex === index ? "border-b-4 border-blue-500 text-blue-500" : "text-white"
               }`}
             >
