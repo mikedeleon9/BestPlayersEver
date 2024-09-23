@@ -29,13 +29,13 @@ export default function RankBar() {
 
   return (
     
-    <div className="w-full h-12 flex items-center justify-between ">
+    <div className="w-full h-12 flex items-center justify-between md-gap-4">
         <div className="flex gap-4 md:gap-8">
         {navItems.map((item, index)=>(
                     <div 
                     key={index} 
                     
-                    className={`flex w-16 px-2 py-1 hover:rounded-md items-center cursor-pointer gap-2 w-fit hover:bg-darkerGray `}>
+                    className={`flex items-center px-3 py-2 hover:rounded-md cursor-pointer gap-2 hover:bg-darkerGray transition-all duration-200 `}>
                         <img className="w-5 h-5 md-6 md:h-6 " src={item.icon} alt={`${item.label}-icon`} />
                         <p className="text-white text-sm md:text-base">{item.label}</p>
                     </div>
@@ -43,7 +43,7 @@ export default function RankBar() {
                 }  
         </div>
         <Link to ="/PlayersPage">
-        <div className="flex items-center mr-5">
+        <div className="flex items-center gap-2 md:gap-4">
 
         {["25-21","20-16","15-11", "10-6", "5-1"].map((label, index) => {
           let rank;
