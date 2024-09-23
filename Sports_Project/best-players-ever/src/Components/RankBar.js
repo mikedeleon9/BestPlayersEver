@@ -66,8 +66,8 @@ export default function RankBar() {
             <p
               key={index}
               onClick={() => handleClick(index, rank)}
-              className={`w-16 px-2 py-1 text-center cursor-pointer hover:rounded-md hover:bg-darkerGray ${
-                activeIndex === index ? "border-b-4 border-blue-500" : ""
+              className={`px-3 py-1 text-center cursor-pointer hover:rounded-md hover:bg-darkerGray transition-all duration-200 ${
+                activeIndex === index ? "border-b-4 border-blue-500 text-blue-500" : "text-white"
               }`}
             >
               {label}
