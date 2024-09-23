@@ -33,7 +33,10 @@ export default function CareerYear({careerYear, mainTeam, position}){
         "OPS+": 180,
         WAR: 8,
         HR: 50,
-        SB: 30
+        SB: 30,
+        Wins: 20,
+        Innings: 250,
+        
       };
 
       const getBarWidthPercentage = (key, value) => {
@@ -42,7 +45,7 @@ export default function CareerYear({careerYear, mainTeam, position}){
           return "100%"; // Full bar if value meets or exceeds the threshold
         } 
         else if(threshold && value >= threshold * 0.97){
-          return "80%";
+          return "85%";
         }
         else if (threshold && value >= threshold * 0.93) {
           return "80%"; 

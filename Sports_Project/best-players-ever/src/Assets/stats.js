@@ -477,6 +477,19 @@ A nine-time All-Star and 2004 AL MVP, he retired with a .318 batting average, 44
       war: 69.3
   },
 
+  careerYear:{
+    year: 1999,
+    avg : .333,
+    obp : .442,
+    slg : .663,
+    ops : 1.105,
+    opsPlus : 174,
+    hr: 44,
+    war: 7.3,
+    rbi: 165
+    
+  },
+
   accomplishments : {
     allStar: 12,
     SilverSlugger: 9,

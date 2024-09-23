@@ -1,6 +1,19 @@
 
 
-
+.fixed-button {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1000; /* Ensure it stays above other content */
+  }
+  
+  .fixed-button.left {
+    left: 10px; /* Adjust as needed */
+  }
+  
+  .fixed-button.right {
+    right: 10px; /* Adjust as needed */
+  }
 
 
 

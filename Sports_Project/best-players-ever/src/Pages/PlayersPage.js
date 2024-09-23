@@ -11,9 +11,8 @@ import YoutubeVideo from "../Components/Youtube-Video";
 import CareerYear from "../Components/CareerYear";
 
 export default function PlayersPage() {
-
   const RANK_RANGES = {
-    '20-16' : {min: 16, max: 20},
+    '20-16': { min: 16, max: 20 },
     '15-11': { min: 11, max: 15 },
     '10-6': { min: 6, max: 10 },
     '5-1': { min: 1, max: 5 },
@@ -34,10 +33,7 @@ export default function PlayersPage() {
 
   const { min, max } = RANK_RANGES[currentRankRange];
 
-  // Filter players within the current rank range
   const playersInRange = sortedPlayers.filter(player => player.rank >= min && player.rank <= max);
-
-  // Find index of the current player in the filtered list
   const currentIndexInRange = playersInRange.findIndex(player => player.rank === currentPlayer.rank);
 
   function nextPlayer() {
@@ -45,7 +41,7 @@ export default function PlayersPage() {
       const nextIndexInRange = (currentIndexInRange - 1) % playersInRange.length;
       const nextPlayer = playersInRange[nextIndexInRange];
       if (nextPlayer) {
-        return sortedPlayers.indexOf(nextPlayer); // Update global index
+        return sortedPlayers.indexOf(nextPlayer);
       }
       return prevIndex;
     });
@@ -53,10 +49,10 @@ export default function PlayersPage() {
 
   function prevPlayer() {
     setCurrentIndex(prevIndex => {
-      const prevIndexInRange = (currentIndexInRange + 1 ) ;
+      const prevIndexInRange = (currentIndexInRange + 1);
       const prevPlayer = playersInRange[prevIndexInRange];
       if (prevPlayer) {
-        return sortedPlayers.indexOf(prevPlayer); // Update global index
+        return sortedPlayers.indexOf(prevPlayer);
       }
       return prevIndex;
     });
@@ -64,7 +60,7 @@ export default function PlayersPage() {
 
   return (
     <div className="flex items-center gap-4">
-      <button onClick={prevPlayer} className="p-2 bg-gray-700 rounded-full">
+      <button onClick={prevPlayer} className="fixed-button left p-2 bg-gray-700 rounded-full">
         <img className="w-10 h-10" src={backIcon} alt="Previous" />
       </button>
       <div className="w-full flex flex-col lg:flex-row">
@@ -93,17 +89,15 @@ export default function PlayersPage() {
                 mainTeam={currentPlayer.personalDetails.mainTeam}
                 Excerpt={currentPlayer.Excerpt}
               />
-
-              <CareerYear 
-               careerYear={currentPlayer.careerYear || {}}
-               mainTeam = {currentPlayer.personalDetails.mainTeam}
+              <CareerYear
+                careerYear={currentPlayer.careerYear || {}}
+                mainTeam={currentPlayer.personalDetails.mainTeam}
               />
             </div>
-            
           </div>
         </main>
       </div>
-      <button onClick={nextPlayer} className="p-2 bg-gray-700 rounded-full">
+      <button onClick={nextPlayer} className="fixed-button right p-2 bg-gray-700 rounded-full">
         <img className="w-10 h-10" src={forwardIcon} alt="Next" />
       </button>
     </div>
