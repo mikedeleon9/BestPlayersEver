@@ -79,6 +79,8 @@ export default function CareerYear({careerYear, mainTeam, position}){
 
     return (
       <div className={`${backgroundColor} w-full px-4 py-2 rounded-xl`}>
+
+          <div className="text-center text-2xl py-4 font-bold">Best Season ()</div>
         <div className="gap-4">
           {Object.entries(BestcareerArray).map(([key, value]) => (
             <div key={key} className="flex gap-2 py-2 items-center ">

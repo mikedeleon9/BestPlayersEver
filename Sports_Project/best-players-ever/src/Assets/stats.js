@@ -28,6 +28,7 @@ const stats = [
     },
 
    careerYear:{
+      year: 2004,
       avg : .328,
       obp : .437,
       slg : .737,
@@ -82,6 +83,7 @@ const stats = [
     },
 
     careerYear:{
+      year: 2009,
       avg : .327,
       obp : .443,
       slg : .658,
@@ -137,6 +139,7 @@ const stats = [
   },
 
   careerYear:{
+    year: 1972,
     avg : .320,
     obp : .385,
     slg : .537,
@@ -144,7 +147,8 @@ const stats = [
     opsPlus : 162,
     hr: 22,
     sb: 55,
-    war: 8.0
+    war: 8.0,
+    doubles: 39
     
   },
 
@@ -316,6 +320,7 @@ he played a key role in breaking Boston's 86-year World Series drought in 2004, 
   },
 
   careerYear:{
+    year: 1965,
     w : 22,
     l : 13,
     ip : "295.1",
@@ -323,8 +328,8 @@ he played a key role in breaking Boston's 86-year World Series drought in 2004, 
     k: "240",
     whip : 0.914,
     eraPlus: 169,
-    bb: 46,
     sho: 10,
+    war: 10.3
   },
 
 
@@ -360,6 +365,7 @@ Marichal's fierce competitiveness and remarkable durability made him a Hall of F
   position: "Outfielder",
   rank: 6,
   hallOfFame: "Yes",
+
   CareerStats:{
     avg : .318,
     obp : .379,
@@ -371,6 +377,21 @@ Marichal's fierce competitiveness and remarkable durability made him a Hall of F
     war: 59.5,
     sb: 181
   },
+
+  careerYear:{
+    year: 2002,
+    avg : .336,
+    obp : .417,
+    slg : .593,
+    ops : 1.010,
+    opsPlus : 160,
+    hr: 39,
+    sb: 40,
+    war: 7.1,
+    rbi: 111
+    
+  },
+
   accomplishments : {
     allStar: 9,
     hallOfFame: "Yes",
