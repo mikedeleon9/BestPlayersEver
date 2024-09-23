@@ -89,7 +89,7 @@ export default function CareerYear({careerYear, mainTeam, position}){
               </div>
               </div>
 
-              <div className="h-full py-2 border-2 border-black"></div>
+              <div className="h-full py-2 border-2 border-white"></div>
             </div>
             
           ))}
