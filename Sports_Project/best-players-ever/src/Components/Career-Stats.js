@@ -81,7 +81,7 @@ useEffect(()=> {
       <input onClick={triggerStats} type="checkbox" id="dark-mode" className="peer sr-only "/> 
   <label for="dark-mode" className="label relative block w-10 h-5 bg-slate-400 rounded-2xl cursor-pointer peer-checked:bg-black">
     
-  <div className="circle w-4 h-4 bg-white rounded-full top-0.5 left-0.5 absolute transition-all duration-300 ease-linear"></div>
+  <div className="circle w-4 h-4 bg-white rounded-full top-0.5 left-0.6 absolute transition-all duration-300 ease-linear"></div>
   </label>
       
       
