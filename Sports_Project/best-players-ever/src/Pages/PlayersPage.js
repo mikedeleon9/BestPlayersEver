@@ -12,6 +12,7 @@ import CareerYear from "../Components/CareerYear";
 
 export default function PlayersPage() {
   const RANK_RANGES = {
+    '25-21': {min: 21, max: 25},
     '20-16': { min: 16, max: 20 },
     '15-11': { min: 11, max: 15 },
     '10-6': { min: 6, max: 10 },

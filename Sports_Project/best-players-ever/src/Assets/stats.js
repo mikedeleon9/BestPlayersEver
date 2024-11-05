@@ -1156,9 +1156,179 @@ Bautista’s leadership and clutch performances made him a fan favorite in Toron
 
 
   accomplishments : {
-    allStar: 5,
-    goldGlove: 4,
+    allStar: 2,
+    goldGlove: 3,
+    SilverSlugger: 1,
+    alcsMVP: 1,
+
+  },
+
+  trivia: "One of four Dominican players to win MVP",
+  youtubeUrl: "https://www.youtube.com/embed/DOnh7l8aA7I?si=8FtdgjeE9zIGEWe_",
+
+  Excerpt: `Tony Fernández was known for his smooth fielding and consistent hitting. A five-time All-Star and four-time Gold Glove Award winner, Fernández played the majority of his career with the Toronto Blue Jays. Renowned for his defensive skills, quick hands, and strong arm, he also contributed offensively with over 2,200 career hits. 
+  Fernández played a key role in the Blue Jays' 1993 World Series victory, solidifying his legacy as one of baseball’s top shortstops of his era.`
+},
+
+//Jose Reyes
+{
+  personalDetails: {
+      name: "Placido Polanco",
+      mainTeam: "Tigers",
+      birthPlace: "Santo Domingo",
+      teams: ["Cardinals, Phillies, Tigers, Marlins"],
+      number: 14,
+      image: images["Placido"],
+  },
+  
+  rank: 23,
+  position: "Infielder",
+
+  CareerStats: {
+      avg: .297,
+      obp: .343,
+      slg: .397,
+      ops: .740,
+      opsPlus: 95,
+      h: 2142,
+      doubles: 348,
+      r: 1009,
+      war: 41.9,
+      
+  },
+
+
+  careerYear:{
+    avg : .341,
+    obp : .388,
+    slg : .458,
+    ops : .846,
+    opsPlus : 121,
+    doules: 36,
+    h: 200,
+    war: 6.0
     
+  },
+
+
+  accomplishments : {
+    allStar: 2,
+    goldGlove: 3,
+    SilverSlugger: 1,
+    alcsMVP: 1,
+
+  },
+
+  trivia: "One of four Dominican players to win MVP",
+  youtubeUrl: "https://www.youtube.com/embed/DOnh7l8aA7I?si=8FtdgjeE9zIGEWe_",
+
+  Excerpt: `Tony Fernández was known for his smooth fielding and consistent hitting. A five-time All-Star and four-time Gold Glove Award winner, Fernández played the majority of his career with the Toronto Blue Jays. Renowned for his defensive skills, quick hands, and strong arm, he also contributed offensively with over 2,200 career hits. 
+  Fernández played a key role in the Blue Jays' 1993 World Series victory, solidifying his legacy as one of baseball’s top shortstops of his era.`
+},
+
+//Aramis Ramirez
+{
+  personalDetails: {
+      name: "Placido Polanco",
+      mainTeam: "Tigers",
+      birthPlace: "Santo Domingo",
+      teams: ["Cardinals, Phillies, Tigers, Marlins"],
+      number: 14,
+      image: images["Placido"],
+  },
+  
+  rank: 22,
+  position: "Infielder",
+
+  CareerStats: {
+      avg: .297,
+      obp: .343,
+      slg: .397,
+      ops: .740,
+      opsPlus: 95,
+      h: 2142,
+      doubles: 348,
+      r: 1009,
+      war: 41.9,
+      
+  },
+
+
+  careerYear:{
+    avg : .341,
+    obp : .388,
+    slg : .458,
+    ops : .846,
+    opsPlus : 121,
+    doules: 36,
+    h: 200,
+    war: 6.0
+    
+  },
+
+
+  accomplishments : {
+    allStar: 2,
+    goldGlove: 3,
+    SilverSlugger: 1,
+    alcsMVP: 1,
+
+  },
+
+  trivia: "One of four Dominican players to win MVP",
+  youtubeUrl: "https://www.youtube.com/embed/DOnh7l8aA7I?si=8FtdgjeE9zIGEWe_",
+
+  Excerpt: `Tony Fernández was known for his smooth fielding and consistent hitting. A five-time All-Star and four-time Gold Glove Award winner, Fernández played the majority of his career with the Toronto Blue Jays. Renowned for his defensive skills, quick hands, and strong arm, he also contributed offensively with over 2,200 career hits. 
+  Fernández played a key role in the Blue Jays' 1993 World Series victory, solidifying his legacy as one of baseball’s top shortstops of his era.`
+},
+
+//Alfonso Soriano
+
+{
+  personalDetails: {
+      name: "Placido Polanco",
+      mainTeam: "Tigers",
+      birthPlace: "Santo Domingo",
+      teams: ["Cardinals, Phillies, Tigers, Marlins"],
+      number: 14,
+      image: images["Placido"],
+  },
+  
+  rank: 21,
+  position: "Infielder",
+
+  CareerStats: {
+      avg: .297,
+      obp: .343,
+      slg: .397,
+      ops: .740,
+      opsPlus: 95,
+      h: 2142,
+      doubles: 348,
+      r: 1009,
+      war: 41.9,
+      
+  },
+
+
+  careerYear:{
+    avg : .341,
+    obp : .388,
+    slg : .458,
+    ops : .846,
+    opsPlus : 121,
+    doules: 36,
+    h: 200,
+    war: 6.0
+    
+  },
+
+
+  accomplishments : {
+    allStar: 2,
+    goldGlove: 3,
+    SilverSlugger: 1,
+    alcsMVP: 1,
 
   },
 

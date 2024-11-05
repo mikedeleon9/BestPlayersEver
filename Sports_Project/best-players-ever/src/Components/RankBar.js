@@ -48,6 +48,9 @@ export default function RankBar() {
         {["25-21","20-16","15-11", "10-6", "5-1"].map((label, index) => {
           let rank;
           switch (label) {
+            case "25-21":
+              rank = 25;
+              break
             case "20-16":
               rank = 20;
               break
