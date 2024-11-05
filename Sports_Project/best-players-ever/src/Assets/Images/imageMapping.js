@@ -19,6 +19,8 @@ import HanleyImage from "../Images/Hanley.png"
 import BautistaImage from "../Images/Bautista.png"
 import SotoImage   from "../Images/Soto.png"
 import GuerreroImage from "../Images/Guerrero.png"
+import PlacidoImage from "../Images/Placido.png"
+
 
 const images = {
    Sosa: SosaImage, 
@@ -41,7 +43,8 @@ const images = {
    Hanley: HanleyImage,
    Bautista: BautistaImage,
    Soto: SotoImage,
-   Guerrero: GuerreroImage
+   Guerrero: GuerreroImage,
+   Placido: PlacidoImage
 }
 
 export default images;

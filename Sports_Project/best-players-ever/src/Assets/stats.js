@@ -1055,6 +1055,119 @@ Bautista’s leadership and clutch performances made him a fan favorite in Toron
   Alou also became the first Dominican manager in MLB history, leading the Montreal Expos and later the Giants. He is celebrated for his contributions both on and off the field.`
 },
 
+
+//Pedro Guerrero
+
+{
+  personalDetails: {
+      name: "Pedro Guerrero",
+      mainTeam: "Dodgers",
+      birthPlace: "San Pedro de Macoris",
+      teams: ["Dodgers", "Cardinals"],
+      number: 28,
+      image: images["Guerrero"],
+  },
+  
+  rank: 25,
+  position: "Outfielder",
+  CareerStats: {
+      avg: .300,
+      obp: .370,
+      slg: .480,
+      ops: .850,
+      opsPlus: 137,
+      h: 1618,
+      r: 730,
+      doubles: 267,
+      war: 34.5,
+      hr: 215
+      
+  },
+
+  careerYear:{
+    avg : .320,
+    obp : .422,
+    slg : .577,
+    ops : .999,
+    opsPlus : 182,
+    hr: 33,
+    rbi: 87,
+    doubles: 22,
+    war: 8.0
+  },
+
+
+  accomplishments : {
+    allStar: 5,
+    wsMVP: 1,
+    SilverSlugger: 1,
+
+  },
+
+  trivia: "One of four Dominican players to win MVP",
+  youtubeUrl: "https://www.youtube.com/embed/1qOpEkKyQ2U?si=3nw6RaVMZB7M23e-",
+
+  Excerpt: `Felipe Alou had a distinguished playing and managerial career. As a player, Alou was a versatile outfielder and first baseman, earning three All-Star selections. 
+  He played for teams like the San Francisco Giants and Atlanta Braves during his 17-year career, excelling as a hitter with over 2,100 hits and 200 home runs. 
+  Alou also became the first Dominican manager in MLB history, leading the Montreal Expos and later the Giants. He is celebrated for his contributions both on and off the field.`
+},
+
+
+//Placido Polanco
+
+{
+  personalDetails: {
+      name: "Placido Polanco",
+      mainTeam: "Tigers",
+      birthPlace: "Santo Domingo",
+      teams: ["Cardinals, Phillies, Tigers, Marlins"],
+      number: 14,
+      image: images["Placido"],
+  },
+  
+  rank: 24,
+  position: "Infielder",
+
+  CareerStats: {
+      avg: .297,
+      obp: .343,
+      slg: .397,
+      ops: .740,
+      opsPlus: 95,
+      h: 2142,
+      doubles: 348,
+      r: 1009,
+      war: 41.9,
+      
+  },
+
+
+  careerYear:{
+    avg : .341,
+    obp : .388,
+    slg : .458,
+    ops : .846,
+    opsPlus : 121,
+    doules: 36,
+    h: 200,
+    war: 6.0
+    
+  },
+
+
+  accomplishments : {
+    allStar: 5,
+    goldGlove: 4,
+    
+
+  },
+
+  trivia: "One of four Dominican players to win MVP",
+  youtubeUrl: "https://www.youtube.com/embed/DOnh7l8aA7I?si=8FtdgjeE9zIGEWe_",
+
+  Excerpt: `Tony Fernández was known for his smooth fielding and consistent hitting. A five-time All-Star and four-time Gold Glove Award winner, Fernández played the majority of his career with the Toronto Blue Jays. Renowned for his defensive skills, quick hands, and strong arm, he also contributed offensively with over 2,200 career hits. 
+  Fernández played a key role in the Blue Jays' 1993 World Series victory, solidifying his legacy as one of baseball’s top shortstops of his era.`
+},
     ]
 
 
