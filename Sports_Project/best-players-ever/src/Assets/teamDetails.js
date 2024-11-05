@@ -19,7 +19,9 @@
      "Blue Jays" : "bg-blue-600",
      Marlins: 'bg-teal-600',
      Braves: 'bg-red-800',
-     Nationals: 'bg-red-900'
+     Nationals: 'bg-red-900',
+     Tigers:  "bg-orange-600",
+     Mets: "bg-metsblue"
   }
 
  

@@ -20,6 +20,9 @@ import BautistaImage from "../Images/Bautista.png"
 import SotoImage   from "../Images/Soto.png"
 import GuerreroImage from "../Images/Guerrero.png"
 import PlacidoImage from "../Images/Placido.png"
+import ReyesImage from "../Images/Reyes.png"
+import AramisImage from "../Images/Aramis.png"
+
 
 
 const images = {
@@ -44,7 +47,9 @@ const images = {
    Bautista: BautistaImage,
    Soto: SotoImage,
    Guerrero: GuerreroImage,
-   Placido: PlacidoImage
+   Placido: PlacidoImage,
+   Reyes: ReyesImage,
+   Aramis: AramisImage
 }
 
 export default images;

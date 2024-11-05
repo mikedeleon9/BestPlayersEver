@@ -16,7 +16,7 @@ export default function PersonalDetails({details, position, accomplishments, ran
     return(
       <div className={` flex relative ${backgroundColor} rounded-xl px-6 pt-6 mt-4 shadow-lg`}>
           
-          <div className="absolute right-6 rounded-full w-16 h-16 flex items-center justify-center border-amber-400 border-4 bg-gray-900 shadow-md" > 
+          <div className="absolute right-6 rounded-full w-20 h-20 flex items-center justify-center border-amber-400 border-4 bg-gray-900 shadow-md" > 
           <h1 className=" text-amber-400 text-6xl font-ConcertOne">{rank}</h1>
           </div>
        <div className="flex w-full">

@@ -1173,12 +1173,12 @@ Bautista’s leadership and clutch performances made him a fan favorite in Toron
 //Jose Reyes
 {
   personalDetails: {
-      name: "Placido Polanco",
-      mainTeam: "Tigers",
+      name: "Jose Reyes",
+      mainTeam: "Mets",
       birthPlace: "Santo Domingo",
       teams: ["Cardinals, Phillies, Tigers, Marlins"],
       number: 14,
-      image: images["Placido"],
+      image: images["Reyes"],
   },
   
   rank: 23,
@@ -1229,12 +1229,12 @@ Bautista’s leadership and clutch performances made him a fan favorite in Toron
 //Aramis Ramirez
 {
   personalDetails: {
-      name: "Placido Polanco",
-      mainTeam: "Tigers",
+      name: "Aramis Ramirez",
+      mainTeam: "Cubs",
       birthPlace: "Santo Domingo",
       teams: ["Cardinals, Phillies, Tigers, Marlins"],
-      number: 14,
-      image: images["Placido"],
+      number: 16,
+      image: images["Aramis"],
   },
   
   rank: 22,

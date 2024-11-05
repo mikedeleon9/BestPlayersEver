@@ -8,7 +8,8 @@ module.exports = {
       colors: {
         cubsBlue: '#1d4289',
         darkerGray: '#57606a',
-        backgroundColor: '#151b23'
+        backgroundColor: '#151b23',
+        metsblue : "#002D72"
       },
       fontFamily:{
         protest: ["Protest Guerrilla", "sans-serif"],
