@@ -15,7 +15,7 @@ export default function Navbar() {
         <Link to="/">
           <div className="flex items-center gap-2 ">
             <img className="w-8 h-8 rounded-md shadow-sm" src={DRFlag} alt="DR Flag" />
-            <h1 className="font-Inter font-extrabold text-md md:text-lg text-white">
+            <h1 className="hidden lg:block font-Inter font-extrabold text-md md:text-lg text-white ">
               Best Players Ever
             </h1>
           </div>
@@ -24,7 +24,7 @@ export default function Navbar() {
 
 
       {/* Middle (RankBar) */}
-      <div className="hidden  md:w-2/3 md:flex flex-grow justify-center ">
+      <div className="sm:hidden md:w-2/3 md:flex flex-grow justify-center ">
         <RankBar />
       </div>
 
