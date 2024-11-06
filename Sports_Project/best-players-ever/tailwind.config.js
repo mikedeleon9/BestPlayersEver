@@ -23,6 +23,10 @@ module.exports = {
         '1': '0.25rem',
         '100': '100px'
       },
+      screens: {
+        '2xl': '1536px', // Example for larger screens
+        'sm-xl': { max: '1440px' }, // Custom breakpoint for smaller "xl" screens
+      }
     },
   },
   plugins: [],
