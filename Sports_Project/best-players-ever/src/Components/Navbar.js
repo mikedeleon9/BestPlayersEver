@@ -11,7 +11,7 @@ export default function Navbar() {
   return (
     <nav className="w-full flex items-center sticky top-0 bg-backgroundColor z-10 border-b border-darkerGray px-4 shadow-md  ">
       {/* Left side (Logo and Title) */}
-      <div className="flex items-center gap-2 py-4 cursor-pointer w-1/3 lg:w-1/4">
+      <div className="flex items-center gap-2 py-4 cursor-pointer w-1/3 lg:w-1/4 sm:w-1/12 border-2 border-red-400">
         <Link to="/">
           <div className="flex items-center gap-2 ">
             <img className="w-8 h-8 rounded-md shadow-sm" src={DRFlag} alt="DR Flag" />

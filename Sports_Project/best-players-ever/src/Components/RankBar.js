@@ -29,7 +29,7 @@ export default function RankBar() {
 
   return (
     
-    <div className="mainNav w-full flex items-center justify-between">
+    <div className="mainNav w-full flex items-center justify-between ">
         <div className="flex space-x-4 ">
         {navItems.map((item, index)=>(
                     <div 
