@@ -12,7 +12,7 @@ export default function Sidebar({mainTeam}){
     return(
         <div className="sticky left-0"> 
   
-        <div className= {`bg-backgroundColor w-52 h-full flex flex-col  p-5`}>
+        <div className= {`bg-backgroundColor w-52 h-full flex flex-col rounded-xl `}>
             
              
      

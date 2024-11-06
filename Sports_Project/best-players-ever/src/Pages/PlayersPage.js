@@ -9,6 +9,7 @@ import CareerStats from "../Components/Career-Stats";
 import Excerpt from "../Components/Excerpt";
 import YoutubeVideo from "../Components/Youtube-Video";
 import CareerYear from "../Components/CareerYear";
+import Sidebar from "../Components/Sidebar";
 
 export default function PlayersPage() {
   const RANK_RANGES = {
@@ -61,7 +62,8 @@ export default function PlayersPage() {
 
   return (
     <div className="flex items-center gap-4">
-      <button onClick={prevPlayer} className="fixed-button left p-2 bg-gray-700 rounded-full">
+      
+      <button onClick={prevPlayer} className="fixed-button  p-2 bg-gray-700 rounded-full">
         <img className="w-10 h-10" src={backIcon} alt="Previous" />
       </button>
       <div className="w-full flex flex-col lg:flex-row">

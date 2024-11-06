@@ -83,8 +83,7 @@ useEffect(()=> {
     
   <div className="circle w-4 h-4 bg-white rounded-full top-0.5 left-0.6 absolute transition-all duration-300 ease-linear"></div>
   </label>
-      
-      
+
       </div>
 
   
