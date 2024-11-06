@@ -16,9 +16,9 @@ export default function MainLayout({ children }) {
             
                   
               
-                <div className="flex-1 flex overflow-auto justify-center"> {/* Ensure scrollability */}
+                <div className="flex-1 flex overflow-auto justify-center "> {/* Ensure scrollability */}
                     
-                    <main className=" sm:max-w-4/5 md:w-3/5 lg:max-w-2/5 xl:max-w-1/2"> {/* Added margin-top to ensure content does not overlap */}
+                    <main className=" sm:w-4/5 md:w-3/5 lg:max-w-2/5 xl:max-w-2/5"> {/* Added margin-top to ensure content does not overlap */}
                        
                         {children}
                        
