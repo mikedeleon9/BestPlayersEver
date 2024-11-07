@@ -62,7 +62,7 @@ export default function PlayersPage() {
 
   return (
     <div className="flex items-center gap-4">
-      
+      <Sidebar />
       <button onClick={prevPlayer} className="fixed-button  p-2 bg-gray-700 rounded-full">
         <img className="w-10 h-10" src={backIcon} alt="Previous" />
       </button>
