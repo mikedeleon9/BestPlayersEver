@@ -61,19 +61,22 @@ export default function PlayersPage() {
   }
 
   return (
-    <div className="flex items-center gap-4">
+    <div className="flex ">
       <Sidebar />
       <button onClick={prevPlayer} className="fixed-button  p-2 bg-gray-700 rounded-full">
         <img className="w-10 h-10" src={backIcon} alt="Previous" />
       </button>
-      <div className="w-full flex flex-col lg:flex-row">
+      <div className="w-full flex flex-col lg:flex-row ml-52">
         <main className="w-full flex flex-col justify-center">
+        <PlayerContext.Provider value={{ nextPlayer, prevPlayer }}>
           <PersonalDetails
             details={currentPlayer.personalDetails}
             position={currentPlayer.position}
             accomplishments={currentPlayer.accomplishments}
             rank={currentPlayer.rank}
+            
           />
+          </PlayerContext.Provider>
           <div className="grid md:grid-cols-2 gap-4 mt-4">
             <div className="space-y-4">
               <CareerStats

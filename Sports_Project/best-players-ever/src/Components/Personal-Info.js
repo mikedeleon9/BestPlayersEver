@@ -1,10 +1,11 @@
-import React from "react";
+import React, {useContext} from "react";
 import "./components.css";
 import { teamBackgroundColors } from "../Assets/teamDetails";
-
-
+import { PlayerContext } from "../Assets/PlayerContext";
+import forwardIcon from "../Assets/Images/right-arrow.png";
+import backIcon from "../Assets/Images/left-arrow.png";
 export default function PersonalDetails({details, position, accomplishments, rank}){
-
+  const { nextPlayer, prevPlayer } = useContext(PlayerContext);
   
   const {name, birthPlace, mainTeam, number, image} = details;
   const{allStar, hallOfFame, SilverSlugger, goldGlove, MVP, CyYoung, eraTitle, platinumGlove, RoY, battingTitle} = accomplishments;
@@ -80,7 +81,12 @@ export default function PersonalDetails({details, position, accomplishments, ran
             </button>
           )}
         </div>
-         
+        <button onClick={prevPlayer} className="p-2 bg-gray-700 rounded-full">
+              <img className="w-6 h-6" src={backIcon} alt="Previous" />
+            </button>
+            <button onClick={nextPlayer} className="p-2 bg-gray-700 rounded-full">
+              <img className="w-6 h-6" src={forwardIcon} alt="Next" />
+            </button>
       </div>
       </div>
     </div>

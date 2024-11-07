@@ -10,11 +10,12 @@ export default function Sidebar({mainTeam}){
 
 
     return(
-        <div className="sticky left-0"> 
+        <div className="sticky fixed "> 
             
-            <div className= {`bg-backgroundColor w-52 h-full flex flex-col rounded-xl p-4`}>
+            <div className= {`bg-backgroundColor w-52 h-1/2 flex flex-col rounded-xl p-4 fixed left-0 ml-2`}>
                 
                <h2 class="text-center">Accomplishments</h2> 
+
         
             
             </div>
