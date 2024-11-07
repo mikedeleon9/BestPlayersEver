@@ -11,13 +11,13 @@ export default function Sidebar({mainTeam}){
 
     return(
         <div className="sticky left-0"> 
-  
-        <div className= {`bg-backgroundColor w-52 h-full flex flex-col rounded-xl `}>
             
-             
-     
-           
-        </div>
+            <div className= {`bg-backgroundColor w-52 h-full flex flex-col rounded-xl p-4`}>
+                
+               <h2 class="text-center">Accomplishments</h2> 
+        
+            
+            </div>
         </div>
     )
 }

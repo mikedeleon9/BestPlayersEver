@@ -17,9 +17,9 @@ export default function MainLayout({ children }) {
             
           
               
-                <div className="flex-1 flex overflow-auto ml-4"> {/* Ensure scrollability */}
+                <div className="flex-1 flex overflow-auto ml-4 w-full "> {/* Ensure scrollability */}
                
-                    <main className="flex gap-4 sm:w-4/5 md:w-3/5 lg:max-w-2/5 xl:max-w-2/5"> {/* Added margin-top to ensure content does not overlap */}
+                    <main className=" flex  gap-4  xl:max-w-2xl"> {/* Added margin-top to ensure content does not overlap */}
                     <Sidebar />
                         {children}
                        
