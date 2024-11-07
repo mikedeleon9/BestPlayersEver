@@ -63,9 +63,7 @@ export default function PlayersPage() {
   return (
     <div className="flex ">
       <Sidebar />
-      <button onClick={prevPlayer} className="fixed-button  p-2 bg-gray-700 rounded-full">
-        <img className="w-10 h-10" src={backIcon} alt="Previous" />
-      </button>
+     
       <div className="w-full flex flex-col lg:flex-row ml-52">
         <main className="w-full flex flex-col justify-center">
         <PlayerContext.Provider value={{ nextPlayer, prevPlayer }}>
@@ -103,9 +101,7 @@ export default function PlayersPage() {
           </div>
         </main>
       </div>
-      <button onClick={nextPlayer} className="fixed-button right p-2 bg-gray-700 rounded-full">
-        <img className="w-10 h-10" src={forwardIcon} alt="Next" />
-      </button>
+    
     </div>
   );
 }
