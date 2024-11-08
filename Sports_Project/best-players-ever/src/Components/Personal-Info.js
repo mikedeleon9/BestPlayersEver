@@ -17,8 +17,8 @@ export default function PersonalDetails({details, position, accomplishments, ran
     return(
       <div className={` flex relative ${backgroundColor} rounded-xl px-6 pt-6  shadow-lg`}>
           
-          <div className="absolute right-6 rounded-full w-20 h-20 flex items-center justify-center border-amber-400 border-4 bg-gray-900 shadow-md" > 
-          <h1 className=" text-amber-400 text-6xl font-ConcertOne">{rank}</h1>
+          <div className="absolute right-6 rounded-full xs:w-6 xs:h-6 sm:w-10 sm:h-10 md:w-14 md:h-14 lg:w-20 lg:h-20 flex items-center justify-center border-amber-400 border-4 bg-gray-900 shadow-md" > 
+          <h1 className=" text-amber-400 xs:text-md xs:text-md  sm:text-lg sm:text-lg md:text-2xl md:text-2xl lg:text-5xl lg:text-5xl font-ConcertOne">{rank}</h1>
           </div>
        <div className="flex w-full">
          <div  className="h-48 w-56 ">
@@ -83,7 +83,7 @@ export default function PersonalDetails({details, position, accomplishments, ran
         </div>
       
       </div>
-      <div>
+      <div className="absolute bottom-0 right-0">
       <button onClick={prevPlayer} className="p-2 bg-gray-700 rounded-full">
               <img className="w-6 h-6" src={backIcon} alt="Previous" />
             </button>

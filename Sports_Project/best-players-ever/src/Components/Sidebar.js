@@ -14,7 +14,7 @@ export default function Sidebar({mainTeam}){
             
             <div className= {`bg-backgroundColor w-52 h-1/2 flex flex-col rounded-xl p-4 fixed left-0 ml-2`}>
                 
-               <h2 class="text-center">Accomplishments</h2> 
+               <h2 className="text-center">Accomplishments</h2> 
 
         
             

@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 
 export default function Navbar() {
   return (
-    <nav className="w-full flex items-center sticky top-0 bg-backgroundColor z-10 border-b border-darkerGray px-4 shadow-md  ">
+    <nav className="w-full flex items-center fixed sticky top-0 bg-backgroundColor z-10 border-b border-darkerGray px-4 shadow-md  ">
       {/* Left side (Logo and Title) */}
       <div className="flex items-center gap-2 py-4 cursor-pointer w-1/3 lg:w-1/4 sm:w-1/12 ">
         <Link to="/">
