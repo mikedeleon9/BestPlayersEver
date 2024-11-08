@@ -10,6 +10,7 @@ import Excerpt from "../Components/Excerpt";
 import YoutubeVideo from "../Components/Youtube-Video";
 import CareerYear from "../Components/CareerYear";
 import Sidebar from "../Components/Sidebar";
+import bautistaFlip from "../Assets/Images/BautistaFlip.jpg"
 
 export default function PlayersPage() {
   const RANK_RANGES = {
@@ -61,10 +62,11 @@ export default function PlayersPage() {
   }
 
   return (
-    <div className="flex ">
+    <div className="flex  ">
+      <div className="details h-full " style={{ backgroundImage: `url(${bautistaFlip})` }}>
       <Sidebar />
      
-      <div className="w-full flex flex-col lg:flex-row ml-52">
+      <div className="w-1/2 flex flex-col lg:flex-row ml-64 ">
         <main className="w-full flex flex-col justify-center">
         <PlayerContext.Provider value={{ nextPlayer, prevPlayer }}>
           <PersonalDetails
@@ -101,7 +103,7 @@ export default function PlayersPage() {
           </div>
         </main>
       </div>
-    
+      </div>
     </div>
   );
 }
