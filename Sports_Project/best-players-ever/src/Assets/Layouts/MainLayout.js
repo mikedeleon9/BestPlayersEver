@@ -13,11 +13,11 @@ export default function MainLayout({ children }) {
                  {/* This ensures PlayerContext.Provider wraps everything */}
                      <Navbar />
                     
-            <div className="w-full flex top-0 p-2 ">
+            <div className="w-full flex top-0  ">
             
           
               
-                <div className="flex-1 flex overflow-auto ml-2 w-full"> {/* Ensure scrollability */}
+                <div className="flex-1 flex overflow-auto  w-full"> {/* Ensure scrollability */}
                
                     <main className="w-3/4 "> {/* Added margin-top to ensure content does not overlap */}
                     
